@@ -116,7 +116,7 @@ PageType {
                 id: about
                 Layout.fillWidth: true
 
-                text: qsTr("About AmneziaVPN")
+                text: qsTr("About VPNNaruzhu")
                 rightImageSource: "qrc:/images/controls/chevron-right.svg"
                 leftImageSource: "qrc:/images/controls/amnezia.svg"
 
@@ -157,7 +157,7 @@ PageType {
 
                 text: qsTr("Close application")
                 leftImageSource: "qrc:/images/controls/x-circle.svg"
-                isLeftImageHoverEnabled: false                
+                isLeftImageHoverEnabled: false
 
                 Keys.onTabPressed: lastItemTabClicked(header)
 

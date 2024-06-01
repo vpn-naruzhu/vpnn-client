@@ -3,7 +3,7 @@
         <file>images/tray/active.png</file>
         <file>images/tray/default.png</file>
         <file>images/tray/error.png</file>
-        <file>images/AmneziaVPN.png</file>
+        <file>images/VPNNaruzhu.png</file>
         <file>server_scripts/remove_container.sh</file>
         <file>server_scripts/setup_host_firewall.sh</file>
         <file>server_scripts/openvpn_cloak/Dockerfile</file>

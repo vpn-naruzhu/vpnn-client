@@ -15,8 +15,8 @@
 <context>
     <name>AndroidController</name>
     <message>
-        <source>AmneziaVPN</source>
-        <translation type="vanished">AmneziaVPN</translation>
+        <source>VPNNaruzhu</source>
+        <translation type="vanished">VPNNaruzhu</translation>
     </message>
     <message>
         <source>VPN Connected</source>
@@ -249,8 +249,8 @@
         <translation>Роздільне тунелювання на сервері</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Components/HomeSplitTunnelingDrawer.qml" line="59"/>
-        <source>Enabled 
+        <location filename="../ui/qml/Components/HomeSplitTunnelingDrawer.qml" line="45"/>
+        <source>Enabled
 Can&apos;t be disabled for current server</source>
         <translation>Увімкнено.
 Не може бути вимкнено для даного сервера</translation>
@@ -427,10 +427,10 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>NotificationHandler</name>
     <message>
-        <location filename="../ui/notificationhandler.cpp" line="63"/>
-        <location filename="../ui/notificationhandler.cpp" line="70"/>
-        <source>AmneziaVPN</source>
-        <translation>AmneziaVPN</translation>
+        <location filename="../ui/notificationhandler.cpp" line="68"/>
+        <location filename="../ui/notificationhandler.cpp" line="75"/>
+        <source>VPNNaruzhu</source>
+        <translation>VPNNaruzhu</translation>
     </message>
     <message>
         <location filename="../ui/notificationhandler.cpp" line="64"/>
@@ -443,9 +443,9 @@ Already installed containers were found on the server. All installed containers 
         <translation>VPN Вимкнено</translation>
     </message>
     <message>
-        <location filename="../ui/notificationhandler.cpp" line="94"/>
-        <source>AmneziaVPN notification</source>
-        <translation>Сповіщення AmneziaVPN</translation>
+        <location filename="../ui/notificationhandler.cpp" line="99"/>
+        <source>VPNNaruzhu notification</source>
+        <translation>Сповіщення VPNNaruzhu</translation>
     </message>
     <message>
         <location filename="../ui/notificationhandler.cpp" line="95"/>
@@ -1302,9 +1302,9 @@ Already installed containers were found on the server. All installed containers 
         <translation>Резервне копіювання</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="119"/>
-        <source>About AmneziaVPN</source>
-        <translation>Про AmneziaVPN</translation>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="101"/>
+        <source>About VPNNaruzhu</source>
+        <translation>Про VPNNaruzhu</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettings.qml" line="137"/>
@@ -1341,8 +1341,8 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished">Карткою на Patreon</translation>
     </message>
     <message>
-        <source>https://www.patreon.com/amneziavpn</source>
-        <translation type="vanished">https://www.patreon.com/amneziavpn</translation>
+        <source>https://www.patreon.com/VPNNaruzhu</source>
+        <translation type="vanished">https://www.patreon.com/VPNNaruzhu</translation>
     </message>
     <message>
         <source>Show other methods on Github</source>
@@ -1634,9 +1634,9 @@ Already installed containers were found on the server. All installed containers 
         <translation>Скинути налаштування і видалити всі дані із застосунку?</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="234"/>
-        <source>All settings will be reset to default. All installed AmneziaVPN services will still remain on the server.</source>
-        <translation>Всі дані із застосунку будуть видалені, всі встановлені сервіси AmneziaVPN залишаться на сервері.</translation>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="167"/>
+        <source>All settings will be reset to default. All installed VPNNaruzhu services will still remain on the server.</source>
+        <translation>Всі дані із застосунку будуть видалені, всі встановлені сервіси VPNNaruzhu залишаться на сервері.</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="235"/>
@@ -1680,9 +1680,9 @@ Already installed containers were found on the server. All installed containers 
         <translation>Ви можете зберегти свої налаштування у бекап файл (резервну копію), щоб відновити їх під час наступного встановлення програми.</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsBackup.qml" line="83"/>
-        <source>The backup will contain your passwords and private keys for all servers added to AmneziaVPN. Keep this information in a secure place.</source>
-        <translation>Резервна копія міститиме ваші паролі та приватні ключі для всіх серверів, доданих до AmneziaVPN. Зберігайте цю інформацію у безпечному місці.</translation>
+        <location filename="../ui/qml/Pages2/PageSettingsBackup.qml" line="74"/>
+        <source>The backup will contain your passwords and private keys for all servers added to VPNNaruzhu. Keep this information in a secure place.</source>
+        <translation>Резервна копія міститиме ваші паролі та приватні ключі для всіх серверів, доданих до VPNNaruzhu. Зберігайте цю інформацію у безпечному місці.</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsBackup.qml" line="94"/>
@@ -2094,8 +2094,8 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished">Видалити сервер із застосунку?</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsServerData.qml" line="177"/>
-        <source>All installed AmneziaVPN services will still remain on the server.</source>
+        <location filename="../ui/qml/Pages2/PageSettingsServerData.qml" line="145"/>
+        <source>All installed VPNNaruzhu services will still remain on the server.</source>
         <translation>Всі встановлені сервіси та протоколи Amnezia все ще залишаться на сервері.</translation>
     </message>
     <message>
@@ -2899,9 +2899,9 @@ and will not be shared or disclosed to the Amnezia or any third parties</source>
         <translation>Зберегти конфігурацію XRay</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="122"/>
-        <source>For the AmneziaVPN app</source>
-        <translation>Для AmneziaVPN</translation>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="120"/>
+        <source>For the VPNNaruzhu app</source>
+        <translation>Для VPNNaruzhu</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageShare.qml" line="137"/>
@@ -3662,7 +3662,7 @@ and will not be shared or disclosed to the Amnezia or any third parties</source>
 
 OpenVPN provides a secure VPN connection by encrypting all internet traffic between the client and the server.
 
-Cloak protects OpenVPN from detection and blocking. 
+Cloak protects OpenVPN from detection and blocking.
 
 Cloak can modify packet metadata so that it completely masks VPN traffic as normal web traffic, and also protects the VPN from detection by Active Probing. This makes it very resistant to being detected
 
@@ -3670,7 +3670,7 @@ Immediately after receiving the first data packet, Cloak authenticates the incom
 
 If there is a extreme level of Internet censorship in your region, we advise you to use only OpenVPN over Cloak from the first connection
 
-* Available in the AmneziaVPN across all platforms
+* Available in the VPNNaruzhu across all platforms
 * High power consumption on mobile devices
 * Flexible settings
 * Not recognised by DPI analysis systems
@@ -3688,7 +3688,7 @@ Cloak може змінювати метадані пакетів так, що �
 
 Якщо у вашому регіоні екстремальний рівень інтернет-цензури, ми радимо використовувати тільки OpenVPN через Cloak з самого початку роботи з додатком.
 
-    Доступний в AmneziaVPN на всіх платформах
+    Доступний в VPNNaruzhu на всіх платформах
     Високе споживання енергії на мобільних пристроях
     Гнучкі налаштування
     Не розпізнається системами аналізу DPI
@@ -3701,7 +3701,7 @@ Cloak може змінювати метадані пакетів так, що �
 WireGuard provides stable VPN connection and high performance on all devices. It uses hard-coded encryption settings. WireGuard compared to OpenVPN has lower latency and better data transfer throughput.
 WireGuard is very susceptible to blocking due to its distinct packet signatures. Unlike some other VPN protocols that employ obfuscation techniques, the consistent signature patterns of WireGuard packets can be more easily identified and thus blocked by advanced Deep Packet Inspection (DPI) systems and other network monitoring tools.
 
-* Available in the AmneziaVPN across all platforms
+* Available in the VPNNaruzhu across all platforms
 * Low power consumption
 * Minimum number of settings
 * Easily recognised by DPI analysis systems, susceptible to blocking
@@ -3711,7 +3711,7 @@ WireGuard забезпечує стабільне VPN-підключення т�
 
 WireGuard дуже чутливий до блокувань через свої чіткі підписи пакетів. На відміну від деяких інших VPN-протоколів, які використовують техніки обфускації, постійні шаблони підписів пакетів WireGuard легше ідентифікуються та можуть бути заблоковані просунутими системами глибокого аналізу пакетів (DPI) та іншими інструментами моніторингу мережі.
 
-* Доступний в AmneziaVPN на всіх платформах
+* Доступний в VPNNaruzhu на всіх платформах
 * Низьке споживання енергії
 * Мінімальна кількість налаштувань
 * Легко розпізнається системами аналізу DPI, схильний до блокування
@@ -3720,8 +3720,8 @@ WireGuard дуже чутливий до блокувань через свої 
     <message>
         <location filename="../containers/containers_defs.cpp" line="219"/>
         <source>The REALITY protocol, a pioneering development by the creators of XRay, is specifically designed to counteract the highest levels of internet censorship through its novel approach to evasion.
-It uniquely identifies censors during the TLS handshake phase, seamlessly operating as a proxy for legitimate clients while diverting censors to genuine websites like google.com, thus presenting an authentic TLS certificate and data. 
-This advanced capability differentiates REALITY from similar technologies by its ability to disguise web traffic as coming from random, legitimate sites without the need for specific configurations. 
+It uniquely identifies censors during the TLS handshake phase, seamlessly operating as a proxy for legitimate clients while diverting censors to genuine websites like google.com, thus presenting an authentic TLS certificate and data.
+This advanced capability differentiates REALITY from similar technologies by its ability to disguise web traffic as coming from random, legitimate sites without the need for specific configurations.
 Unlike older protocols such as VMess, VLESS, and the XTLS-Vision transport, REALITY&apos;s innovative &quot;friend or foe&quot; recognition at the TLS handshake enhances security and circumvents detection by sophisticated DPI systems employing active probing techniques. This makes REALITY a robust solution for maintaining internet freedom in environments with stringent censorship.</source>
         <translation>Протокол **REALITY**, сучасна розробка XRay. Спеціально розроблений для протидії найвищим рівням інтернет-цензури завдяки новому підходу до маскування.
 REALITY унікально ідентифікує цензорів під час фази TLS-handshake, працюючи як проксі для VPN клієнтів, при цьому перенаправляючи цензорів на справжні вебсайти, такі як google.com, надаючи справжній TLS-сертифікат та інші дані.
@@ -3731,19 +3731,19 @@ REALITY унікально ідентифікує цензорів під час
     <message>
         <location filename="../containers/containers_defs.cpp" line="230"/>
         <source>IKEv2, paired with the IPSec encryption layer, stands as a modern and stable VPN protocol.
-One of its distinguishing features is its ability to swiftly switch between networks and devices, making it particularly adaptive in dynamic network environments. 
+One of its distinguishing features is its ability to swiftly switch between networks and devices, making it particularly adaptive in dynamic network environments.
 While it offers a blend of security, stability, and speed, it&apos;s essential to note that IKEv2 can be easily detected and is susceptible to blocking.
 
-* Available in the AmneziaVPN only on Windows
+* Available in the VPNNaruzhu only on Windows
 * Low power consumption, on mobile devices
 * Minimal configuration
 * Recognised by DPI analysis systems
 * Works over UDP network protocol, ports 500 and 4500.</source>
         <translation>IKEv2 разом з шифруванням IPSec -- це сучасний та стабільний протокол VPN.
 Він може швидко переключись між мережами та пристроями, що робить його осболиво адаптованим під динамічні мережеві середовища.
-Потрібно зазначити, що незважаючи на стабільність та швидкість, IKEv2 легко розпізнається та вразливий до блокувань. 
+Потрібно зазначити, що незважаючи на стабільність та швидкість, IKEv2 легко розпізнається та вразливий до блокувань.
 
-* IKEv2/IPsec в AmneziaVPN тільки для Windows.
+* IKEv2 в VPNNaruzhu тільки для Windows.
 * Низьке енергоспоживання, на мобільних пристроях
 * Мінімальна конфігурація
 * Розпізнається системами DPI-анализу
@@ -3809,7 +3809,7 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
         <source>OpenVPN stands as one of the most popular and time-tested VPN protocols available.
 It employs its unique security protocol, leveraging the strength of SSL/TLS for encryption and key exchange. Furthermore, OpenVPN&apos;s support for a multitude of authentication methods makes it versatile and adaptable, catering to a wide range of devices and operating systems. Due to its open-source nature, OpenVPN benefits from extensive scrutiny by the global community, which continually reinforces its security. With a strong balance of performance, security, and compatibility, OpenVPN remains a top choice for privacy-conscious individuals and businesses alike.
 
-* Available in the AmneziaVPN across all platforms
+* Available in the VPNNaruzhu across all platforms
 * Normal power consumption on mobile devices
 * Flexible customisation to suit user needs to work with different operating systems and devices
 * Recognised by DPI analysis systems and therefore susceptible to blocking
@@ -3817,7 +3817,7 @@ It employs its unique security protocol, leveraging the strength of SSL/TLS for 
         <translation>OpenVPN один із самих популярних і перевірених часом протоколів VPN.
 Він використовує власний протокол, який опирається на протокол SSL/TLS для шифрування та обміну ключами. Крім того, підтримка OpenVPN багатьох методів аутентифікації робить його універсальним і адаптованим до широкого спектру пристроїв і операційних систем. Завдяки відкритому коду, OpenVPN піддається ретельному аналізу зі сторони світової спільноти, що постійно підвищує його безпеку. Завдяки оптимальному співвідношенню продуктивності, безпеки та сумісності OpenVPN залишається найкращим вибором як для приватних осіб, так і для компаній.
 
-* Доступний в AmneziaVPN для всіх платформ
+* Доступний в VPNNaruzhu для всіх платформ
 * Нормальне енергоспоживання на мобільних пристроях
 * Гнучка настройка під користувача для роботи з різними пристроями та оперційними системами
 * Розпізнається системами DPI-анализу і тому вразливий до блокувань
@@ -3827,13 +3827,15 @@ It employs its unique security protocol, leveraging the strength of SSL/TLS for 
         <location filename="../containers/containers_defs.cpp" line="162"/>
         <source>Shadowsocks, inspired by the SOCKS5 protocol, safeguards the connection using the AEAD cipher. Although Shadowsocks is designed to be discreet and challenging to identify, it isn&apos;t identical to a standard HTTPS connection.However, certain traffic analysis systems might still detect a Shadowsocks connection. Due to limited support in Amnezia, it&apos;s recommended to use AmneziaWG protocol.
 
-* Available in the AmneziaVPN only on desktop platforms
+* Available in the VPNNaruzhu only on desktop platforms
+* Normal power consumption on mobile devices
+
 * Configurable encryption protocol
 * Detectable by some DPI systems
 * Works over TCP network protocol.</source>
         <translation>Shadowsocks, створений на основі протоколу SOCKS5, захищає з&apos;єднання AEAD шифруванням. Незважаючи на те, що протокол Shadowsocks розроблений таким чином, щоб бути незаметним і складним для ідентифікації, він не ідентичний стандартному HTTPS-з&apos;єднанню. Однак деякі системи аналізу трафіку все-таки можуть знайти підключення Shadowsocks. У зв’язку з обмеженою підтримкою в Amnezia рекомендується використовувати протокол AmneziaWG або OpenVPN через Cloak.
 
-* Доступний в AmneziaVPN тільки на ПК.
+* Доступний в VPNNaruzhu тільки на ПК.
 * Гнучке налаштування протоколу шифрування
 * Розпізнається деякими DPI-системами
 * Працює по мережевому протоколу TCP.</translation>
@@ -3848,10 +3850,10 @@ It employs its unique security protocol, leveraging the strength of SSL/TLS for 
 
 For more detailed information, you can
  find it in the support section under &quot;Create SFTP file storage.&quot; </source>
-        <translation>Після встановлення Amnezia створить 
+        <translation>Після встановлення Amnezia створить
 
  файл-сховище на вашому сервері. Ви зможете отримати
- доступ до нього за допомогою FileZilla та інших SFTP-клієнтів, 
+ доступ до нього за допомогою FileZilla та інших SFTP-клієнтів,
 а також змонтувати диск на вашому пристрої для безпосереднього доступу до нього.
 
 Для більш детальної інформації зверніться
@@ -3862,7 +3864,7 @@ For more detailed information, you can
 
 OpenVPN provides a secure VPN connection by encrypting all Internet traffic between the client and the server.
 
-Cloak protects OpenVPN from detection and blocking. 
+Cloak protects OpenVPN from detection and blocking.
 
 Cloak can modify packet metadata so that it completely masks VPN traffic as normal web traffic, and also protects the VPN from detection by Active Probing. This makes it very resistant to being detected
 
@@ -3870,7 +3872,7 @@ Immediately after receiving the first data packet, Cloak authenticates the incom
 
 If there is a extreme level of Internet censorship in your region, we advise you to use only OpenVPN over Cloak from the first connection
 
-* Available in the AmneziaVPN across all platforms
+* Available in the VPNNaruzhu across all platforms
 * High power consumption on mobile devices
 * Flexible settings
 * Not recognised by DPI analysis systems
@@ -3880,7 +3882,7 @@ If there is a extreme level of Internet censorship in your region, we advise you
 
 OpenVPN забезпечує найдійне VPN-підключення за рахунок шифрування всього інтернет-трафіку між клієнтом і сервером.
 
-Cloak захищає OpenVPN від розпізнаванння та блокування системами DPI. 
+Cloak захищає OpenVPN від розпізнаванння та блокування системами DPI.
 
 Cloak може замінити метаданні пакетів. Він повністю маскується під звичайний HTTPS трафік, а також, захищає VPN від розпізнаванння за допомогою Active Probing. Це робить його дуже стійким до розпізнання.
 
@@ -3888,7 +3890,7 @@ Cloak може замінити метаданні пакетів. Він пов
 
 Якщо в вашому регіоні екстремальний рівень цензури в Інтернеті, ми рекомендуємо відразу використовувати OpenVPN over Cloak.
 
-* Доступний в AmneziaVPN на всіх платформах
+* Доступний в VPNNaruzhu на всіх платформах
 * Високе енергоспоживання на мобільних пристроях
 * Гнучке налаштування
 * Не розпізнається системами DPI-анализу
@@ -3900,7 +3902,7 @@ Cloak може замінити метаданні пакетів. Він пов
 Provides stable VPN connection, high performance on all devices. Uses hard-coded encryption settings. WireGuard compared to OpenVPN has lower latency and better data transfer throughput.
 WireGuard is very susceptible to blocking due to its distinct packet signatures. Unlike some other VPN protocols that employ obfuscation techniques, the consistent signature patterns of WireGuard packets can be more easily identified and thus blocked by advanced Deep Packet Inspection (DPI) systems and other network monitoring tools.
 
-* Available in the AmneziaVPN across all platforms
+* Available in the VPNNaruzhu across all platforms
 * Low power consumption
 * Minimum number of settings
 * Easily recognised by DPI analysis systems, susceptible to blocking
@@ -3908,7 +3910,7 @@ WireGuard is very susceptible to blocking due to its distinct packet signatures.
         <translation type="vanished">WireGuard - відносно новий та популярний VPN-протокол з простою архітектурою.
 Забезпечує стабільне VPN-з&apos;єднання, високу продуктивність на всіх пристроях. Використовує жорстко закодовані параметри шифрування. WireGuard порівняно з OpenVPN має нижчу затримку та кращу пропускну здатність передачі даних.
 WireGuard дуже вразливий до блокування. На відміну від деяких інших протоколів VPN, які використовують методи обфускації, узгоджені шаблони пакетів WireGuard можна легше ідентифікувати та, таким чином, заблокувати вдосконаленими системами Deep Packet Inspection (DPI) та іншими інструментами моніторингу мережі.
-* Доступний в AmneziaVPN для всіх платформ
+* Доступний в VPNNaruzhu для всіх платформ
 * Низьке енергоспоживання
 * Мінімальна кількість налаштувань
 * Легко розпізнається системами DPI-анализу, вразливий до блокувань
@@ -3920,7 +3922,7 @@ WireGuard дуже вразливий до блокування. На відмі
 While WireGuard is known for its efficiency, it had issues with being easily detected due to its distinct packet signatures. AmneziaWG solves this problem by using better obfuscation methods, making its traffic blend in with regular internet traffic.
 This means that AmneziaWG keeps the fast performance of the original while adding an extra layer of stealth, making it a great choice for those wanting a fast and discreet VPN connection.
 
-* Available in the AmneziaVPN across all platforms
+* Available in the VPNNaruzhu across all platforms
 * Low power consumption
 * Minimum number of settings
 * Not recognised by DPI analysis systems, resistant to blocking
@@ -3929,7 +3931,7 @@ This means that AmneziaWG keeps the fast performance of the original while addin
 Незважаючи на те, що WireGuard відомий своєю ефективністю, він має проблеми з легким виявленням через чіткі підписи пакетів. AmneziaWG вирішує цю проблему, використовуючи кращі методи обфускації, завдяки чому її трафік змішується зі звичайним інтернет-трафіком.
 Це означає, що AmneziaWG зберігає швидку роботу оригінального протоколу WireGuard, додаючи додатковий рівень скритності, що робить його чудовим вибором для тих, хто бажає швидкого та непомітного VPN-з’єднання.
 
-* Доступно в AmneziaVPN на всіх платформах
+* Доступно в VPNNaruzhu на всіх платформах
 * Низьке енергоспоживання
 * Мінімальна кількість налаштувань
 * Не розпізнається системами аналізу DPI, стійкий до блокування
@@ -4184,10 +4186,10 @@ This means that AmneziaWG keeps the fast performance of the original while addin
 <context>
     <name>ShareConnectionDrawer</name>
     <message>
-        <location filename="../ui/qml/Components/ShareConnectionDrawer.qml" line="28"/>
-        <location filename="../ui/qml/Components/ShareConnectionDrawer.qml" line="35"/>
-        <source>Save AmneziaVPN config</source>
-        <translation>Зберегти config AmneziaVPN</translation>
+        <location filename="../ui/qml/Components/ShareConnectionDrawer.qml" line="27"/>
+        <location filename="../ui/qml/Components/ShareConnectionDrawer.qml" line="34"/>
+        <source>Save VPNNaruzhu config</source>
+        <translation>Зберегти config VPNNaruzhu</translation>
     </message>
     <message>
         <location filename="../ui/qml/Components/ShareConnectionDrawer.qml" line="86"/>
