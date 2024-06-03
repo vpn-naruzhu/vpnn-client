@@ -222,10 +222,9 @@
         <translation>Раздельное туннелирование на сервере</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Components/HomeSplitTunnelingDrawer.qml" line="43"/>
         <source>Enabled
 Can&apos;t be disabled for current server</source>
-        <translation>Включено
+        <translation type="vanished">Включено
 Невозможно отключить для текущего сервера</translation>
     </message>
     <message>
@@ -273,6 +272,11 @@ Can&apos;t be disabled for current server</source>
         <location filename="../ui/controllers/importController.cpp" line="641"/>
         <source>In the imported configuration, potentially dangerous lines were found:</source>
         <translation>В импортированной конфигурации были обнаружены потенциально опасные строки:</translation>
+    </message>
+    <message>
+        <location filename="../ui/controllers/importController.cpp" line="577"/>
+        <source>In the imported configuration, potentially dangerous lines were found:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -381,6 +385,24 @@ Already installed containers were found on the server. All installed containers 
     </message>
 </context>
 <context>
+    <name>InstalledAppsDrawer</name>
+    <message>
+        <location filename="../ui/qml/Components/InstalledAppsDrawer.qml" line="56"/>
+        <source>Choose application</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Components/InstalledAppsDrawer.qml" line="138"/>
+        <source>application name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Components/InstalledAppsDrawer.qml" line="151"/>
+        <source>Add selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>KeyChainClass</name>
     <message>
         <location filename="../3rd/qtkeychain/TestAppExample/keychainclass.cpp" line="22"/>
@@ -401,8 +423,8 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>NotificationHandler</name>
     <message>
-        <location filename="../ui/notificationhandler.cpp" line="68"/>
-        <location filename="../ui/notificationhandler.cpp" line="75"/>
+        <location filename="../ui/notificationhandler.cpp" line="63"/>
+        <location filename="../ui/notificationhandler.cpp" line="70"/>
         <source>VPNNaruzhu</source>
         <translation>VPNNaruzhu</translation>
     </message>
@@ -417,7 +439,7 @@ Already installed containers were found on the server. All installed containers 
         <translation>VPN выключен</translation>
     </message>
     <message>
-        <location filename="../ui/notificationhandler.cpp" line="99"/>
+        <location filename="../ui/notificationhandler.cpp" line="94"/>
         <source>VPNNaruzhu notification</source>
         <translation>Уведомление VPNNaruzhu</translation>
     </message>
@@ -1252,7 +1274,7 @@ Already installed containers were found on the server. All installed containers 
         <translation>Резервное копирование</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="101"/>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="118"/>
         <source>About VPNNaruzhu</source>
         <translation>О VPNNaruzhu</translation>
     </message>
@@ -1262,7 +1284,22 @@ Already installed containers were found on the server. All installed containers 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="158"/>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="135"/>
+        <source>Support via Telegram</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="150"/>
+        <source>Support via Email</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="165"/>
+        <source>Telegram Group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="180"/>
         <source>Close application</source>
         <translation>Закрыть приложение</translation>
     </message>
@@ -1610,7 +1647,7 @@ Already installed containers were found on the server. All installed containers 
         <translation>Вы можете сохранить настройки в файл резервной копии, чтобы восстановить их при следующей установке приложения.</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsBackup.qml" line="81"/>
+        <location filename="../ui/qml/Pages2/PageSettingsBackup.qml" line="83"/>
         <source>The backup will contain your passwords and private keys for all servers added to VPNNaruzhu. Keep this information in a secure place.</source>
         <translation>Резервная копия будет содержать ваши пароли и закрытые ключи для всех серверов, добавленных в VPNNaruzhu. Храните эту информацию в надежном месте.</translation>
     </message>
@@ -2011,7 +2048,7 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished">Удалить сервер?</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsServerData.qml" line="174"/>
+        <location filename="../ui/qml/Pages2/PageSettingsServerData.qml" line="176"/>
         <source>All installed VPNNaruzhu services will still remain on the server.</source>
         <translation>Все установленные сервисы и протоколы Amnezia всё ещё останутся на сервере.</translation>
     </message>
@@ -2107,6 +2144,11 @@ Already installed containers were found on the server. All installed containers 
         <location filename="../ui/qml/Pages2/PageSettingsServerProtocol.qml" line="198"/>
         <source>Cannot remove active container</source>
         <translation>Невозможно удалить активный контейнер</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettingsServerProtocol.qml" line="193"/>
+        <source>Cannot remove active container</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>All users who you shared a connection with will no longer be able to connect to it.</source>
@@ -2633,8 +2675,14 @@ and will not be shared or disclosed to the Amnezia or any third parties</source>
         <translation type="vanished">Настройки восстановлены из резервной копии</translation>
     </message>
     <message>
-        <source>Free service for creating a personal VPN on your server.</source>
-        <translation type="vanished">Простое и бесплатное приложение для запуска собственного VPN на своем сервере.</translation>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="138"/>
+        <source>Open foreign and Russian websites.</source>
+        <translation>Открывает зарубежные и российские сайты одновременно.</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="216"/>
+        <source>https://vpn-naruzhu.com</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source> Helps you access blocked content without revealing your privacy, even to VPN providers.</source>
@@ -3584,7 +3632,7 @@ If there is a extreme level of Internet censorship in your region, we advise you
 * Not recognised by DPI analysis systems
 * Works over TCP network protocol, 443 port.
 </source>
-        <translation>Это связка протокола OpenVPN и плагина Cloak, разработанная специально для защиты от блокировки.
+        <translation type="vanished">Это связка протокола OpenVPN и плагина Cloak, разработанная специально для защиты от блокировки.
 
 OpenVPN обеспечивает безопасное VPN-соединение, шифруя весь интернет-трафик между клиентом и сервером.
 
@@ -3645,7 +3693,7 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
 * Minimal configuration
 * Recognised by DPI analysis systems
 * Works over UDP network protocol, ports 500 and 4500.</source>
-        <translation>IKEv2 в сочетании с уровнем шифрования IPSec это современный и стабильный протокол VPN.
+        <translation type="vanished">IKEv2 в сочетании с уровнем шифрования IPSec это современный и стабильный протокол VPN.
 Он может быстро переключаться между сетями и устройствами, что делает его особенно адаптивным в динамичных сетевых средах.
 Несмотря на сочетание безопасности, стабильности и скорости, необходимо отметить, что IKEv2 легко обнаруживается и подвержен блокировке.
 

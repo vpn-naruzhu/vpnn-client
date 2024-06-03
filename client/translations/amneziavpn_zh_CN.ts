@@ -221,10 +221,9 @@
         <translation>服务器上的分割隧道</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Components/HomeSplitTunnelingDrawer.qml" line="43"/>
         <source>Enabled
 Can&apos;t be disabled for current server</source>
-        <translation>已启用
+        <translation type="vanished">已启用
 无法禁用当前服务器</translation>
     </message>
     <message>
@@ -423,8 +422,8 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>NotificationHandler</name>
     <message>
-        <location filename="../ui/notificationhandler.cpp" line="68"/>
-        <location filename="../ui/notificationhandler.cpp" line="75"/>
+        <location filename="../ui/notificationhandler.cpp" line="63"/>
+        <location filename="../ui/notificationhandler.cpp" line="70"/>
         <source>VPNNaruzhu</source>
         <translation></translation>
     </message>
@@ -439,7 +438,7 @@ Already installed containers were found on the server. All installed containers 
         <translation>已从VPN断开</translation>
     </message>
     <message>
-        <location filename="../ui/notificationhandler.cpp" line="99"/>
+        <location filename="../ui/notificationhandler.cpp" line="94"/>
         <source>VPNNaruzhu notification</source>
         <translation>VPNNaruzhu 提示</translation>
     </message>
@@ -1275,7 +1274,7 @@ Already installed containers were found on the server. All installed containers 
         <translation>备份</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="101"/>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="118"/>
         <source>About VPNNaruzhu</source>
         <translation>关于</translation>
     </message>
@@ -1284,8 +1283,22 @@ Already installed containers were found on the server. All installed containers 
         <source>Dev console</source>
         <translation type="unfinished"></translation>
     </message>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="135"/>
+        <source>Support via Telegram</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="158"/>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="150"/>
+        <source>Support via Email</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="165"/>
+        <source>Telegram Group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="180"/>
         <source>Close application</source>
         <translation>关闭应用</translation>
     </message>
@@ -1354,7 +1367,6 @@ And if you don&apos;t like the app, all the more support it - the donation will 
         <translation>官网</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsAbout.qml" line="179"/>
         <source>Software version: %1</source>
         <translation>软件版本: %1</translation>
     </message>
@@ -1593,7 +1605,7 @@ And if you don&apos;t like the app, all the more support it - the donation will 
         <translation>重置并清理应用的所有数据？</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="167"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="231"/>
         <source>All settings will be reset to default. All installed VPNNaruzhu services will still remain on the server.</source>
         <translation>所有配置恢复为默认值。服务器已安装的VPNNaruzhu服务将被保留。</translation>
     </message>
@@ -1635,7 +1647,7 @@ And if you don&apos;t like the app, all the more support it - the donation will 
         <translation>您可以将配置信息备份到文件中，以便在下次安装应用软件时恢复配置</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsBackup.qml" line="81"/>
+        <location filename="../ui/qml/Pages2/PageSettingsBackup.qml" line="83"/>
         <source>The backup will contain your passwords and private keys for all servers added to VPNNaruzhu. Keep this information in a secure place.</source>
         <translation>备份将包含您添加到 VPNNaruzhu 的所有服务器的密码和私钥。请将这些信息保存在安全的地方。</translation>
     </message>
@@ -2044,7 +2056,7 @@ And if you don&apos;t like the app, all the more support it - the donation will 
         <translation type="vanished">移除本地服务器信息?</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsServerData.qml" line="174"/>
+        <location filename="../ui/qml/Pages2/PageSettingsServerData.qml" line="176"/>
         <source>All installed VPNNaruzhu services will still remain on the server.</source>
         <translation>所有已安装的 VPNNaruzhu 服务仍将保留在服务器上。</translation>
     </message>
@@ -2702,17 +2714,29 @@ and will not be shared or disclosed to the Amnezia or any third parties</source>
         <translation type="vanished">帮助您访问受限内容，保护您的隐私，即使是VPN提供商也无法获取。</translation>
     </message>
     <message>
-        <source>I have the data to connect</source>
-        <translation type="vanished">我有连接配置</translation>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="138"/>
+        <source>Open foreign and Russian websites.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>I have nothing</source>
-        <translation type="vanished">我没有</translation>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="153"/>
+        <source>I have the data to connect</source>
+        <translation type="vanished">我有连接配置</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="48"/>
         <source>Let&apos;s get started</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="216"/>
+        <source>https://vpn-naruzhu.com</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="197"/>
+        <source>I have nothing</source>
+        <translation>我没有</translation>
     </message>
 </context>
 <context>
@@ -3922,7 +3946,7 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
 * Minimal configuration
 * Recognised by DPI analysis systems
 * Works over UDP network protocol, ports 500 and 4500.</source>
-        <translation>IKEv2 与 IPSec 加密层配合使用，是一种现代且稳定的 VPN 协议。
+        <translation type="vanished">IKEv2 与 IPSec 加密层配合使用，是一种现代且稳定的 VPN 协议。
 其显着特征之一是能够在网络和设备之间快速切换，使其特别适应动态网络环境。
 虽然 IKEv2 兼具安全性、稳定性和速度，但必须注意的是，IKEv2 很容易被检测到，并且容易受到阻止。
 

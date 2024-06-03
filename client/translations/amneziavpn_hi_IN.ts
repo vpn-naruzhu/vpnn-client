@@ -218,11 +218,16 @@
         <translation>सर्वर पर स्प्लिट टनलिंग</translation>
     </message>
     <message>
+        <source>Enabled
+Can&apos;t be disabled for current server</source>
+        <translation type="vanished">सक्रिय
+वर्तमान सर्वर के लिए अक्षम नहीं किया जा सकता</translation>
+    </message>
+    <message>
         <location filename="../ui/qml/Components/HomeSplitTunnelingDrawer.qml" line="59"/>
         <source>Enabled
 Can&apos;t be disabled for current server</source>
-        <translation>सक्रिय
-वर्तमान सर्वर के लिए अक्षम नहीं किया जा सकता</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ui/qml/Components/HomeSplitTunnelingDrawer.qml" line="79"/>
@@ -397,8 +402,8 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>NotificationHandler</name>
     <message>
-        <location filename="../ui/notificationhandler.cpp" line="68"/>
-        <location filename="../ui/notificationhandler.cpp" line="75"/>
+        <location filename="../ui/notificationhandler.cpp" line="63"/>
+        <location filename="../ui/notificationhandler.cpp" line="70"/>
         <source>VPNNaruzhu</source>
         <translation>VPNNaruzhu</translation>
     </message>
@@ -413,7 +418,7 @@ Already installed containers were found on the server. All installed containers 
         <translation>कनेक्ट</translation>
     </message>
     <message>
-        <location filename="../ui/notificationhandler.cpp" line="99"/>
+        <location filename="../ui/notificationhandler.cpp" line="94"/>
         <source>VPNNaruzhu notification</source>
         <translation>VPNNaruzhu अधिसूचना</translation>
     </message>
@@ -1199,7 +1204,22 @@ Already installed containers were found on the server. All installed containers 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="158"/>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="135"/>
+        <source>Support via Telegram</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="150"/>
+        <source>Support via Email</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="165"/>
+        <source>Telegram Group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="180"/>
         <source>Close application</source>
         <translation>एप्लिकेशन बंद करो</translation>
     </message>
@@ -1501,7 +1521,7 @@ Already installed containers were found on the server. All installed containers 
         <translation>सेटिंग्स रीसेट करें और एप्लिकेशन से सभी डेटा हटा दें?</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="244"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="231"/>
         <source>All settings will be reset to default. All installed VPNNaruzhu services will still remain on the server.</source>
         <translation>सभी सेटिंग्स डिफ़ॉल्ट पर रीसेट हो जाएंगी. सभी स्थापित VPNNaruzhu सेवाएँ अभी भी सर्वर पर रहेंगी।.</translation>
     </message>
@@ -2473,17 +2493,28 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished"> आपकी गोपनीयता को उजागर किए बिना, यहां तक ​​कि वीपीएन प्रदाताओं को भी, अवरुद्ध सामग्री तक पहुंचने में आपकी सहायता करता है.</translation>
     </message>
     <message>
-        <source>I have the data to connect</source>
-        <translation type="vanished">मेरे पास कनेक्ट करने के लिए डेटा है</translation>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="138"/>
+        <source>Open foreign and Russian websites.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>I have nothing</source>
-        <translation type="vanished">मेरे पास कुछ नहीं है</translation>
+        <source>I have the data to connect</source>
+        <translation type="vanished">मेरे पास कनेक्ट करने के लिए डेटा है</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="48"/>
         <source>Let&apos;s get started</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="216"/>
+        <source>https://vpn-naruzhu.com</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="197"/>
+        <source>I have nothing</source>
+        <translation>मेरे पास कुछ नहीं है</translation>
     </message>
 </context>
 <context>
@@ -3376,7 +3407,7 @@ If there is a extreme level of Internet censorship in your region, we advise you
 * Not recognised by DPI analysis systems
 * Works over TCP network protocol, 443 port.
 </source>
-        <translation>यह OpenVPN प्रोटोकॉल और क्लॉक प्लगइन का एक संयोजन है जिसे विशेष रूप से ब्लॉकिंग से बचाने के लिए डिज़ाइन किया गया है।
+        <translation type="vanished">यह OpenVPN प्रोटोकॉल और क्लॉक प्लगइन का एक संयोजन है जिसे विशेष रूप से ब्लॉकिंग से बचाने के लिए डिज़ाइन किया गया है।
 
 OpenVPN क्लाइंट और सर्वर के बीच सभी इंटरनेट ट्रैफ़िक को एन्क्रिप्ट करके एक सुरक्षित वीपीएन कनेक्शन प्रदान करता है।
 
@@ -3524,7 +3555,7 @@ This means that AmneziaWG keeps the fast performance of the original while addin
 It uniquely identifies censors during the TLS handshake phase, seamlessly operating as a proxy for legitimate clients while diverting censors to genuine websites like google.com, thus presenting an authentic TLS certificate and data.
 This advanced capability differentiates REALITY from similar technologies by its ability to disguise web traffic as coming from random, legitimate sites without the need for specific configurations.
 Unlike older protocols such as VMess, VLESS, and the XTLS-Vision transport, REALITY&apos;s innovative &quot;friend or foe&quot; recognition at the TLS handshake enhances security and circumvents detection by sophisticated DPI systems employing active probing techniques. This makes REALITY a robust solution for maintaining internet freedom in environments with stringent censorship.</source>
-        <translation>रियलिटी प्रोटोकॉल, एक्सरे के रचनाकारों द्वारा एक अग्रणी विकास, विशेष रूप से चोरी के अपने नए दृष्टिकोण के माध्यम से इंटरनेट सेंसरशिप के उच्चतम स्तर का प्रतिकार करने के लिए डिज़ाइन किया गया है।
+        <translation type="vanished">रियलिटी प्रोटोकॉल, एक्सरे के रचनाकारों द्वारा एक अग्रणी विकास, विशेष रूप से चोरी के अपने नए दृष्टिकोण के माध्यम से इंटरनेट सेंसरशिप के उच्चतम स्तर का प्रतिकार करने के लिए डिज़ाइन किया गया है।
 यह टीएलएस हैंडशेक चरण के दौरान सेंसर की विशिष्ट रूप से पहचान करता है, सेंसर को google.com जैसी वास्तविक वेबसाइटों की ओर मोड़ते हुए वैध ग्राहकों के लिए प्रॉक्सी के रूप में निर्बाध रूप से काम करता है, इस प्रकार एक प्रामाणिक टीएलएस प्रमाणपत्र और डेटा प्रस्तुत करता है।
 यह उन्नत क्षमता विशिष्ट कॉन्फ़िगरेशन की आवश्यकता के बिना यादृच्छिक, वैध साइटों से आने वाले वेब ट्रैफ़िक को छिपाने की क्षमता के कारण REALITY को समान तकनीकों से अलग करती है।
 VMess, VLESS और XTLS-Vision ट्रांसपोर्ट जैसे पुराने प्रोटोकॉल के विपरीत, TLS हैंडशेक पर REALITY की अभिनव &quot;दोस्त या दुश्मन&quot; पहचान सुरक्षा को बढ़ाती है और सक्रिय जांच तकनीकों को नियोजित करने वाले परिष्कृत DPI सिस्टम द्वारा पहचान को रोकती है। यह REALITY को कठोर सेंसरशिप वाले वातावरण में इंटरनेट की स्वतंत्रता बनाए रखने के लिए एक मजबूत समाधान बनाता है.</translation>
@@ -3540,7 +3571,7 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
 * Minimal configuration
 * Recognised by DPI analysis systems
 * Works over UDP network protocol, ports 500 and 4500.</source>
-        <translation>IKEv2, IPSec एन्क्रिप्शन परत के साथ मिलकर, एक आधुनिक और स्थिर वीपीएन प्रोटोकॉल के रूप में खड़ा है।
+        <translation type="vanished">IKEv2, IPSec एन्क्रिप्शन परत के साथ मिलकर, एक आधुनिक और स्थिर वीपीएन प्रोटोकॉल के रूप में खड़ा है।
 इसकी विशिष्ट विशेषताओं में से एक नेटवर्क और उपकरणों के बीच तेजी से स्विच करने की क्षमता है, जो इसे गतिशील नेटवर्क वातावरण में विशेष रूप से अनुकूली बनाती है।
 हालाँकि यह सुरक्षा, स्थिरता और गति का मिश्रण प्रदान करता है, यह ध्यान रखना आवश्यक है कि IKEv2 को आसानी से पहचाना जा सकता है और अवरुद्ध होने की संभावना है।
 

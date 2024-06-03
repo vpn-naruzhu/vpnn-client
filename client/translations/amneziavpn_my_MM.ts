@@ -218,10 +218,9 @@
         <translation>ဆာဗာပေါ်တွင် split tunneling အသုံးပြုထားပါသည်။</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Components/HomeSplitTunnelingDrawer.qml" line="43"/>
         <source>Enabled
 Can&apos;t be disabled for current server</source>
-        <translation>ဖွင့်ထားပါသည်။
+        <translation type="vanished">ဖွင့်ထားပါသည်။
 လက်ရှိဆာဗာအတွက် ပိတ်၍မရပါ။</translation>
     </message>
     <message>
@@ -377,6 +376,24 @@ Already installed containers were found on the server. All installed containers 
     </message>
 </context>
 <context>
+    <name>InstalledAppsDrawer</name>
+    <message>
+        <location filename="../ui/qml/Components/InstalledAppsDrawer.qml" line="56"/>
+        <source>Choose application</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Components/InstalledAppsDrawer.qml" line="138"/>
+        <source>application name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Components/InstalledAppsDrawer.qml" line="151"/>
+        <source>Add selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>KeyChainClass</name>
     <message>
         <location filename="../3rd/qtkeychain/TestAppExample/keychainclass.cpp" line="22"/>
@@ -397,8 +414,8 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>NotificationHandler</name>
     <message>
-        <location filename="../ui/notificationhandler.cpp" line="68"/>
-        <location filename="../ui/notificationhandler.cpp" line="75"/>
+        <location filename="../ui/notificationhandler.cpp" line="63"/>
+        <location filename="../ui/notificationhandler.cpp" line="70"/>
         <source>VPNNaruzhu</source>
         <translation>VPNNaruzhu</translation>
     </message>
@@ -413,7 +430,7 @@ Already installed containers were found on the server. All installed containers 
         <translation>VPN ဖြုတ်လိုက်ပါပြီ</translation>
     </message>
     <message>
-        <location filename="../ui/notificationhandler.cpp" line="99"/>
+        <location filename="../ui/notificationhandler.cpp" line="94"/>
         <source>VPNNaruzhu notification</source>
         <translation>VPNNaruzhu နိုတီ</translation>
     </message>
@@ -1157,7 +1174,7 @@ Already installed containers were found on the server. All installed containers 
         <translation>backup ယူမည်</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="101"/>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="118"/>
         <source>About VPNNaruzhu</source>
         <translation>VPNNaruzhu အကြောင်း</translation>
     </message>
@@ -1167,7 +1184,22 @@ Already installed containers were found on the server. All installed containers 
         <translation>ဒက်ဗယ်လော်ပါ console</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="158"/>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="135"/>
+        <source>Support via Telegram</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="150"/>
+        <source>Support via Email</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="165"/>
+        <source>Telegram Group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="180"/>
         <source>Close application</source>
         <translation>အပလီကေးရှင်းကို ပိတ်မည်</translation>
     </message>
@@ -1499,7 +1531,7 @@ Already installed containers were found on the server. All installed containers 
         <translation>သင်၏ဆက်တင်များကို အရန်ဖိုင်တွင် သိမ်းဆည်းထားခြင်းဖြင့် အပလီကေးရှင်းကို နောက်တစ်ကြိမ်ထည့်သွင်းသည့်အခါ ၎င်းဆက်တင်များကို ပြန်လည်ရယူနိုင်သည်.</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsBackup.qml" line="81"/>
+        <location filename="../ui/qml/Pages2/PageSettingsBackup.qml" line="83"/>
         <source>The backup will contain your passwords and private keys for all servers added to VPNNaruzhu. Keep this information in a secure place.</source>
         <translation>မိတ္တူတွင် VPNNaruzhu သို့ ထည့်ထားသော ဆာဗာအားလုံးအတွက် သင့်စကားဝှက်များနှင့် လျှို့ဝှက်သော့များ ပါဝင်ပါမည်။ ဤအချက်အလက်ကို လုံခြုံသောနေရာတွင် ထားပါ။</translation>
     </message>
@@ -1869,7 +1901,7 @@ Already installed containers were found on the server. All installed containers 
         <translation>ဆာဗာကို အပလီကေးရှင်းမှဖယ်ရှားမည်</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsServerData.qml" line="174"/>
+        <location filename="../ui/qml/Pages2/PageSettingsServerData.qml" line="176"/>
         <source>All installed VPNNaruzhu services will still remain on the server.</source>
         <translation>ထည့်သွင်းထားသော VPNNaruzhu ဝန်ဆောင်မှုများအားလုံးသည် ဆာဗာပေါ်တွင် ဆက်လက်ရှိနေမည်ဖြစ်သည်.</translation>
     </message>
@@ -2200,14 +2232,19 @@ Already installed containers were found on the server. All installed containers 
         <translation>config ဖိုင်ကိုဖွင့်မည်</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="225"/>
-        <source>QR code</source>
-        <translation>QR-ကုဒ်</translation>
-    </message>
-    <message>
         <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="248"/>
         <source>I have nothing</source>
         <translation>ကျွန်ုပ်တွင်ဘာမှမရှိပါ</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="102"/>
+        <source>QR-code</source>
+        <translation>QR-ကုဒ်</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="124"/>
+        <source>Key as text</source>
+        <translation>Key ကိုစာသားအဖြစ်</translation>
     </message>
 </context>
 <context>
@@ -2405,6 +2442,25 @@ Already installed containers were found on the server. All installed containers 
         <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="48"/>
         <source>Let&apos;s get started</source>
         <translation>စတင်လိုက်ကြရအောင်</translation>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="138"/>
+        <source>Open foreign and Russian websites.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="153"/>
+        <source>I have the data to connect</source>
+        <translation>ကျွန်ုပ်တွင်ချိတ်ဆက်ဖို့အတွက်ဒေတာရှိသည်</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="216"/>
+        <source>https://vpn-naruzhu.com</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="197"/>
+        <source>I have nothing</source>
+        <translation>ကျွန်ုပ်တွင်ဘာမှမရှိပါ</translation>
     </message>
 </context>
 <context>
@@ -3256,7 +3312,7 @@ If there is a extreme level of Internet censorship in your region, we advise you
 * Not recognised by DPI analysis systems
 * Works over TCP network protocol, 443 port.
 </source>
-        <translation>ဤပစ္စည်းသည်ပိတ်ဆို့ခြင်းမှကာကွယ်ရန်အတွက် အထူးထုတ်လုပ်ထားသည့် OpenVPN ပရိုတိုကောနှင့် Cloak plugin ၏ပေါင်းစပ်မှုဖြစ်သည်.
+        <translation type="vanished">ဤပစ္စည်းသည်ပိတ်ဆို့ခြင်းမှကာကွယ်ရန်အတွက် အထူးထုတ်လုပ်ထားသည့် OpenVPN ပရိုတိုကောနှင့် Cloak plugin ၏ပေါင်းစပ်မှုဖြစ်သည်.
 
 OpenVPN သည် ကလိုင်းယင့်နှင့် ဆာဗာကြားရှိ အင်တာနက်အသွားအလာအားလုံးကို ကုဒ်ဝှက်ခြင်းဖြင့် လုံခြုံသော VPN ချိတ်ဆက်မှုကို ပံ့ပိုးပေးပါသည်
 
@@ -3318,7 +3374,7 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
 * Minimal configuration
 * Recognised by DPI analysis systems
 * Works over UDP network protocol, ports 500 and 4500.</source>
-        <translation>IPSec ကုဒ်ဝှက်ခြင်းအလွှာနှင့်တွဲဆက်ထားသည့် IKEv2 သည် ခေတ်မီပြီး တည်ငြိမ်သော VPN ပရိုတိုကောဖြစ်သည်။
+        <translation type="vanished">IPSec ကုဒ်ဝှက်ခြင်းအလွှာနှင့်တွဲဆက်ထားသည့် IKEv2 သည် ခေတ်မီပြီး တည်ငြိမ်သော VPN ပရိုတိုကောဖြစ်သည်။
 ၎င်း၏ထူးခြားသောအင်္ဂါရပ်များထဲမှတစ်ခုမှာ ကွန်ရက်များနှင့် စက်ပစ္စည်းများကြား လျင်မြန်စွာပြောင်းလဲနိုင်သည့်စွမ်းရည်ဖြစ်ပြီး ဤစွမ်းရည်ကပင် dynamic ဖြစ်သောကွန်ရက်ပတ်ဝန်းကျင်များတွင် လိုက်လျောညီထွေဖြစ်စေရန်အကူအညီပေးပါသည်။
 IKEv2 သည် လုံခြုံရေး၊ တည်ငြိမ်မှု၊ နှင့် အမြန်နှုန်းတို့ ပေးစွမ်းနိုင်သော်လည်း၊ အလွယ်တကူ ထောက်လှန်းသိရှိခံရနိုင်ပြီး ပိတ်ဆို့ခြင်း ခံရနိုင်သည်ကို သတိပြုရန် အရေးကြီးပါသည်။
 
@@ -3874,7 +3930,6 @@ For more detailed information, you can
         <translation>High</translation>
     </message>
     <message>
-        <location filename="../containers/containers_defs.cpp" line="355"/>
         <source>I just want to increase the level of my privacy.</source>
         <translation>ကျွန်ုပ်၏ကိုယ်ရေးကိုယ်တာလုံခြုံမှုအဆင့်ကို မြှင့်တင်လိုပါသည်.</translation>
     </message>

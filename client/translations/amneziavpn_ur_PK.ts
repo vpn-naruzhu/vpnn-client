@@ -217,10 +217,15 @@
         <translation>سرور پر سپلٹ ٹنلنگ</translation>
     </message>
     <message>
+        <source>Enabled
+Can&apos;t be disabled for current server</source>
+        <translation type="vanished">فعال کو موجودہ سرور کے لیے غیر فعال نہیں کیا جا سکتا</translation>
+    </message>
+    <message>
         <location filename="../ui/qml/Components/HomeSplitTunnelingDrawer.qml" line="59"/>
         <source>Enabled
 Can&apos;t be disabled for current server</source>
-        <translation>فعال کو موجودہ سرور کے لیے غیر فعال نہیں کیا جا سکتا</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ui/qml/Components/HomeSplitTunnelingDrawer.qml" line="79"/>
@@ -395,8 +400,8 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>NotificationHandler</name>
     <message>
-        <location filename="../ui/notificationhandler.cpp" line="68"/>
-        <location filename="../ui/notificationhandler.cpp" line="75"/>
+        <location filename="../ui/notificationhandler.cpp" line="63"/>
+        <location filename="../ui/notificationhandler.cpp" line="70"/>
         <source>VPNNaruzhu</source>
         <translation>The translation of &quot;VPNNaruzhu&quot; in Urdu would be:
 
@@ -413,7 +418,7 @@ Already installed containers were found on the server. All installed containers 
         <translation>وی پی این منقطع ہوگیا</translation>
     </message>
     <message>
-        <location filename="../ui/notificationhandler.cpp" line="99"/>
+        <location filename="../ui/notificationhandler.cpp" line="94"/>
         <source>VPNNaruzhu notification</source>
         <translation>امنیزیا وی پی این کی اطلاعات</translation>
     </message>
@@ -1203,7 +1208,22 @@ Already installed containers were found on the server. All installed containers 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="158"/>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="135"/>
+        <source>Support via Telegram</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="150"/>
+        <source>Support via Email</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="165"/>
+        <source>Telegram Group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="180"/>
         <source>Close application</source>
         <translation>براہ کرم ایپلیکیشن بند کریں</translation>
     </message>
@@ -1505,7 +1525,7 @@ Already installed containers were found on the server. All installed containers 
         <translation>ترتیبات کو دوبارہ ترتیب دیں اور ایپلیکیشن سے تمام ڈیٹا کو ہٹا دیں؟</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="244"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="231"/>
         <source>All settings will be reset to default. All installed VPNNaruzhu services will still remain on the server.</source>
         <translation>تمام ترتیبات کو معمولی حالت پر لوٹایا جائے گا۔ سب انسٹال کیے گئے امنیزیا وی پی این سروسزسرورپرموجودرہیںگی.</translation>
     </message>
@@ -2477,17 +2497,27 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished"> آپ کو ریاست کردہ مواد تک رسائی فراہم کرتا ہے بغیر آپ کے خصوصیت کو وی پی این فراہم کرنے والوں تک بھی ظاہر نہیں کرتا.</translation>
     </message>
     <message>
-        <source>I have the data to connect</source>
-        <translation type="vanished">میرے پاس اس کنکشن کے لئے ڈیٹا موجود ہے</translation>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="138"/>
+        <source>Open foreign and Russian websites.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>I have nothing</source>
-        <translation type="vanished">میرے پاس کچھ نہیں ہے</translation>
+        <source>I have the data to connect</source>
+        <translation type="vanished">میرے پاس اس کنکشن کے لئے ڈیٹا موجود ہے</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="48"/>
         <source>Let&apos;s get started</source>
         <translation type="unfinished"></translation>
+    </message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="216"/>
+        <source>https://vpn-naruzhu.com</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="197"/>
+        <source>I have nothing</source>
+        <translation>میرے پاس کچھ نہیں ہے</translation>
     </message>
 </context>
 <context>
@@ -3380,7 +3410,7 @@ If there is a extreme level of Internet censorship in your region, we advise you
 * Not recognised by DPI analysis systems
 * Works over TCP network protocol, 443 port.
 </source>
-        <translation>یہ اوپن وی پی این پروٹوکول اور کلوک پلگ ان کا مجموعہ ہے جو خاص طور پر بلاکنگ سے تحفظ کے لیے ڈیزائن کیا گیا ہے۔ اوپن وی پی این کلائنٹ اور سرور کے درمیان تمام انٹرنیٹ ٹریفک کو انکرپٹ کرکے ایک محفوظ وی پی این کنکشن فراہم کرتا ہے۔ Cloak OpenVPN کو پتہ لگانے اور بلاک کرنے سے بچاتا ہے۔ کلوک پیکٹ میٹا ڈیٹا میں ترمیم کر سکتا ہے تاکہ یہ VPN ٹریفک کو عام ویب ٹریفک کے طور پر مکمل طور پر ماسک کر دے، اور VPN کو ایکٹیو پروبنگ کے ذریعے پتہ لگانے سے بھی محفوظ رکھتا ہے۔ یہ پہلا ڈیٹا پیکٹ حاصل کرنے کے فوراً بعد پتہ لگانے کے لیے بہت مزاحم بناتا ہے، کلوک آنے والے کنکشن کی تصدیق کرتا ہے۔ اگر تصدیق ناکام ہو جاتی ہے، تو پلگ ان سرور کو ایک جعلی ویب سائٹ کے طور پر ماسک کر دیتا ہے اور آپ کا VPN تجزیہ کے نظام کے لیے پوشیدہ ہو جاتا ہے۔ اگر آپ کے علاقے میں انتہائی درجے کی انٹرنیٹ سنسرشپ ہے، تو ہم آپ کو مشورہ دیتے ہیں کہ پہلے کنکشن سے صرف اوپن وی پی این اوور کلوک استعمال کریں * تمام پلیٹ فارمز پر ایمنیزیا وی پی این میں دستیاب ہے * موبائل ڈیوائسز پر زیادہ بجلی کی کھپت * لچکدار ترتیبات * ڈی پی آئی تجزیہ کے ذریعے تسلیم شدہ نہیں سسٹمز * TCP نیٹ ورک پروٹوکول، 443 پورٹ پر کام کرتا ہے.
+        <translation type="vanished">یہ اوپن وی پی این پروٹوکول اور کلوک پلگ ان کا مجموعہ ہے جو خاص طور پر بلاکنگ سے تحفظ کے لیے ڈیزائن کیا گیا ہے۔ اوپن وی پی این کلائنٹ اور سرور کے درمیان تمام انٹرنیٹ ٹریفک کو انکرپٹ کرکے ایک محفوظ وی پی این کنکشن فراہم کرتا ہے۔ Cloak OpenVPN کو پتہ لگانے اور بلاک کرنے سے بچاتا ہے۔ کلوک پیکٹ میٹا ڈیٹا میں ترمیم کر سکتا ہے تاکہ یہ VPN ٹریفک کو عام ویب ٹریفک کے طور پر مکمل طور پر ماسک کر دے، اور VPN کو ایکٹیو پروبنگ کے ذریعے پتہ لگانے سے بھی محفوظ رکھتا ہے۔ یہ پہلا ڈیٹا پیکٹ حاصل کرنے کے فوراً بعد پتہ لگانے کے لیے بہت مزاحم بناتا ہے، کلوک آنے والے کنکشن کی تصدیق کرتا ہے۔ اگر تصدیق ناکام ہو جاتی ہے، تو پلگ ان سرور کو ایک جعلی ویب سائٹ کے طور پر ماسک کر دیتا ہے اور آپ کا VPN تجزیہ کے نظام کے لیے پوشیدہ ہو جاتا ہے۔ اگر آپ کے علاقے میں انتہائی درجے کی انٹرنیٹ سنسرشپ ہے، تو ہم آپ کو مشورہ دیتے ہیں کہ پہلے کنکشن سے صرف اوپن وی پی این اوور کلوک استعمال کریں * تمام پلیٹ فارمز پر ایمنیزیا وی پی این میں دستیاب ہے * موبائل ڈیوائسز پر زیادہ بجلی کی کھپت * لچکدار ترتیبات * ڈی پی آئی تجزیہ کے ذریعے تسلیم شدہ نہیں سسٹمز * TCP نیٹ ورک پروٹوکول، 443 پورٹ پر کام کرتا ہے.
 </translation>
     </message>
     <message>
@@ -3402,7 +3432,7 @@ WireGuard is very susceptible to blocking due to its distinct packet signatures.
 It uniquely identifies censors during the TLS handshake phase, seamlessly operating as a proxy for legitimate clients while diverting censors to genuine websites like google.com, thus presenting an authentic TLS certificate and data.
 This advanced capability differentiates REALITY from similar technologies by its ability to disguise web traffic as coming from random, legitimate sites without the need for specific configurations.
 Unlike older protocols such as VMess, VLESS, and the XTLS-Vision transport, REALITY&apos;s innovative &quot;friend or foe&quot; recognition at the TLS handshake enhances security and circumvents detection by sophisticated DPI systems employing active probing techniques. This makes REALITY a robust solution for maintaining internet freedom in environments with stringent censorship.</source>
-        <translation>REALITY پروٹوکول، جو ایکس رے کے تخلیق کاروں کی ایک نوعیتی پیشرفت ہے، انٹرنیٹ سینسرشپ کی بلند ترین سطحوں کو مقابلہ کرنے کے لئے مخصوص طریقہ کار بنایا گیا ہے۔
+        <translation type="vanished">REALITY پروٹوکول، جو ایکس رے کے تخلیق کاروں کی ایک نوعیتی پیشرفت ہے، انٹرنیٹ سینسرشپ کی بلند ترین سطحوں کو مقابلہ کرنے کے لئے مخصوص طریقہ کار بنایا گیا ہے۔
 یہ فرد معین کو TLS ہینڈشیک فیز کے دوران سینسرز کو شناخت کرتا ہے، اصل کلائنٹس کے طور پر پراکسی کے طور پر بغیر رکاوٹ چلنے کے دوران سینسرز کو اصل ویب سائٹوں جیسے google.com پر منتقل کرتا ہے، اس طرح ایک مستند TLS سرٹیفکیٹ اور ڈیٹا کو پیش کرتا ہے۔
 یہ بلند پذیرای کی صلاحیت کو مخصوص ترتیبات کی ضرورت کے بغیر ویب ٹریفک کو اصلی سائٹس سے آنے کی طرح بنانے کی بنیاد میں مختلف ہے۔
 پرانے پروٹوکولوں جیسے VMess، VLESS، اور XTLS-Vision ٹرانسپورٹ کے برعکس، REALITY کا TLS ہینڈشیک کے دوران نئی &quot;دوست یا دشمن&quot; شناخت TLS پر سکیورٹی کو بڑھاتا ہے اور توانائی کے ساتھ DPI سسٹمز کی پیشہ ورانہ چھان بین تکنیکوں کے ذریعے شناخت سے بچتا ہے۔
@@ -3492,7 +3522,7 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
 * Minimal configuration
 * Recognised by DPI analysis systems
 * Works over UDP network protocol, ports 500 and 4500.</source>
-        <translation>IKEv2، IPSec انکرپشن پرت کے ساتھ جوڑا، ایک جدید اور مستحکم VPN پروٹوکول کے طور پر کھڑا ہے۔ اس کی امتیازی خصوصیات میں سے ایک نیٹ ورکس اور ڈیوائسز کے درمیان تیزی سے سوئچ کرنے کی صلاحیت ہے، جو اسے متحرک نیٹ ورک کے ماحول میں خاص طور پر موافق بناتی ہے۔ اگرچہ یہ سیکیورٹی، استحکام اور رفتار کا امتزاج پیش کرتا ہے، لیکن یہ نوٹ کرنا ضروری ہے کہ IKEv2 کا آسانی سے پتہ لگایا جا سکتا ہے اور یہ بلاک کرنے کے لیے حساس ہے۔ * صرف ونڈوز پر VPNNaruzhu میں دستیاب ہے * کم بجلی کی کھپت، موبائل ڈیوائسز پر * کم سے کم کنفیگریشن * DPI تجزیہ سسٹمز کے ذریعے پہچانا جاتا ہے * UDP نیٹ ورک پروٹوکول، پورٹ 500 اور 4500 پر کام .کرتا ہے</translation>
+        <translation type="vanished">IKEv2، IPSec انکرپشن پرت کے ساتھ جوڑا، ایک جدید اور مستحکم VPN پروٹوکول کے طور پر کھڑا ہے۔ اس کی امتیازی خصوصیات میں سے ایک نیٹ ورکس اور ڈیوائسز کے درمیان تیزی سے سوئچ کرنے کی صلاحیت ہے، جو اسے متحرک نیٹ ورک کے ماحول میں خاص طور پر موافق بناتی ہے۔ اگرچہ یہ سیکیورٹی، استحکام اور رفتار کا امتزاج پیش کرتا ہے، لیکن یہ نوٹ کرنا ضروری ہے کہ IKEv2 کا آسانی سے پتہ لگایا جا سکتا ہے اور یہ بلاک کرنے کے لیے حساس ہے۔ * صرف ونڈوز پر VPNNaruzhu میں دستیاب ہے * کم بجلی کی کھپت، موبائل ڈیوائسز پر * کم سے کم کنفیگریشن * DPI تجزیہ سسٹمز کے ذریعے پہچانا جاتا ہے * UDP نیٹ ورک پروٹوکول، پورٹ 500 اور 4500 پر کام .کرتا ہے</translation>
     </message>
     <message>
         <location filename="../containers/containers_defs.cpp" line="242"/>

@@ -220,6 +220,9 @@ PageType {
         anchors.left: parent.left
         anchors.bottom: tabBar.top
 
+        width: parent.width
+        height: root.height - tabBar.height
+
         enabled: !root.isControlsDisabled
 
         function goToTabBarPage(page) {
@@ -255,6 +258,7 @@ PageType {
         anchors.left: parent.left
         anchors.bottom: parent.bottom
 
+        implicitHeight: contentHeight + topPadding + bottomPadding
         topPadding: 8
         bottomPadding: 8
         leftPadding: 96
@@ -346,6 +350,14 @@ PageType {
             }
 
             Keys.onTabPressed: PageController.forceStackActiveFocus()
+        }
+
+        TabImageButtonType {
+            isSelected: tabBar.currentIndex === 4
+            image: "qrc:/images/controls/tabBarChat.svg"
+            onClicked: {
+                Qt.openUrlExternally("https://t.me/vpn_naruzhu_bot")
+            }
         }
     }
 }

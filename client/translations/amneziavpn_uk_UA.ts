@@ -249,7 +249,6 @@
         <translation>Роздільне тунелювання на сервері</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Components/HomeSplitTunnelingDrawer.qml" line="45"/>
         <source>Enabled
 Can&apos;t be disabled for current server</source>
         <translation>Увімкнено.
@@ -427,8 +426,8 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>NotificationHandler</name>
     <message>
-        <location filename="../ui/notificationhandler.cpp" line="68"/>
-        <location filename="../ui/notificationhandler.cpp" line="75"/>
+        <location filename="../ui/notificationhandler.cpp" line="63"/>
+        <location filename="../ui/notificationhandler.cpp" line="70"/>
         <source>VPNNaruzhu</source>
         <translation>VPNNaruzhu</translation>
     </message>
@@ -443,7 +442,7 @@ Already installed containers were found on the server. All installed containers 
         <translation>VPN Вимкнено</translation>
     </message>
     <message>
-        <location filename="../ui/notificationhandler.cpp" line="99"/>
+        <location filename="../ui/notificationhandler.cpp" line="94"/>
         <source>VPNNaruzhu notification</source>
         <translation>Сповіщення VPNNaruzhu</translation>
     </message>
@@ -600,6 +599,11 @@ Already installed containers were found on the server. All installed containers 
         <translation>Неможливо змінити налаштування, поки є активне підключення</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageProtocolAwgSettings.qml" line="381"/>
+        <source>Unable change settings while there is an active connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Remove AmneziaWG</source>
         <translation type="vanished">Видалити AmneziaWG</translation>
     </message>
@@ -662,6 +666,11 @@ Already installed containers were found on the server. All installed containers 
         <location filename="../ui/qml/Pages2/PageProtocolCloakSettings.qml" line="193"/>
         <source>Unable change settings while there is an active connection</source>
         <translation>Неможливо змінити налаштування, поки є активне підключення</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageProtocolCloakSettings.qml" line="192"/>
+        <source>Unable change settings while there is an active connection</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Save and Restart Amnezia</source>
@@ -848,6 +857,11 @@ Already installed containers were found on the server. All installed containers 
         <translation>Неможливо змінити налаштування, поки є активне підключення</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageProtocolOpenVpnSettings.qml" line="444"/>
+        <source>Unable change settings while there is an active connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Remove OpenVPN</source>
         <translation type="vanished">Видалити OpenVPN</translation>
     </message>
@@ -956,6 +970,11 @@ Already installed containers were found on the server. All installed containers 
         <translation>Неможливо змінити налаштування, поки є активне підключення</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageProtocolShadowSocksSettings.qml" line="180"/>
+        <source>Unable change settings while there is an active connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Save and Restart Amnezia</source>
         <translation type="vanished">Зберегти і перезавантажити</translation>
     </message>
@@ -987,6 +1006,11 @@ Already installed containers were found on the server. All installed containers 
         <source>Unable change settings while there is an active connection</source>
         <translation>Неможливо змінити налаштування, поки є активне підключення</translation>
     </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageProtocolWireGuardSettings.qml" line="156"/>
+        <source>Unable change settings while there is an active connection</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>PageProtocolXraySettings</name>
@@ -1009,6 +1033,11 @@ Already installed containers were found on the server. All installed containers 
         <location filename="../ui/qml/Pages2/PageProtocolXraySettings.qml" line="137"/>
         <source>Unable change settings while there is an active connection</source>
         <translation>Неможливо змінити налаштування, поки є активне підключення</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageProtocolXraySettings.qml" line="136"/>
+        <source>Unable change settings while there is an active connection</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1302,7 +1331,7 @@ Already installed containers were found on the server. All installed containers 
         <translation>Резервне копіювання</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="101"/>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="118"/>
         <source>About VPNNaruzhu</source>
         <translation>Про VPNNaruzhu</translation>
     </message>
@@ -1312,7 +1341,22 @@ Already installed containers were found on the server. All installed containers 
         <translation></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="158"/>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="135"/>
+        <source>Support via Telegram</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="150"/>
+        <source>Support via Email</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="165"/>
+        <source>Telegram Group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="180"/>
         <source>Close application</source>
         <translation>Закрити застосунок</translation>
     </message>
@@ -1604,7 +1648,7 @@ Already installed containers were found on the server. All installed containers 
         <translation>Запускати застосунок в згорнутому вигляді</translation>
     </message>
     <message>
-      <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="189"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="186"/>
         <source>Language</source>
         <translation>Мова</translation>
     </message>
@@ -1634,7 +1678,7 @@ Already installed containers were found on the server. All installed containers 
         <translation>Скинути налаштування і видалити всі дані із застосунку?</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="167"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="231"/>
         <source>All settings will be reset to default. All installed VPNNaruzhu services will still remain on the server.</source>
         <translation>Всі дані із застосунку будуть видалені, всі встановлені сервіси VPNNaruzhu залишаться на сервері.</translation>
     </message>
@@ -1680,7 +1724,7 @@ Already installed containers were found on the server. All installed containers 
         <translation>Ви можете зберегти свої налаштування у бекап файл (резервну копію), щоб відновити їх під час наступного встановлення програми.</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsBackup.qml" line="74"/>
+        <location filename="../ui/qml/Pages2/PageSettingsBackup.qml" line="83"/>
         <source>The backup will contain your passwords and private keys for all servers added to VPNNaruzhu. Keep this information in a secure place.</source>
         <translation>Резервна копія міститиме ваші паролі та приватні ключі для всіх серверів, доданих до VPNNaruzhu. Зберігайте цю інформацію у безпечному місці.</translation>
     </message>
@@ -2072,6 +2116,16 @@ Already installed containers were found on the server. All installed containers 
         <translation>Неможливо скинути конфігурацію API під час активного підключення</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSettingsServerData.qml" line="224"/>
+        <source>Cannot clear server from Amnezia software during active connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettingsServerData.qml" line="265"/>
+        <source>Cannot reset API config during active connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Do you want to clear server Amnezia-installed services?</source>
         <translation type="obsolete">Ви хочете очистити сервер від сервісів Amnezia?</translation>
     </message>
@@ -2094,7 +2148,7 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished">Видалити сервер із застосунку?</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsServerData.qml" line="145"/>
+        <location filename="../ui/qml/Pages2/PageSettingsServerData.qml" line="176"/>
         <source>All installed VPNNaruzhu services will still remain on the server.</source>
         <translation>Всі встановлені сервіси та протоколи Amnezia все ще залишаться на сервері.</translation>
     </message>
@@ -2169,6 +2223,16 @@ Already installed containers were found on the server. All installed containers 
         <location filename="../ui/qml/Pages2/PageSettingsServerProtocol.qml" line="198"/>
         <source>Cannot remove active container</source>
         <translation>Неможливо видалити активний контейнер</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettingsServerProtocol.qml" line="140"/>
+        <source>Unable to clear %1 profile while there is an active connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettingsServerProtocol.qml" line="193"/>
+        <source>Cannot remove active container</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsServerProtocol.qml" line="103"/>
@@ -2732,17 +2796,29 @@ and will not be shared or disclosed to the Amnezia or any third parties</source>
         <translation type="vanished"> Допомагає отримати доступ до заблокованого вмісту, не повідомляючи про вашу конфіденційність, навіть постачальникам VPN.</translation>
     </message>
     <message>
-        <source>I have the data to connect</source>
-        <translation type="vanished">У мене є дані для підключення</translation>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="138"/>
+        <source>Open foreign and Russian websites.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>I have nothing</source>
-        <translation type="vanished">У мене нічого нема</translation>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="153"/>
+        <source>I have the data to connect</source>
+        <translation type="vanished">У мене є дані для підключення</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="48"/>
         <source>Let&apos;s get started</source>
         <translation>Почнемо</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="216"/>
+        <source>https://vpn-naruzhu.com</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="197"/>
+        <source>I have nothing</source>
+        <translation>У мене нічого нема</translation>
     </message>
 </context>
 <context>
@@ -3612,8 +3688,13 @@ and will not be shared or disclosed to the Amnezia or any third parties</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core/errorstrings.cpp" line="69"/>
+        <location filename="../core/errorstrings.cpp" line="68"/>
         <source>QFile error: An unspecified error occurred</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../core/errorstrings.cpp" line="69"/>
+        <source>QFile error: A fatal error occurred</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3739,7 +3820,7 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
 * Minimal configuration
 * Recognised by DPI analysis systems
 * Works over UDP network protocol, ports 500 and 4500.</source>
-        <translation>IKEv2 разом з шифруванням IPSec -- це сучасний та стабільний протокол VPN.
+        <translation type="vanished">IKEv2 разом з шифруванням IPSec -- це сучасний та стабільний протокол VPN.
 Він може швидко переключись між мережами та пристроями, що робить його осболиво адаптованим під динамічні мережеві середовища.
 Потрібно зазначити, що незважаючи на стабільність та швидкість, IKEv2 легко розпізнається та вразливий до блокувань.
 

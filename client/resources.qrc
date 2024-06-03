@@ -218,6 +218,20 @@
         <file>ui/qml/Pages2/PageSettingsApiLanguageList.qml</file>
         <file>images/controls/archive-restore.svg</file>
         <file>images/controls/help-circle.svg</file>
+        <file>images/tabbarChat.png</file>
+        <file>images/new_logo_vpn.png</file>
+        <file>images/square-logo-chat-icon.png</file>
+        <file>images/logo_vpn_naryzhy.png</file>
+        <file>images/naruzhu_logo.png</file>
+        <file>images/naruzhu-logo-circle-svg-30px.png</file>
+        <file>images/naruzhu-logo-square-svg-24px.svg</file>
+        <file>images/controls/naruzhu-logo-circle-svg-30px.svg</file>
+        <file>images/controls/email.svg</file>
+        <file>images/controls/tabBarChat.svg</file>
+        <file>images/controls/chat.svg</file>
+        <file>images/controls/external-link.svg</file>
+        <file>images/controls/telegramNaruzhu.svg</file>
+        <file>images/controls/chat.svg</file>
     </qresource>
     <qresource prefix="/countriesFlags">
         <file>images/flagKit/ZW.svg</file>
