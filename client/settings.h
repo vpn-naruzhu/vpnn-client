@@ -174,7 +174,7 @@ public:
 
     QLocale getAppLanguage()
     {
-        return value("Conf/appLanguage", QLocale()).toLocale();
+        return value("Conf/appLanguage", QLocale::Russian).toLocale();
     };
     void setAppLanguage(QLocale locale)
     {
