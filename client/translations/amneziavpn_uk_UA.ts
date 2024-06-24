@@ -2453,6 +2453,7 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">Не використовуйте код підключення з загальнодоступних джерел. Можливо, його було створено для перехоплення ваших даних.</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="68"/>
         <source>What do you have?</source>
         <translation type="vanished">Виберіть що у вас є</translation>
     </message>
@@ -2546,6 +2547,17 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation>У мене нічого нема</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="76"/>
+        <source>Key as file</source>
+        <translation>Ключ як файл</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="84"/>
+        <source>Open key file</source>
+        <translation>Відкрити файл із ключем</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="122"/>
         <source>Key as text</source>
         <translation type="vanished">Ключ у вигляді тексту</translation>
     </message>
@@ -3820,7 +3832,7 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
 * Minimal configuration
 * Recognised by DPI analysis systems
 * Works over UDP network protocol, ports 500 and 4500.</source>
-        <translation type="vanished">IKEv2 разом з шифруванням IPSec -- це сучасний та стабільний протокол VPN.
+        <translation type="obsolete">IKEv2 разом з шифруванням IPSec -- це сучасний та стабільний протокол VPN.
 Він може швидко переключись між мережами та пристроями, що робить його осболиво адаптованим під динамічні мережеві середовища.
 Потрібно зазначити, що незважаючи на стабільність та швидкість, IKEv2 легко розпізнається та вразливий до блокувань.
 

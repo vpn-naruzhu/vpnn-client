@@ -106,7 +106,7 @@ PageType {
                 disabledColor: AmneziaStyle.color.mutedGray
                 textColor: AmneziaStyle.color.goldenApricot
 
-                text: showContent ? qsTr("Collapse content") : qsTr("Show content")
+                text: showContent ? qsTr("Collapse content") : qsTr("View debugging information")
                 KeyNavigation.tab: connectButton
 
                 clickedFunc: function() {
@@ -135,15 +135,6 @@ PageType {
 
                 textColor: AmneziaStyle.color.vibrantRed
                 imageColor: AmneziaStyle.color.vibrantRed
-            }
-
-            WarningType {
-                Layout.topMargin: 16
-                Layout.fillWidth: true
-
-                textString: qsTr("Use connection codes only from sources you trust. Codes from public sources may have been created to intercept your data.")
-
-                iconPath: "qrc:/images/controls/alert-circle.svg"
             }
 
             Rectangle {

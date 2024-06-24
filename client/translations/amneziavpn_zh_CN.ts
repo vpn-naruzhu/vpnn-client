@@ -2468,6 +2468,17 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="unfinished">我没有</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="76"/>
+        <source>Key as file</source>
+        <translation>包含连接配置的文件</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="84"/>
+        <source>Open key file</source>
+        <translation>打开配置文件</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="122"/>
         <source>Key as text</source>
         <translation type="vanished">授权码文本</translation>
     </message>

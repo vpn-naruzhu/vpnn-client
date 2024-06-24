@@ -2364,6 +2364,17 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation>من هیچی ندارم</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="76"/>
+        <source>Key as file</source>
+        <translation>فایل شامل تنظیمات اتصال</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="84"/>
+        <source>Open key file</source>
+        <translation>باز کردن فایل تنظیمات</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="122"/>
         <source>Key as text</source>
         <translation type="vanished">متن شامل کلید</translation>
     </message>

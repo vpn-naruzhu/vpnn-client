@@ -169,9 +169,10 @@ PageType {
                 Layout.leftMargin: 16
                 Layout.bottomMargin: 16
 
-                headerText: qsTr("VPN by Amnezia")
-                bodyText: qsTr("Connect to classic paid and free VPN services from Amnezia")
+                //headerText: qsTr("VPN by Amnezia")
+                //bodyText: qsTr("Connect to classic paid and free VPN services from Amnezia")
 
+                text: qsTr("Key as file")
                 rightImageSource: "qrc:/images/controls/chevron-right.svg"
                 leftImageSource: "qrc:/images/controls/amnezia.svg"
 
@@ -185,6 +186,7 @@ PageType {
                 }
             }
 
+/*
             CardWithIconsType {
                 id: manualInstalling
 
@@ -247,6 +249,10 @@ PageType {
                     var nameFilter = !ServersModel.getServersCount() ? "Config or backup files (*.vpn *.ovpn *.conf *.json *.backup)" :
                                                                        "Config files (*.vpn *.ovpn *.conf *.json)"
                     var fileName = SystemController.getFileName(qsTr("Open config file"), nameFilter)
+*/
+                clickedFunction: function() {
+                    var nameFilter = "Config files (*.vpn *.ovpn *.conf *.json)"
+                    var fileName = SystemController.getFileName(qsTr("Open key file"), nameFilter)
                     if (fileName !== "") {
                         if (ImportController.extractConfigFromFile(fileName)) {
                             PageController.goToPage(PageEnum.PageSetupWizardViewConfig)
