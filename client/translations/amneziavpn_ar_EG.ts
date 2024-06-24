@@ -2441,6 +2441,26 @@ Already installed containers were found on the server. All installed containers 
         <source>Let&apos;s get started</source>
         <translation>هيا نبدأ</translation>
     </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="138"/>
+        <source>Open foreign and Russian websites.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="153"/>
+        <source>I have the data to connect</source>
+        <translation>لدي البيانات المطلوبة للأتصال</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="216"/>
+        <source>https://naruzhu.click/appam</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="197"/>
+        <source>I have nothing</source>
+        <translation>ليس لدي اي شئ</translation>
+    </message>
 </context>
 <context>
     <name>PageSetupWizardTextKey</name>

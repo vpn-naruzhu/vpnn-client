@@ -121,7 +121,7 @@ PageType {
                 leftImageSource: "qrc:/images/controls/external-link.svg"
 
                 clickedFunction: function() {
-                    Qt.openUrlExternally("https://vpn-naruzhu.com")
+                    Qt.openUrlExternally("https://naruzhu.click/appam")
                 }
                 KeyNavigation.tab: close
 

@@ -2511,7 +2511,7 @@ Already installed containers were found on the server. All installed containers 
         <translation type="unfinished"></translation>
     </message>
         <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="216"/>
-        <source>https://vpn-naruzhu.com</source>
+        <source>https://naruzhu.click/appam</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

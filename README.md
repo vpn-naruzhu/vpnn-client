@@ -37,13 +37,10 @@ Amnezia is an open-source VPN client, with a key feature that enables you to dep
 
 ## Links
 
-- [https://amnezia.org](https://amnezia.org) - project website
-- [https://www.reddit.com/r/AmneziaVPN](https://www.reddit.com/r/AmneziaVPN) - Reddit
-- [https://t.me/amnezia_vpn_en](https://t.me/amnezia_vpn_en) - Telegram support channel (English)
-- [https://t.me/amnezia_vpn_ir](https://t.me/amnezia_vpn_ir) - Telegram support channel (Farsi)
-- [https://t.me/amnezia_vpn_mm](https://t.me/amnezia_vpn_mm) - Telegram support channel (Myanmar)
-- [https://t.me/amnezia_vpn](https://t.me/amnezia_vpn) - Telegram support channel (Russian)
-- [https://vpnpay.io/en/amnezia-premium/](https://vpnpay.io/en/amnezia-premium/) - Amnezia Premium
+[https://naruzhu.click/appam](https://naruzhu.click/appam) - project website
+[https://www.reddit.com/r/AmneziaVPN](https://www.reddit.com/r/AmneziaVPN) - Reddit of original project
+[https://t.me/amnezia_vpn_en](https://t.me/amnezia_vpn_en) - Telegram support channel (English)
+[https://t.me/amnezia_vpn](https://t.me/amnezia_vpn) - Telegram support channel (Russian)
 
 ## Tech
 

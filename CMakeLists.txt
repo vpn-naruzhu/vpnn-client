@@ -4,7 +4,7 @@ set(PROJECT VPNNaruzhu)
 
 project(${PROJECT} VERSION 1.0.0
         DESCRIPTION "VPNNaruzhu"
-        HOMEPAGE_URL "https://vpn-naruzhu.site/"
+        HOMEPAGE_URL "https://naruzhu.click/appam"
 )
 
 string(TIMESTAMP CURRENT_DATE "%Y-%m-%d")
