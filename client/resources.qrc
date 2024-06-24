@@ -64,7 +64,6 @@
         <file>ui/qml/main2.qml</file>
         <file>images/amneziaBigLogo.png</file>
         <file>ui/qml/Controls2/FlickableType.qml</file>
-        <file>ui/qml/Pages2/PageSetupWizardCredentials.qml</file>
         <file>ui/qml/Controls2/HeaderType.qml</file>
         <file>images/controls/arrow-left.svg</file>
         <file>ui/qml/Pages2/PageSetupWizardProtocols.qml</file>

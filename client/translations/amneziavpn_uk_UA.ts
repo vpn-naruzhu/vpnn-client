@@ -174,12 +174,7 @@
         <translation>Додати нове з&apos;єднання</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Components/ConnectionTypeSelectionDrawer.qml" line="57"/>
-        <source>Configure your server</source>
-        <translation>Налаштувати свій сервер</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Components/ConnectionTypeSelectionDrawer.qml" line="74"/>
+        <location filename="../ui/qml/Components/ConnectionTypeSelectionDrawer.qml" line="58"/>
         <source>Open config file, key or QR code</source>
         <translation>Відкрити файл конфігурації, ключ або QR код</translation>
     </message>
@@ -2569,9 +2564,9 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">Підключення до сервера</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="61"/>
+
         <source>Server IP address [:port]</source>
-        <translation>Server IP address [:port]</translation>
+        <translation type="vanished">Server IP address [:port]</translation>
     </message>
     <message>
         <source>255.255.255.255:88</source>
@@ -2582,9 +2577,9 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">Password / SSH private key</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="116"/>
+
         <source>Continue</source>
-        <translation>Продовжити</translation>
+        <translation type="vanished">Продовжити</translation>
     </message>
     <message>
         <source>All data you enter will remain strictly confidential
@@ -2593,63 +2588,31 @@ and will not be shared or disclosed to the Amnezia or any third parties</source>
 і не будуть передані чи розголошені Amnezia або будь-яким третім особам</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="173"/>
+
         <source>Enter the address in the format 255.255.255.255:88</source>
-        <translation>Введіть адресу в форматі 255.255.255.255:88</translation>
+        <translation type="vanished">Введіть адресу в форматі 255.255.255.255:88</translation>
     </message>
     <message>
         <source>Login to connect via SSH</source>
         <translation type="vanished">Login to connect via SSH</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="54"/>
-        <source>Configure your server</source>
-        <translation>Налаштувати свій сервер</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="62"/>
-        <source>255.255.255.255:22</source>
-        <translation>255.255.255.255:22</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="78"/>
-        <source>SSH Username</source>
-        <translation>SSH Username</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="94"/>
-        <source>Password or SSH private key</source>
-        <translation>Пароль або SSH ключ</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="144"/>
         <source>All data you enter will remain strictly confidential and will not be shared or disclosed to the Amnezia or any third parties</source>
-        <translation>Усі дані, які ви вводите, залишатимуться суворо конфіденційними та не будуть передані чи розголошені Amnezia або будь-яким третім особам</translation>
+        <translation type="obsolete">Усі дані, які ви вводите, залишатимуться суворо конфіденційними та не будуть передані чи розголошені Amnezia або будь-яким третім особам</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="153"/>
-        <source>How to run your VPN server</source>
-        <translation>Як запустити ваш VPN-сервер</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="154"/>
-        <source>Where to get connection data, step-by-step instructions for buying a VPS</source>
-        <translation>Де отримати дані для підключення: покрокові інструкції з придбання VPS</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="170"/>
         <source>Ip address cannot be empty</source>
-        <translation>Поле IP address не може бути пустим</translation>
+        <translation type="vanished">Поле IP address не може бути пустим</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="177"/>
+
         <source>Login cannot be empty</source>
-        <translation>Поле Login не може бути пустим</translation>
+        <translation type="vanished">Поле Login не може бути пустим</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="181"/>
+
         <source>Password/private key cannot be empty</source>
-        <translation>Поле Password/Private key не може бути пустим</translation>
+        <translation type="vanished">Поле Password/Private key не може бути пустим</translation>
     </message>
 </context>
 <context>

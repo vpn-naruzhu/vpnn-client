@@ -151,12 +151,7 @@
         <translation>नया कनेक्शन जोड़ें</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Components/ConnectionTypeSelectionDrawer.qml" line="57"/>
-        <source>Configure your server</source>
-        <translation>अपना सर्वर कॉन्फ़िगर करें</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Components/ConnectionTypeSelectionDrawer.qml" line="74"/>
+        <location filename="../ui/qml/Components/ConnectionTypeSelectionDrawer.qml" line="58"/>
         <source>Open config file, key or QR code</source>
         <translation>कॉन्फ़िग फ़ाइल, कुंजी या QR कोड खोलें</translation>
     </message>
@@ -2304,69 +2299,44 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>PageSetupWizardCredentials</name>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="54"/>
-        <source>Configure your server</source>
-        <translation>अपना सर्वर कॉन्फ़िगर करें</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="61"/>
         <source>Server IP address [:port]</source>
-        <translation>सर्वर आईपी पता [:पोर्ट]</translation>
+        <translation type="vanished">सर्वर आईपी पता [:पोर्ट]</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="116"/>
         <source>Continue</source>
-        <translation>जारी रखना</translation>
+        <translation type="vanished">जारी रखना</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="144"/>
         <source>All data you enter will remain strictly confidential and will not be shared or disclosed to the Amnezia or any third parties</source>
-        <translation>आपके द्वारा दर्ज किया गया सभी डेटा पूरी तरह से गोपनीय रहेगा और एमनेज़िया या किसी तीसरे पक्ष को साझा या प्रकट नहीं किया जाएगा</translation>
+        <translation type="vanished">आपके द्वारा दर्ज किया गया सभी डेटा पूरी तरह से गोपनीय रहेगा और एमनेज़िया या किसी तीसरे पक्ष को साझा या प्रकट नहीं किया जाएगा</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="62"/>
         <source>255.255.255.255:22</source>
-        <translation>255.255.255.255:22</translation>
+        <translation type="vanished">255.255.255.255:22</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="78"/>
         <source>SSH Username</source>
-        <translation>SSH उपयोगकर्ता नाम</translation>
+        <translation type="vanished">SSH उपयोगकर्ता नाम</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="94"/>
         <source>Password or SSH private key</source>
-        <translation>पासवर्ड या SSH निजी कुंजी</translation>
+        <translation type="vanished">पासवर्ड या SSH निजी कुंजी</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="153"/>
-        <source>How to run your VPN server</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="154"/>
-        <source>Where to get connection data, step-by-step instructions for buying a VPS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="170"/>
         <source>Ip address cannot be empty</source>
-        <translation>आईपी ​​पता खाली नहीं हो सकता</translation>
+        <translation type="vanished">आईपी ​​पता खाली नहीं हो सकता</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="173"/>
         <source>Enter the address in the format 255.255.255.255:88</source>
-        <translation>पता 255.255.255.255:88 प्रारूप में दर्ज करें</translation>
+        <translation type="vanished">पता 255.255.255.255:88 प्रारूप में दर्ज करें</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="177"/>
         <source>Login cannot be empty</source>
-        <translation>लॉगिन खाली नहीं हो सकता</translation>
+        <translation type="vanished">लॉगिन खाली नहीं हो सकता</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="181"/>
         <source>Password/private key cannot be empty</source>
-        <translation>पासवर्ड/निजी कुंजी खाली नहीं हो सकती</translation>
+        <translation type="vanished">पासवर्ड/निजी कुंजी खाली नहीं हो सकती</translation>
     </message>
 </context>
 <context>

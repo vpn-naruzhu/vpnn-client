@@ -151,12 +151,7 @@
         <translation>Добавить новое соединение</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Components/ConnectionTypeSelectionDrawer.qml" line="57"/>
-        <source>Configure your server</source>
-        <translation>Настроить свой сервер</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Components/ConnectionTypeSelectionDrawer.qml" line="74"/>
+        <location filename="../ui/qml/Components/ConnectionTypeSelectionDrawer.qml" line="58"/>
         <source>Open config file, key or QR code</source>
         <translation>Открыть файл конфигурации, ключ или QR-код</translation>
     </message>
@@ -2465,9 +2460,8 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">Подключение к серверу</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="61"/>
         <source>Server IP address [:port]</source>
-        <translation>IP-адрес[:порт] сервера</translation>
+        <translation type="vanished">Server IP address [:port]</translation>
     </message>
     <message>
         <source>255.255.255.255:88</source>
@@ -2478,9 +2472,9 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">Password / SSH private key</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="116"/>
+
         <source>Continue</source>
-        <translation>Продолжить</translation>
+        <translation type="vanished">Продолжить</translation>
     </message>
     <message>
         <source>All data you enter will remain strictly confidential
@@ -2488,63 +2482,37 @@ and will not be shared or disclosed to the Amnezia or any third parties</source>
         <translation type="vanished">Все данные, которые вы вводите, останутся строго конфиденциальными и не будут переданы или раскрыты Amnezia или каким-либо третьим лицам</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="173"/>
+
         <source>Enter the address in the format 255.255.255.255:88</source>
-        <translation>Введите адрес в формате 255.255.255.255:88</translation>
+        <translation type="vanished">Введите адрес в формате 255.255.255.255:88</translation>
     </message>
     <message>
         <source>Login to connect via SSH</source>
         <translation type="vanished">Login to connect via SSH</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="54"/>
-        <source>Configure your server</source>
-        <translation>Настроить ваш сервер</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="62"/>
-        <source>255.255.255.255:22</source>
-        <translation>255.255.255.255:22</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="78"/>
         <source>SSH Username</source>
-        <translation>Имя пользователя SSH</translation>
+        <translation type="vanished">SSH Имя пользователя</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="94"/>
         <source>Password or SSH private key</source>
-        <translation>Пароль или закрытый ключ SSH</translation>
+        <translation type="vanished">Пароль или закрытый ключ SSH</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="144"/>
         <source>All data you enter will remain strictly confidential and will not be shared or disclosed to the Amnezia or any third parties</source>
-        <translation>Все данные, которые вы вводите, останутся строго конфиденциальными и не будут переданы или раскрыты Amnezia или каким-либо третьим лицам</translation>
+        <translation type="vanished">Все данные, которые вы вводите, останутся строго конфиденциальными и не будут переданы или раскрыты Amnezia или каким-либо третьим лицам</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="153"/>
-        <source>How to run your VPN server</source>
-        <translation>Как создать VPN на собственном сервере</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="154"/>
-        <source>Where to get connection data, step-by-step instructions for buying a VPS</source>
-        <translation>Где взять данные для подключения, пошаговые инстуркции по покупке VPS</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="170"/>
         <source>Ip address cannot be empty</source>
-        <translation>Поле с IP-адресом не может быть пустым</translation>
+        <translation type="vanished">Поле IP address не может быть пустым</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="177"/>
         <source>Login cannot be empty</source>
-        <translation>Поле с логином не может быть пустым</translation>
+        <translation type="vanished">Поле Login не может быть пустым</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="181"/>
         <source>Password/private key cannot be empty</source>
-        <translation>Поле с паролем/закрытым ключом не может быть пустым</translation>
+        <translation type="vanished">Поле Password/Private key не может быть пустым</translation>
     </message>
 </context>
 <context>
