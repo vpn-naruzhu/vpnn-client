@@ -3861,7 +3861,7 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
 <context>
     <name>VpnConnection</name>
     <message>
-        <location filename="../vpnconnection.cpp" line="375"/>
+        <location filename="../vpnconnection.cpp" line="397"/>
         <source>Mbps</source>
         <translation>ایم بی پی ایس</translation>
     </message>
