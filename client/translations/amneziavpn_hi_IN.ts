@@ -1630,7 +1630,7 @@ Already installed containers were found on the server. All installed containers 
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="81"/>
         <source>When AmneziaDNS is not used or installed</source>
-        <translation>जब AmneziaDNS का उपयोग या स्थापित नहीं किया जाता है</translation>
+        <translation type="vanished">जब AmneziaDNS का उपयोग या स्थापित नहीं किया जाता है</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="127"/>
@@ -1640,12 +1640,12 @@ Already installed containers were found on the server. All installed containers 
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="61"/>
         <source>Use AmneziaDNS</source>
-        <translation>Amneziaडीएनएस का प्रयोग करें</translation>
+        <translation type="vanished">Amneziaडीएनएस का प्रयोग करें</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="62"/>
         <source>If AmneziaDNS is installed on the server</source>
-        <translation>यदि AmneziaDNS सर्वर पर स्थापित है</translation>
+        <translation type="vanished">यदि AmneziaDNS सर्वर पर स्थापित है</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="80"/>
@@ -1698,7 +1698,7 @@ Already installed containers were found on the server. All installed containers 
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsDns.qml" line="70"/>
         <source>If AmneziaDNS is not used or installed</source>
-        <translation>यदि AmneziaDNS का उपयोग या स्थापित नहीं किया गया है</translation>
+        <translation type="vanished">यदि AmneziaDNS का उपयोग या स्थापित नहीं किया गया है</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsDns.qml" line="77"/>
@@ -3774,12 +3774,12 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
 <context>
     <name>SettingsController</name>
     <message>
-        <location filename="../ui/controllers/settingsController.cpp" line="138"/>
+        <location filename="../ui/controllers/settingsController.cpp" line="140"/>
         <source>Backup file is corrupted</source>
         <translation>बैकअप फ़ाइल दूषित है</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/settingsController.cpp" line="160"/>
+        <location filename="../ui/controllers/settingsController.cpp" line="162"/>
         <source>All settings have been reset to default values</source>
         <translation>सभी सेटिंग्स को डिफ़ॉल्ट मानों पर रीसेट कर दिया गया है</translation>
     </message>

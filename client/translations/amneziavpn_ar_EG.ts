@@ -1607,7 +1607,7 @@ Already installed containers were found on the server. All installed containers 
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="81"/>
         <source>When AmneziaDNS is not used or installed</source>
-        <translation>عندما يكون AmneziaDNS غير مٌثبت او غير مستخدم</translation>
+        <translation type="vanished">عندما يكون AmneziaDNS غير مٌثبت او غير مستخدم</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="127"/>
@@ -1616,12 +1616,12 @@ Already installed containers were found on the server. All installed containers 
     </message>
     <message>
         <source>Use AmneziaDNS</source>
-        <translation>استخدم AmneziaDNS</translation>
+        <translation type="vanished">استخدم AmneziaDNS</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="62"/>
         <source>If AmneziaDNS is installed on the server</source>
-        <translation>في حالة كان AmneziaDNS مٌثبت علي الخادم</translation>
+        <translation type="vanished">في حالة كان AmneziaDNS مٌثبت علي الخادم</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="80"/>
@@ -1674,7 +1674,7 @@ Already installed containers were found on the server. All installed containers 
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsDns.qml" line="70"/>
         <source>If AmneziaDNS is not used or installed</source>
-        <translation>VPNNaruzhu ليس مٌستخدم او مٌثبت</translation>
+        <translation type="vanished">VPNNaruzhu ليس مٌستخدم او مٌثبت</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsDns.qml" line="77"/>
@@ -3721,12 +3721,12 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
 <context>
     <name>SettingsController</name>
     <message>
-        <location filename="../ui/controllers/settingsController.cpp" line="138"/>
+        <location filename="../ui/controllers/settingsController.cpp" line="140"/>
         <source>Backup file is corrupted</source>
         <translation>ملف النسخه الاحتياطيه تالف</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/settingsController.cpp" line="160"/>
+        <location filename="../ui/controllers/settingsController.cpp" line="162"/>
         <source>All settings have been reset to default values</source>
         <translation>تم استرجاع جميع الإعدادات للإعدادات الافتراضية</translation>
     </message>

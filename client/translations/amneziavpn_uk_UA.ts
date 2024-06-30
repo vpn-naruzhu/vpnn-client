@@ -1818,7 +1818,7 @@ Already installed containers were found on the server. All installed containers 
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="62"/>
         <source>If AmneziaDNS is installed on the server</source>
-        <translation>Якщо він встановлений на сервері</translation>
+        <translation type="vanished">Якщо він встановлений на сервері</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="80"/>
@@ -4240,7 +4240,7 @@ This means that AmneziaWG keeps the fast performance of the original while addin
 <context>
     <name>SettingsController</name>
     <message>
-        <location filename="../ui/controllers/settingsController.cpp" line="160"/>
+        <location filename="../ui/controllers/settingsController.cpp" line="162"/>
         <source>All settings have been reset to default values</source>
         <translation>Всі налаштування були скинуті до значення &quot;По замовчуванню&quot;</translation>
     </message>
@@ -4249,7 +4249,7 @@ This means that AmneziaWG keeps the fast performance of the original while addin
         <translation type="vanished">Кеш профілю очищено</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/settingsController.cpp" line="138"/>
+        <location filename="../ui/controllers/settingsController.cpp" line="140"/>
         <source>Backup file is corrupted</source>
         <translation>Backup файл пошкодженно</translation>
     </message>

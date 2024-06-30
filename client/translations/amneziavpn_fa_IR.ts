@@ -1699,12 +1699,12 @@ Already installed containers were found on the server. All installed containers 
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="61"/>
         <source>Use AmneziaDNS</source>
-        <translation>استفاده از AmneziaDNS</translation>
+        <translation type="vanished">استفاده از AmneziaDNS</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="62"/>
         <source>If AmneziaDNS is installed on the server</source>
-        <translation>اگر AmneziaDNS بر روی سرور نصب شده باشد</translation>
+        <translation type="vanished">اگر AmneziaDNS بر روی سرور نصب شده باشد</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="80"/>
@@ -1714,7 +1714,7 @@ Already installed containers were found on the server. All installed containers 
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="81"/>
         <source>When AmneziaDNS is not used or installed</source>
-        <translation>وقتی AmneziaDNS استفاده نشده یا نصب نشده است</translation>
+        <translation type="vanished">وقتی AmneziaDNS استفاده نشده یا نصب نشده است</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="127"/>
@@ -1767,7 +1767,7 @@ Already installed containers were found on the server. All installed containers 
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsDns.qml" line="70"/>
         <source>If AmneziaDNS is not used or installed</source>
-        <translation>اگر AmneziaDNS نصب نباشد یا استفاده نشود</translation>
+        <translation type="vanished">اگر AmneziaDNS نصب نباشد یا استفاده نشود</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsDns.qml" line="77"/>
@@ -3918,7 +3918,7 @@ For more detailed information, you can
 <context>
     <name>SettingsController</name>
     <message>
-        <location filename="../ui/controllers/settingsController.cpp" line="160"/>
+        <location filename="../ui/controllers/settingsController.cpp" line="162"/>
         <source>All settings have been reset to default values</source>
         <translation>تمام تنظیمات به مقادیر پیش فرض ریست شد</translation>
     </message>
@@ -3927,7 +3927,7 @@ For more detailed information, you can
         <translation type="vanished">پروفایل ذخیره شده پاک شد</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/settingsController.cpp" line="138"/>
+        <location filename="../ui/controllers/settingsController.cpp" line="140"/>
         <source>Backup file is corrupted</source>
         <translation>فایل بک‎آپ خراب شده است</translation>
     </message>
