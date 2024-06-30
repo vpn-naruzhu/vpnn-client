@@ -269,7 +269,7 @@ Can&apos;t be disabled for current server</source>
         <translation>В импортированной конфигурации были обнаружены потенциально опасные строки:</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/importController.cpp" line="577"/>
+        <location filename="../ui/controllers/importController.cpp" line="594"/>
         <source>In the imported configuration, potentially dangerous lines were found:</source>
         <translation type="unfinished"></translation>
     </message>

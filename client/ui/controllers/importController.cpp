@@ -294,6 +294,23 @@ void ImportController::importConfig()
     m_maliciousWarningText.clear();
 }
 
+QString ImportController::getNewServerName()
+{
+    bool isServerNameExist = false;
+    for (const QJsonValue &server : m_settings->serversArray()) {
+        if (server.toObject().value(config_key::description).toString() == m_configFileName) {
+            isServerNameExist = true;
+            break;
+        }
+    }
+
+    if (isServerNameExist) {
+        return m_settings->nextAvailableServerName();
+    } else {
+        return m_configFileName;
+    }
+}
+
 QJsonObject ImportController::extractOpenVpnConfig(const QString &data)
 {
     QJsonObject openVpnConfig;
@@ -320,7 +337,7 @@ QJsonObject ImportController::extractOpenVpnConfig(const QString &data)
     QJsonObject config;
     config[config_key::containers] = arr;
     config[config_key::defaultContainer] = "amnezia-openvpn";
-    config[config_key::description] = m_settings->nextAvailableServerName();
+    config[config_key::description] = getNewServerName();
 
     const static QRegularExpression dnsRegExp("dhcp-option DNS (\\b\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\b)");
     QRegularExpressionMatchIterator dnsMatch = dnsRegExp.globalMatch(data);
@@ -437,7 +454,7 @@ QJsonObject ImportController::extractWireGuardConfig(const QString &data)
     QJsonObject config;
     config[config_key::containers] = arr;
     config[config_key::defaultContainer] = "amnezia-" + protocolName;
-    config[config_key::description] = m_settings->nextAvailableServerName();
+    config[config_key::description] = getNewServerName();
 
     const static QRegularExpression dnsRegExp(
             "DNS = "
@@ -493,7 +510,7 @@ QJsonObject ImportController::extractXrayConfig(const QString &data, const QStri
        config[config_key::defaultContainer] = "amnezia-xray";
     }
     if (description.isEmpty()) {
-        config[config_key::description] = m_settings->nextAvailableServerName();
+        config[config_key::description] = getNewServerName();
     } else {
         config[config_key::description] = description;
     }
