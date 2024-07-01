@@ -264,6 +264,7 @@ Settings::RouteMode Settings::routeMode() const
     return static_cast<RouteMode>(value("Conf/routeMode", VpnAllExceptSites).toInt());
 }
 
+/* issue_5
 bool Settings::isSitesSplitTunnelingEnabled() const
 {
     return value("Conf/sitesSplitTunnelingEnabled", false).toBool();
@@ -273,6 +274,7 @@ void Settings::setSitesSplitTunnelingEnabled(bool enabled)
 {
     setValue("Conf/sitesSplitTunnelingEnabled", enabled);
 }
+*/
 
 bool Settings::addVpnSite(RouteMode mode, const QString &site, const QString &ip)
 {

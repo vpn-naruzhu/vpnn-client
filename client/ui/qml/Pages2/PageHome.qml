@@ -80,9 +80,10 @@ PageType {
                 id: connectButton
                 Layout.fillHeight: true
                 Layout.alignment: Qt.AlignCenter
-                KeyNavigation.tab: splitTunnelingButton
+                KeyNavigation.tab: drawer // issue_5 splitTunnelingButton
             }
 
+        /*
             BasicButtonType {
                 id: splitTunnelingButton
 
@@ -138,6 +139,7 @@ PageType {
                     }
                 }
             }
+        */
         }
     }
 

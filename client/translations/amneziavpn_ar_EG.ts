@@ -466,12 +466,12 @@ Already installed containers were found on the server. All installed containers 
     <message>
         <location filename="../ui/qml/Pages2/PageHome.qml" line="111"/>
         <source>Split tunneling enabled</source>
-        <translation>تقسيم الانفاق مٌفعل</translation>
+        <translation type="vanished">تقسيم الانفاق مٌفعل</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageHome.qml" line="111"/>
         <source>Split tunneling disabled</source>
-        <translation>تقسيم الانفاق مٌعطل</translation>
+        <translation type="vanished">تقسيم الانفاق مٌعطل</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageHome.qml" line="328"/>
@@ -1612,7 +1612,7 @@ Already installed containers were found on the server. All installed containers 
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="127"/>
         <source>Allows you to use the VPN only for certain Apps</source>
-        <translation>يسمح لك بأستخدام ال VPN علي تطبيقات معينة</translation>
+        <translation type="vanished">يسمح لك بأستخدام ال VPN علي تطبيقات معينة</translation>
     </message>
     <message>
         <source>Use AmneziaDNS</source>
@@ -1631,17 +1631,17 @@ Already installed containers were found on the server. All installed containers 
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="97"/>
         <source>Site-based split tunneling</source>
-        <translation>انقسام الانفاق القائم علي الموقع</translation>
+        <translation type="vanished">انقسام الانفاق القائم علي الموقع</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="98"/>
         <source>Allows you to select which sites you want to access through the VPN</source>
-        <translation>يسمح لك بتحديد اي موقع تريد الوصول له عن طريق ال VPN</translation>
+        <translation type="vanished">يسمح لك بتحديد اي موقع تريد الوصول له عن طريق ال VPN</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="126"/>
         <source>App-based split tunneling</source>
-        <translation>انقسام الانفاق القائم علي التطبيق</translation>
+        <translation type="vanished">انقسام الانفاق القائم علي التطبيق</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="154"/>
@@ -3726,7 +3726,7 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
         <translation>ملف النسخه الاحتياطيه تالف</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/settingsController.cpp" line="162"/>
+        <location filename="../ui/controllers/settingsController.cpp" line="164"/>
         <source>All settings have been reset to default values</source>
         <translation>تم استرجاع جميع الإعدادات للإعدادات الافتراضية</translation>
     </message>
@@ -3858,7 +3858,7 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
 <context>
     <name>VpnConnection</name>
     <message>
-        <location filename="../vpnconnection.cpp" line="397"/>
+        <location filename="../vpnconnection.cpp" line="409"/>
         <source>Mbps</source>
         <translation></translation>
     </message>

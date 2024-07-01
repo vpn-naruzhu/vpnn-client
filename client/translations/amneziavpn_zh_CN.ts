@@ -474,12 +474,12 @@ Already installed containers were found on the server. All installed containers 
     <message>
         <location filename="../ui/qml/Pages2/PageHome.qml" line="111"/>
         <source>Split tunneling enabled</source>
-        <translation>用户分隔隧道已启用</translation>
+        <translation type="vanished">用户分隔隧道已启用</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageHome.qml" line="111"/>
         <source>Split tunneling disabled</source>
-        <translation>分隔隧道已禁用</translation>
+        <translation type="vanished">分隔隧道已禁用</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageHome.qml" line="328"/>
@@ -1734,7 +1734,7 @@ And if you don&apos;t like the app, all the more support it - the donation will 
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="127"/>
         <source>Allows you to use the VPN only for certain Apps</source>
-        <translation>只允许在某些应用程序中使用 VPN</translation>
+        <translation type="vanished">只允许在某些应用程序中使用 VPN</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="154"/>
@@ -1777,17 +1777,17 @@ And if you don&apos;t like the app, all the more support it - the donation will 
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="97"/>
         <source>Site-based split tunneling</source>
-        <translation>基于网站的隧道分离</translation>
+        <translation type="vanished">基于网站的隧道分离</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="98"/>
         <source>Allows you to select which sites you want to access through the VPN</source>
-        <translation>配置想要通过VPN访问网站</translation>
+        <translation type="vanished">配置想要通过VPN访问网站</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsConnection.qml" line="126"/>
         <source>App-based split tunneling</source>
-        <translation>基于应用的隧道分离</translation>
+        <translation type="vanished">基于应用的隧道分离</translation>
     </message>
     <message>
         <source>Split site tunneling</source>
@@ -4201,7 +4201,7 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
         <translation>备份文件已损坏</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/settingsController.cpp" line="162"/>
+        <location filename="../ui/controllers/settingsController.cpp" line="164"/>
         <source>All settings have been reset to default values</source>
         <translation>所配置恢复为默认值</translation>
     </message>
@@ -4341,7 +4341,7 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
 <context>
     <name>VpnConnection</name>
     <message>
-        <location filename="../vpnconnection.cpp" line="397"/>
+        <location filename="../vpnconnection.cpp" line="409"/>
         <source>Mbps</source>
         <translation></translation>
     </message>
