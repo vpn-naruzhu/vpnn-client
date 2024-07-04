@@ -143,7 +143,7 @@ private:
     QMetaObject::Connection m_reloadConfigErrorOccurredConnection;
 
 public slots:
-    void restartConnectionWithDns(const QString& dnsAddr);
+    void restartConnection();
 };
 
 #endif // AMNEZIA_APPLICATION_H

@@ -3911,7 +3911,7 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
 <context>
     <name>VpnConnection</name>
     <message>
-        <location filename="../vpnconnection.cpp" line="409"/>
+        <location filename="../vpnconnection.cpp" line="422"/>
         <source>Mbps</source>
         <translation></translation>
     </message>

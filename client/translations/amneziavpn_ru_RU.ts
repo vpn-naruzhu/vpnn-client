@@ -269,7 +269,7 @@ Can&apos;t be disabled for current server</source>
         <translation>В импортированной конфигурации были обнаружены потенциально опасные строки:</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/importController.cpp" line="594"/>
+        <location filename="../ui/controllers/importController.cpp" line="596"/>
         <source>In the imported configuration, potentially dangerous lines were found:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4278,7 +4278,7 @@ This means that AmneziaWG keeps the fast performance of the original while addin
 <context>
     <name>VpnConnection</name>
     <message>
-        <location filename="../vpnconnection.cpp" line="409"/>
+        <location filename="../vpnconnection.cpp" line="422"/>
         <source>Mbps</source>
         <translation>Мбит/с</translation>
     </message>
