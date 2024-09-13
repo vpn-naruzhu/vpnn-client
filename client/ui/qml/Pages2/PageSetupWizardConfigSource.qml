@@ -186,7 +186,7 @@ PageType {
                 }
             }
 
-/*
+            /*
             CardWithIconsType {
                 id: manualInstalling
 
@@ -205,7 +205,9 @@ PageType {
                     PageController.goToPage(PageEnum.PageSetupWizardCredentials)
                 }
             }
+            */
 
+            /*
             CardWithIconsType {
                 id: backupRestore
 
@@ -231,6 +233,7 @@ PageType {
                     }
                 }
             }
+            */
 
             CardWithIconsType {
                 id: openFile
@@ -246,11 +249,6 @@ PageType {
                 leftImageSource: "qrc:/images/controls/folder-search-2.svg"
 
                 onClicked: {
-                    var nameFilter = !ServersModel.getServersCount() ? "Config or backup files (*.vpn *.ovpn *.conf *.json *.backup)" :
-                                                                       "Config files (*.vpn *.ovpn *.conf *.json)"
-                    var fileName = SystemController.getFileName(qsTr("Open config file"), nameFilter)
-*/
-                clickedFunction: function() {
                     var nameFilter = "Config files (*.vpn *.ovpn *.conf *.json)"
                     var fileName = SystemController.getFileName(qsTr("Open key file"), nameFilter)
                     if (fileName !== "") {
@@ -284,6 +282,7 @@ PageType {
                 }
             }
 
+            /*
             CardWithIconsType {
                 id: siteLink
 
@@ -303,6 +302,7 @@ PageType {
                     Qt.openUrlExternally(LanguageModel.getCurrentSiteUrl())
                 }
             }
+            */
         }
     }
 }

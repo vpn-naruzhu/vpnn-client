@@ -191,7 +191,6 @@ PageType {
                 clickedFunction: function() {
                      Qt.openUrlExternally("https://t.me/vpn_naruzhu")
                 }
->>>>>>> f5a305cd (Apply design changes.)
             }
 
             LabelWithButtonType {
