@@ -2312,9 +2312,8 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">چی داری؟</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="246"/>
         <source>File with connection settings</source>
-        <translation>فایل شامل تنظیمات اتصال</translation>
+        <translation type="vanished">فایل شامل تنظیمات اتصال</translation>
     </message>
     <message>
         <source>File with connection settings or backup</source>
@@ -2336,29 +2335,25 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="112"/>
         <source>Insert the key, add a configuration file or scan the QR-code</source>
-        <translation>کلید را وارد کنید، فایل پیکربندی را اضافه کنید یا کد QR را اسکن کنید</translation>
+        <translation type="vanished">کلید را وارد کنید، فایل پیکربندی را اضافه کنید یا کد QR را اسکن کنید</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="122"/>
         <source>Insert key</source>
-        <translation>کلید را وارد کنید</translation>
+        <translation type="vanished">کلید را وارد کنید</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="123"/>
         <source>Insert</source>
-        <translation>وارد کردن</translation>
+        <translation type="vanished">وارد کردن</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="143"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="145"/>
         <source>Continue</source>
         <translation>ادامه دهید</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="161"/>
         <source>Other connection options</source>
-        <translation>گزینه‌های اتصال دیگر</translation>
+        <translation type="vanished">گزینه‌های اتصال دیگر</translation>
     </message>
     <message>
         <source>VPN by Amnezia</source>
@@ -2393,21 +2388,20 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">باز کردن فایل تنظیمات</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="272"/>
         <source>QR code</source>
-        <translation>QR-Code</translation>
+        <translation type="vanished">QR-Code</translation>
     </message>
     <message>
         <source>I have nothing</source>
         <translation type="vanished">من هیچی ندارم</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="175"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="245"/>
         <source>Key as file</source>
         <translation>فایل شامل تنظیمات اتصال</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="253"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="252"/>
         <source>Open key file</source>
         <translation>باز کردن فایل تنظیمات</translation>
     </message>

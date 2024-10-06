@@ -2256,29 +2256,13 @@ Already installed containers were found on the server. All installed containers 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="112"/>
-        <source>Insert the key, add a configuration file or scan the QR-code</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="122"/>
-        <source>Insert key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="123"/>
         <source>Insert</source>
-        <translation type="unfinished">डालना</translation>
+        <translation type="obsolete">डालना</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="143"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="145"/>
         <source>Continue</source>
         <translation type="unfinished">जारी रखना</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="161"/>
-        <source>Other connection options</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restore from backup</source>
@@ -2293,30 +2277,28 @@ Already installed containers were found on the server. All installed containers 
         <translation type="obsolete">बैकअप फ़ाइलें (*.backup)</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="246"/>
         <source>File with connection settings</source>
-        <translation>कनेक्शन सेटिंग्स वाली फ़ाइल</translation>
+        <translation type="vanished">कनेक्शन सेटिंग्स वाली फ़ाइल</translation>
     </message>
     <message>
         <source>Open config file</source>
         <translation type="vanished">कॉन्फ़िग फ़ाइल खोलें</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="272"/>
         <source>QR code</source>
-        <translation>क्यू आर संहिता</translation>
+        <translation type="vanished">क्यू आर संहिता</translation>
     </message>
     <message>
         <source>I have nothing</source>
         <translation type="obsolete">मेरे पास कुछ नहीं है</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="175"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="245"/>
         <source>Key as file</source>
         <translation>कनेक्शन सेटिंग्स वाली फ़ाइल</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="253"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="252"/>
         <source>Open key file</source>
         <translation>कॉन्फ़िग फ़ाइल खोलें</translation>
     </message>

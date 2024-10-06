@@ -2462,9 +2462,8 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">Виберіть що у вас є</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="246"/>
         <source>File with connection settings</source>
-        <translation>Файл з налаштуваннями підключення</translation>
+        <translation type="vanished">Файл з налаштуваннями підключення</translation>
     </message>
     <message>
         <source>File with connection settings or backup</source>
@@ -2486,29 +2485,25 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="112"/>
         <source>Insert the key, add a configuration file or scan the QR-code</source>
-        <translation>Вставте ключ, додайте файл конфігурації або відскануйте QR-код</translation>
+        <translation type="vanished">Вставте ключ, додайте файл конфігурації або відскануйте QR-код</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="122"/>
         <source>Insert key</source>
-        <translation>Вставити ключ</translation>
+        <translation type="vanished">Вставити ключ</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="123"/>
         <source>Insert</source>
-        <translation>Вставити</translation>
+        <translation type="vanished">Вставити</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="143"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="145"/>
         <source>Continue</source>
         <translation>Продовжити</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="161"/>
         <source>Other connection options</source>
-        <translation>Інші параметри підключення</translation>
+        <translation type="vanished">Інші параметри підключення</translation>
     </message>
     <message>
         <source>VPN by Amnezia</source>
@@ -2543,21 +2538,20 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">Відкрити файл з конфігурацією</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="272"/>
         <source>QR code</source>
-        <translation>QR-код</translation>
+        <translation type="vanished">QR-код</translation>
     </message>
     <message>
         <source>I have nothing</source>
         <translation type="vanished">У мене нічого нема</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="175"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="245"/>
         <source>Key as file</source>
         <translation>Ключ як файл</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="253"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="252"/>
         <source>Open key file</source>
         <translation>Відкрити файл із ключем</translation>
     </message>

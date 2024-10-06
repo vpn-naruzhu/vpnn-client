@@ -102,6 +102,7 @@ PageType {
                 }
             }
 
+        /*
             ParagraphTextType {
                 Layout.fillWidth: true
                 Layout.topMargin: 32
@@ -129,6 +130,7 @@ PageType {
 
                 KeyNavigation.tab: continueButton
             }
+        */
 
             BasicButtonType {
                 id: continueButton
@@ -150,6 +152,7 @@ PageType {
                 }
             }
 
+        /*
             ParagraphTextType {
                 Layout.fillWidth: true
                 Layout.topMargin: 32
@@ -169,10 +172,9 @@ PageType {
                 Layout.leftMargin: 16
                 Layout.bottomMargin: 16
 
-                //headerText: qsTr("VPN by Amnezia")
-                //bodyText: qsTr("Connect to classic paid and free VPN services from Amnezia")
+                headerText: qsTr("VPN by Amnezia")
+                bodyText: qsTr("Connect to classic paid and free VPN services from Amnezia")
 
-                text: qsTr("Key as file")
                 rightImageSource: "qrc:/images/controls/chevron-right.svg"
                 leftImageSource: "qrc:/images/controls/amnezia.svg"
 
@@ -186,7 +188,6 @@ PageType {
                 }
             }
 
-            /*
             CardWithIconsType {
                 id: manualInstalling
 
@@ -205,9 +206,7 @@ PageType {
                     PageController.goToPage(PageEnum.PageSetupWizardCredentials)
                 }
             }
-            */
 
-            /*
             CardWithIconsType {
                 id: backupRestore
 
@@ -233,7 +232,7 @@ PageType {
                     }
                 }
             }
-            */
+        */
 
             CardWithIconsType {
                 id: openFile
@@ -243,7 +242,7 @@ PageType {
                 Layout.leftMargin: 16
                 Layout.bottomMargin: 16
 
-                headerText: qsTr("File with connection settings")
+                headerText: qsTr("Key as file")
 
                 rightImageSource: "qrc:/images/controls/chevron-right.svg"
                 leftImageSource: "qrc:/images/controls/folder-search-2.svg"
@@ -259,6 +258,7 @@ PageType {
                 }
             }
 
+        /*
             CardWithIconsType {
                 id: scanQr
 
@@ -282,7 +282,6 @@ PageType {
                 }
             }
 
-            /*
             CardWithIconsType {
                 id: siteLink
 
@@ -302,7 +301,7 @@ PageType {
                     Qt.openUrlExternally(LanguageModel.getCurrentSiteUrl())
                 }
             }
-            */
+        */
         }
     }
 }

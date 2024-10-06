@@ -2196,34 +2196,25 @@ Already installed containers were found on the server. All installed containers 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="112"/>
         <source>Insert the key, add a configuration file or scan the QR-code</source>
-        <translation>أدخل المفتاح، أضف ملف تكوين أو امسح رمز الاستجابة السريعة</translation>
+        <translation type="vanished">أدخل المفتاح، أضف ملف تكوين أو امسح رمز الاستجابة السريعة</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="122"/>
         <source>Insert key</source>
-        <translation>أدخل مفتاح</translation>
+        <translation type="vanished">أدخل مفتاح</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="123"/>
         <source>Insert</source>
-        <translation>أدخل</translation>
+        <translation type="vanished">أدخل</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="143"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="145"/>
         <source>Continue</source>
         <translation>واصل</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="161"/>
         <source>Other connection options</source>
-        <translation>اختيارات اتصال اخري</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="272"/>
-        <source>QR code</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">اختيارات اتصال اخري</translation>
     </message>
     <message>
         <source>VPN by Amnezia</source>
@@ -2254,9 +2245,8 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished">ملفات نٌسخ احتياطية (*.backup)</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="246"/>
         <source>File with connection settings</source>
-        <translation>ملف إعدادات اتصال</translation>
+        <translation type="vanished">ملف إعدادات اتصال</translation>
     </message>
     <message>
         <source>Open config file</source>
@@ -2271,12 +2261,12 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished">ماذا لديك؟</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="175"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="245"/>
         <source>Key as file</source>
         <translation>ملف إعدادات اتصال</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="253"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="252"/>
         <source>Open key file</source>
         <translation>افتح ملف تكوين</translation>
     </message>
