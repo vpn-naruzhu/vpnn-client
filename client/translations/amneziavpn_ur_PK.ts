@@ -2229,44 +2229,39 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>PageSetupWizardConfigSource</name>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="61"/>
         <source>Server connection</source>
-        <translation type="vanished">سرور کنکشن</translation>
+        <translation>سرور کنکشن</translation>
     </message>
     <message>
         <source>Do not use connection codes from untrusted sources, as they may be created to intercept your data.</source>
         <translation type="vanished">غیر معتبر ماخذ سے کنکشن کوڈ استعمال نہ کریں، کیونکہ یہ آپ کے ڈیٹا کو منسلک کرنے کے لئے تخلیق کیا گیا ہوسکتا ہے.</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="116"/>
         <source>What do you have?</source>
-        <translation type="vanished">آپ کو کس میں مدد چاہیے؟</translation>
+        <translation>آپ کو کس میں مدد چاہیے؟</translation>
     </message>
     <message>
         <source>File with connection settings or backup</source>
         <translation type="vanished">کنکشن کی ترتیبات یا بیک اپ والی فائل</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="57"/>
         <source>Connection</source>
-        <translation type="unfinished">کنکشن</translation>
+        <translation type="obsolete">کنکشن</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="83"/>
         <source>Settings</source>
-        <translation type="unfinished">ترتیبات</translation>
+        <translation type="obsolete">ترتیبات</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="91"/>
-        <source>Enable logs</source>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="281"/>
+        <source>Key as Text</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Insert</source>
         <translation type="obsolete">داخل کریں</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="145"/>
-        <source>Continue</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restore from backup</source>
@@ -2297,12 +2292,12 @@ Already installed containers were found on the server. All installed containers 
         <translation type="obsolete">میرے پاس کچھ نہیں ہے</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="245"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="257"/>
         <source>Key as file</source>
         <translation>کنکشن کی ترتیبات والی فائل</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="252"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="264"/>
         <source>Open key file</source>
         <translation>کنفیگ فائل کو کھولیں</translation>
     </message>
@@ -2486,17 +2481,24 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished"> آپ کو ریاست کردہ مواد تک رسائی فراہم کرتا ہے بغیر آپ کے خصوصیت کو وی پی این فراہم کرنے والوں تک بھی ظاہر نہیں کرتا.</translation>
     </message>
     <message>
-        <source>I have the data to connect</source>
-        <translation type="vanished">میرے پاس اس کنکشن کے لئے ڈیٹا موجود ہے</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="48"/>
-        <source>Let&apos;s get started</source>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="46"/>
+        <source>Open foreign and Russian websites.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="61"/>
+        <source>I have the data to connect</source>
+        <translation>میرے پاس اس کنکشن کے لئے ڈیٹا موجود ہے</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="105"/>
         <source>I have nothing</source>
-        <translation type="vanished">میرے پاس کچھ نہیں ہے</translation>
+        <translation>میرے پاس کچھ نہیں ہے</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="124"/>
+        <source>https://naruzhu.click/appam</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

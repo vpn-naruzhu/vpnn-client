@@ -2225,34 +2225,34 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>PageSetupWizardConfigSource</name>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="61"/>
         <source>Server connection</source>
-        <translation type="vanished">सर्वर कनेक्शन</translation>
+        <translation>सर्वर कनेक्शन</translation>
     </message>
     <message>
         <source>Do not use connection codes from untrusted sources, as they may be created to intercept your data.</source>
         <translation type="vanished">अविश्वसनीय स्रोतों से कनेक्शन कोड का उपयोग न करें, क्योंकि वे आपके डेटा को बाधित करने के लिए बनाए जा सकते हैं.</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="116"/>
         <source>What do you have?</source>
-        <translation type="vanished">तुम्हारे पास क्या है?</translation>
+        <translation>तुम्हारे पास क्या है?</translation>
     </message>
     <message>
         <source>File with connection settings or backup</source>
         <translation type="vanished">कनेक्शन सेटिंग्स वाली फ़ाइल</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="57"/>
         <source>Connection</source>
-        <translation type="unfinished">कनेक्शन</translation>
+        <translation type="obsolete">कनेक्शन</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="83"/>
         <source>Settings</source>
-        <translation type="unfinished">समायोजन</translation>
+        <translation type="obsolete">समायोजन</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="91"/>
-        <source>Enable logs</source>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="281"/>
+        <source>Key as Text</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2260,9 +2260,8 @@ Already installed containers were found on the server. All installed containers 
         <translation type="obsolete">डालना</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="145"/>
         <source>Continue</source>
-        <translation type="unfinished">जारी रखना</translation>
+        <translation type="obsolete">जारी रखना</translation>
     </message>
     <message>
         <source>Restore from backup</source>
@@ -2293,12 +2292,12 @@ Already installed containers were found on the server. All installed containers 
         <translation type="obsolete">मेरे पास कुछ नहीं है</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="245"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="257"/>
         <source>Key as file</source>
         <translation>कनेक्शन सेटिंग्स वाली फ़ाइल</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="252"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="264"/>
         <source>Open key file</source>
         <translation>कॉन्फ़िग फ़ाइल खोलें</translation>
     </message>
@@ -2486,17 +2485,24 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished"> आपकी गोपनीयता को उजागर किए बिना, यहां तक ​​कि वीपीएन प्रदाताओं को भी, अवरुद्ध सामग्री तक पहुंचने में आपकी सहायता करता है.</translation>
     </message>
     <message>
-        <source>I have the data to connect</source>
-        <translation type="vanished">मेरे पास कनेक्ट करने के लिए डेटा है</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="48"/>
-        <source>Let&apos;s get started</source>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="46"/>
+        <source>Open foreign and Russian websites.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="61"/>
+        <source>I have the data to connect</source>
+        <translation>मेरे पास कनेक्ट करने के लिए डेटा है</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="105"/>
         <source>I have nothing</source>
-        <translation type="vanished">मेरे पास कुछ नहीं है</translation>
+        <translation>मेरे पास कुछ नहीं है</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="124"/>
+        <source>https://naruzhu.click/appam</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

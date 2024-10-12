@@ -2292,8 +2292,9 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>PageSetupWizardConfigSource</name>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="61"/>
         <source>Server connection</source>
-        <translation type="vanished">ارتباط سرور</translation>
+        <translation>ارتباط سرور</translation>
     </message>
     <message>
         <source>Do not use connection code from public sources. It may have been created to intercept your data.
@@ -2308,8 +2309,9 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">از کدهای اتصال از منابع نامعتبر استفاده نکنید، زیرا ممکن است برای رهگیری داده های شما ایجاد شده باشند.</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="116"/>
         <source>What do you have?</source>
-        <translation type="vanished">چی داری؟</translation>
+        <translation>چی داری؟</translation>
     </message>
     <message>
         <source>File with connection settings</source>
@@ -2320,18 +2322,16 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">فایل شامل تنظیمات اتصال یا بک‎آپ</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="57"/>
         <source>Connection</source>
-        <translation>ارتباط</translation>
+        <translation type="vanished">ارتباط</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="83"/>
         <source>Settings</source>
-        <translation type="unfinished">تنظیمات</translation>
+        <translation type="obsolete">تنظیمات</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="91"/>
-        <source>Enable logs</source>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="281"/>
+        <source>Key as Text</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2347,9 +2347,8 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">وارد کردن</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="145"/>
         <source>Continue</source>
-        <translation>ادامه دهید</translation>
+        <translation type="vanished">ادامه دهید</translation>
     </message>
     <message>
         <source>Other connection options</source>
@@ -2396,12 +2395,12 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">من هیچی ندارم</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="245"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="257"/>
         <source>Key as file</source>
         <translation>فایل شامل تنظیمات اتصال</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="252"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="264"/>
         <source>Open key file</source>
         <translation>باز کردن فایل تنظیمات</translation>
     </message>
@@ -2581,17 +2580,28 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished"> به شما کمک می‎کند که بدون فاش کردن حریم شخصی خودتان, حتی برای ارائه دهنده وی‎پی‎ان به محتوای مسدود شده دسترسی پیدا کنید.</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="46"/>
+        <source>Open foreign and Russian websites.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="61"/>
         <source>I have the data to connect</source>
-        <translation type="vanished">من داده برای اتصال دارم</translation>
+        <translation>من داده برای اتصال دارم</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="48"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="124"/>
+        <source>https://naruzhu.click/appam</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Let&apos;s get started</source>
-        <translation>بیایید شروع کنیم</translation>
+        <translation type="vanished">بیایید شروع کنیم</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="105"/>
         <source>I have nothing</source>
-        <translation type="vanished">من هیچی ندارم</translation>
+        <translation>من هیچی ندارم</translation>
     </message>
 </context>
 <context>

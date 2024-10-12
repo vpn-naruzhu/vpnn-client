@@ -2442,8 +2442,9 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>PageSetupWizardConfigSource</name>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="61"/>
         <source>Server connection</source>
-        <translation type="vanished">Підключення до сервера</translation>
+        <translation>Підключення до сервера</translation>
     </message>
     <message>
         <source>Do not use connection code from public sources. It may have been created to intercept your data.
@@ -2458,8 +2459,9 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">Не використовуйте код підключення з загальнодоступних джерел. Можливо, його було створено для перехоплення ваших даних.</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="116"/>
         <source>What do you have?</source>
-        <translation type="vanished">Виберіть що у вас є</translation>
+        <translation>Виберіть що у вас є</translation>
     </message>
     <message>
         <source>File with connection settings</source>
@@ -2470,18 +2472,16 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">Файл з налаштуваннями підключення або бекап</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="57"/>
         <source>Connection</source>
-        <translation>Підключення</translation>
+        <translation type="vanished">Підключення</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="83"/>
         <source>Settings</source>
-        <translation type="unfinished">Налаштування</translation>
+        <translation type="obsolete">Налаштування</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="91"/>
-        <source>Enable logs</source>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="281"/>
+        <source>Key as Text</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2497,9 +2497,8 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">Вставити</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="145"/>
         <source>Continue</source>
-        <translation>Продовжити</translation>
+        <translation type="vanished">Продовжити</translation>
     </message>
     <message>
         <source>Other connection options</source>
@@ -2546,12 +2545,12 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">У мене нічого нема</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="245"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="257"/>
         <source>Key as file</source>
         <translation>Ключ як файл</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="252"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="264"/>
         <source>Open key file</source>
         <translation>Відкрити файл із ключем</translation>
     </message>
@@ -2769,17 +2768,28 @@ and will not be shared or disclosed to the Amnezia or any third parties</source>
         <translation type="vanished"> Допомагає отримати доступ до заблокованого вмісту, не повідомляючи про вашу конфіденційність, навіть постачальникам VPN.</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="46"/>
+        <source>Open foreign and Russian websites.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="61"/>
         <source>I have the data to connect</source>
-        <translation type="vanished">У мене є дані для підключення</translation>
+        <translation>У мене є дані для підключення</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="48"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="124"/>
+        <source>https://naruzhu.click/appam</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Let&apos;s get started</source>
-        <translation>Почнемо</translation>
+        <translation type="vanished">Почнемо</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="105"/>
         <source>I have nothing</source>
-        <translation type="vanished">У мене нічого нема</translation>
+        <translation>У мене нічого нема</translation>
     </message>
 </context>
 <context>

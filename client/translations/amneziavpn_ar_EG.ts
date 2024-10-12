@@ -2181,19 +2181,12 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>PageSetupWizardConfigSource</name>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="57"/>
         <source>Connection</source>
-        <translation>الاتصال</translation>
+        <translation type="vanished">الاتصال</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="83"/>
         <source>Settings</source>
-        <translation type="unfinished">إعدادات</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="91"/>
-        <source>Enable logs</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">إعدادات</translation>
     </message>
     <message>
         <source>Insert the key, add a configuration file or scan the QR-code</source>
@@ -2208,9 +2201,8 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished">أدخل</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="145"/>
         <source>Continue</source>
-        <translation>واصل</translation>
+        <translation type="vanished">واصل</translation>
     </message>
     <message>
         <source>Other connection options</source>
@@ -2257,18 +2249,29 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished">ليس لدي اي شئ</translation>
     </message>
     <message>
-        <source>What do you have?</source>
-        <translation type="vanished">ماذا لديك؟</translation>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="61"/>
+        <source>Server connection</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="245"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="116"/>
+        <source>What do you have?</source>
+        <translation>ماذا لديك؟</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="257"/>
         <source>Key as file</source>
         <translation>ملف إعدادات اتصال</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="252"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="264"/>
         <source>Open key file</source>
         <translation>افتح ملف تكوين</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="281"/>
+        <source>Key as Text</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>QR-code</source>
@@ -2438,17 +2441,28 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>PageSetupWizardStart</name>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="48"/>
         <source>Let&apos;s get started</source>
-        <translation>هيا نبدأ</translation>
+        <translation type="vanished">هيا نبدأ</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="46"/>
+        <source>Open foreign and Russian websites.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="61"/>
         <source>I have the data to connect</source>
-        <translation type="vanished">لدي البيانات المطلوبة للأتصال</translation>
+        <translation>لدي البيانات المطلوبة للأتصال</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="105"/>
         <source>I have nothing</source>
-        <translation type="vanished">ليس لدي اي شئ</translation>
+        <translation>ليس لدي اي شئ</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="124"/>
+        <source>https://naruzhu.click/appam</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

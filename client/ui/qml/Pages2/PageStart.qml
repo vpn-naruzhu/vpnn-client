@@ -345,8 +345,7 @@ PageType {
             isSelected: tabBar.currentIndex === 3
             image: "qrc:/images/controls/plus.svg"
             clickedFunc: function () {
-                tabBarStackView.goToTabBarPage(PageEnum.PageSetupWizardConfigSource)
-                tabBar.currentIndex = 3
+                connectionTypeSelection.open()
             }
 
             Keys.onTabPressed: PageController.forceStackActiveFocus()
@@ -358,6 +357,15 @@ PageType {
             onClicked: {
                 Qt.openUrlExternally("https://t.me/vpn_naruzhu_support_bot")
             }
+        }
+    }
+
+    ConnectionTypeSelectionDrawer {
+        id: connectionTypeSelection
+
+        onAboutToHide: {
+            PageController.forceTabBarActiveFocus()
+            tabBar.setCurrentIndex(tabBar.previousIndex)
         }
     }
 }

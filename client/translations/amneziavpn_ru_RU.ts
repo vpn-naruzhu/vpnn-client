@@ -158,7 +158,7 @@
     <message>
         <location filename="../ui/qml/Components/ConnectionTypeSelectionDrawer.qml" line="58"/>
         <source>Open config file, key or QR code</source>
-        <translation>Открыть файл конфигурации, ключ или QR-код</translation>
+        <translation>Открыть файл конфигурации или ключ</translation>
     </message>
 </context>
 <context>
@@ -2360,8 +2360,9 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>PageSetupWizardConfigSource</name>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="61"/>
         <source>Server connection</source>
-        <translation type="vanished">Подключение к серверу</translation>
+        <translation>Подключение к серверу</translation>
     </message>
     <message>
         <source>Do not use connection code from public sources. It may have been created to intercept your data.
@@ -2376,8 +2377,9 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">Не используйте коды подключения из ненадежных источников, так как они могут быть созданы для перехвата ваших данных.</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="116"/>
         <source>What do you have?</source>
-        <translation type="vanished">Что у вас есть?</translation>
+        <translation>Выберите что у вас есть</translation>
     </message>
     <message>
         <source>File with connection settings</source>
@@ -2388,18 +2390,16 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">Файл с настройками подключения или резервной копией</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="57"/>
         <source>Connection</source>
-        <translation>Соединение</translation>
+        <translation type="vanished">Соединение</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="83"/>
         <source>Settings</source>
-        <translation type="unfinished">Настройки</translation>
+        <translation type="obsolete">Настройки</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="91"/>
-        <source>Enable logs</source>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="281"/>
+        <source>Key as Text</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2415,9 +2415,8 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">Вставить</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="145"/>
         <source>Continue</source>
-        <translation>Продолжить</translation>
+        <translation type="vanished">Продолжить</translation>
     </message>
     <message>
         <source>Other connection options</source>
@@ -2464,12 +2463,12 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">У меня ничего нет</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="245"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="257"/>
         <source>Key as file</source>
         <translation>Ключ в виде файла</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="252"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="264"/>
         <source>Open key file</source>
         <translation>Открыть файл с ключём</translation>
     </message>
@@ -2678,29 +2677,36 @@ and will not be shared or disclosed to the Amnezia or any third parties</source>
         <translation type="vanished">Настройки восстановлены из резервной копии</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="46"/>
         <source>Open foreign and Russian websites.</source>
-        <translation type="vanished">Открывает зарубежные и российские сайты одновременно.</translation>
+        <translation>Открывает зарубежные и российские сайты одновременно.</translation>
     </message>
     <message>
         <source> Helps you access blocked content without revealing your privacy, even to VPN providers.</source>
         <translation type="vanished"> Помогает получить доступ к заблокированному контенту, не раскрывая вашу конфиденциальность даже провайдерам VPN.</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="61"/>
         <source>I have the data to connect</source>
-        <translation type="vanished">У меня есть данные для подключения</translation>
+        <translation>У меня есть данные для подключения</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="105"/>
         <source>I have nothing</source>
-        <translation type="vanished">У меня ничего нет</translation>
+        <translation>У меня ничего нет</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="124"/>
+        <source>https://naruzhu.click/appam</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>https://amnezia.org/instructions/0_starter-guide</source>
         <translation type="vanished">https://amnezia.org/ru/starter-guide</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="48"/>
         <source>Let&apos;s get started</source>
-        <translation>Приступим</translation>
+        <translation type="vanished">Приступим</translation>
     </message>
 </context>
 <context>

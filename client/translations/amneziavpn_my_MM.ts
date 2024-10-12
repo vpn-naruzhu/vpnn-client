@@ -2202,19 +2202,12 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished">ချိတ်ဆက်မှုဆက်တင်များပါဝင်သောဖိုင်</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="57"/>
         <source>Connection</source>
-        <translation>ချိတ်ဆက်မှု</translation>
+        <translation type="vanished">ချိတ်ဆက်မှု</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="83"/>
         <source>Settings</source>
-        <translation type="unfinished">ဆက်တင်များ</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="91"/>
-        <source>Enable logs</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">ဆက်တင်များ</translation>
     </message>
     <message>
         <source>Insert the key, add a configuration file or scan the QR-code</source>
@@ -2229,9 +2222,8 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished">ထည့်သွင်းမည်</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="145"/>
         <source>Continue</source>
-        <translation>ဆက်လက်လုပ်ဆောင်မည်</translation>
+        <translation type="vanished">ဆက်လက်လုပ်ဆောင်မည်</translation>
     </message>
     <message>
         <source>Other connection options</source>
@@ -2274,18 +2266,29 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished">ကျွန်ုပ်တွင်ဘာမှမရှိပါ</translation>
     </message>
     <message>
-        <source>What do you have?</source>
-        <translation type="vanished">သင့်တွင်ဘာရှိပါသလဲ?</translation>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="61"/>
+        <source>Server connection</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="245"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="116"/>
+        <source>What do you have?</source>
+        <translation>သင့်တွင်ဘာရှိပါသလဲ?</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="257"/>
         <source>Key as file</source>
         <translation>ချိတ်ဆက်မှုဆက်တင်များပါဝင်သောဖိုင်</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="252"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="264"/>
         <source>Open key file</source>
         <translation>config ဖိုင်ကိုဖွင့်မည်</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="281"/>
+        <source>Key as Text</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>QR-code</source>
@@ -2463,17 +2466,28 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>PageSetupWizardStart</name>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="48"/>
         <source>Let&apos;s get started</source>
-        <translation>စတင်လိုက်ကြရအောင်</translation>
+        <translation type="vanished">စတင်လိုက်ကြရအောင်</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="46"/>
+        <source>Open foreign and Russian websites.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="61"/>
         <source>I have the data to connect</source>
-        <translation type="vanished">ကျွန်ုပ်တွင်ချိတ်ဆက်ဖို့အတွက်ဒေတာရှိသည်</translation>
+        <translation>ကျွန်ုပ်တွင်ချိတ်ဆက်ဖို့အတွက်ဒေတာရှိသည်</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="105"/>
         <source>I have nothing</source>
-        <translation type="vanished">ကျွန်ုပ်တွင်ဘာမှမရှိပါ</translation>
+        <translation>ကျွန်ုပ်တွင်ဘာမှမရှိပါ</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="124"/>
+        <source>https://naruzhu.click/appam</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
