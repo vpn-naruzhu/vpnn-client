@@ -1,5 +1,5 @@
-# Amnezia VPN
-## _The best client for self-hosted VPN_
+# VPNNaruzhu
+## _Amnezia based VPN client_
 
 [![Build Status](https://github.com/vpn-naruzhu/vpnn-client/actions/workflows/deploy.yml/badge.svg?branch=dev)](https://github.com/vpn-naruzhu/vpnn-client/actions/workflows/deploy.yml?query=branch:dev)
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/vpn-naruzhu/vpnn-client)
