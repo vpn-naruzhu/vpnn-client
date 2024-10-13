@@ -99,7 +99,7 @@ Item {
 
                         font.pixelSize: 16
                         font.weight: 400
-                        font.family: "PT Root UI VF"
+                        font.family: "Montserrat Medium"
 
                         height: 24
                         Layout.fillWidth: true

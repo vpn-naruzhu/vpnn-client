@@ -1,3 +1,3 @@
-FROM vpnnaruzhu/torpress:latest
+FROM ulta/torpress:latest
 
-LABEL maintainer="VPNNaruzhu"
+LABEL maintainer="Ulta"

@@ -129,7 +129,7 @@ PageType {
                 Layout.rightMargin: 16
 
                 color: AmneziaStyle.color.mutedGray
-                text: qsTr("VPNNaruzhu logs")
+                text: qsTr("Ulta logs")
             }
 
             LabelWithButtonType {
@@ -166,11 +166,11 @@ PageType {
                 clickedFunction: function() {
                     var fileName = ""
                     if (GC.isMobile()) {
-                        fileName = "VPNNaruzhu.log"
+                        fileName = "Ulta.log"
                     } else {
                         fileName = SystemController.getFileName(qsTr("Save"),
                                                                 qsTr("Logs files (*.log)"),
-                                                                StandardPaths.standardLocations(StandardPaths.DocumentsLocation) + "/VPNNaruzhu",
+                                                                StandardPaths.standardLocations(StandardPaths.DocumentsLocation) + "/Ulta",
                                                                 true,
                                                                 ".log")
                     }
@@ -205,7 +205,7 @@ PageType {
                 Layout.rightMargin: 16
 
                 color: AmneziaStyle.color.mutedGray
-                text: qsTr("VPNNaruzhu-service logs")
+                text: qsTr("Ulta-service logs")
             }
 
             LabelWithButtonType {
@@ -250,11 +250,11 @@ PageType {
                 clickedFunction: function() {
                     var fileName = ""
                     if (GC.isMobile()) {
-                        fileName = "VPNNaruzhu-service.log"
+                        fileName = "Ulta-service.log"
                     } else {
                         fileName = SystemController.getFileName(qsTr("Save"),
                                                                 qsTr("Logs files (*.log)"),
-                                                                StandardPaths.standardLocations(StandardPaths.DocumentsLocation) + "/VPNNaruzhu-service",
+                                                                StandardPaths.standardLocations(StandardPaths.DocumentsLocation) + "/Ulta-service",
                                                                 true,
                                                                 ".log")
                     }

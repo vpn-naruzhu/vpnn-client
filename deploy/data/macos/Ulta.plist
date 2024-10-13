@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>VPNNaruzhu-service</string>
+    <string>Ulta-service</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Applications/VPNNaruzhu.app/Contents/MacOS/VPNNaruzhu-service</string>
+        <string>/Applications/Ulta.app/Contents/MacOS/Ulta-service</string>
     </array>
     <key>KeepAlive</key>
     <true/>

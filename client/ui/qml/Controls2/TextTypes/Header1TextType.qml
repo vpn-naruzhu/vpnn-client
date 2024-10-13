@@ -9,7 +9,7 @@ Text {
     color: AmneziaStyle.color.paleGray
     font.pixelSize: 32
     font.weight: 700
-    font.family: "PT Root UI VF"
+    font.family: "Montserrat Medium"
     font.letterSpacing: -1.0
 
     wrapMode: Text.WordWrap

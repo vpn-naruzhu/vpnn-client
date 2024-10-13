@@ -23,14 +23,14 @@ Window  {
     maximumWidth: 600
     maximumHeight: 800
 
-    color: AmneziaStyle.color.midnightBlack
+    color: UltaStyle.color.backGround
 
     onClosing: function() {
         console.debug("QML onClosing signal")
         PageController.closeWindow()
     }
 
-    title: "VPNNaruzhu"
+    title: "Ulta"
 
     Connections {
         target: PageController

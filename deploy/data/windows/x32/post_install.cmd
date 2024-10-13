@@ -1,5 +1,5 @@
-sc stop AmneziaWGTunnel$VPNNaruzhu
-sc delete AmneziaWGTunnel$VPNNaruzhu
-taskkill /IM "VPNNaruzhu-service.exe" /F
-taskkill /IM "VPNNaruzhu.exe" /F
+sc stop AmneziaWGTunnel$Ulta
+sc delete AmneziaWGTunnel$Ulta
+taskkill /IM "Ulta-service.exe" /F
+taskkill /IM "Ulta.exe" /F
 exit /b 0

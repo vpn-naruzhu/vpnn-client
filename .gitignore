@@ -1,9 +1,9 @@
 # User settings
 *.user
 macOSPackage/
-VPNNaruzhu.dmg
-VPNNaruzhu.exe
-VPNNaruzhu_*.exe
+Ulta.dmg
+Ulta.exe
+Ulta_*.exe
 deploy/build/*
 deploy/build_32/*
 deploy/build_64/*
@@ -48,10 +48,10 @@ client/ui_*.cpp
 client/Makefile*
 client/fastlane/build/
 client/*build-*
-client/VPNNaruzhu.xcodeproj
+client/Ulta.xcodeproj
 client/Debug-iphonesimulator/
-client/vpnnaruzhu_plugin_import.cpp
-client/vpnnaruzhu_qml_plugin_import.cpp
+client/ulta_plugin_import.cpp
+client/ulta_qml_plugin_import.cpp
 client/qmlcache_loader.cpp
 client/rep_ipc_interface_replica.h
 client/resources_qmlcache.qrc
@@ -72,7 +72,7 @@ CMakeLists.txt.user*
 *.7z
 deploy/AppDir
 deploy/Tools
-deploy/VPNNaruzhu*Installer*
+deploy/Ulta*Installer*
 
 # MACOS files
 .DS_Store

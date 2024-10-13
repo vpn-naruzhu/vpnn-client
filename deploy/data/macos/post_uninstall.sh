@@ -1,6 +1,6 @@
 #!/bin/bash
 
-APP_NAME=VPNNaruzhu
+APP_NAME=Ulta
 PLIST_NAME=$APP_NAME.plist
 LAUNCH_DAEMONS_PLIST_NAME=/Library/LaunchDaemons/$PLIST_NAME
 

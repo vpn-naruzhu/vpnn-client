@@ -92,11 +92,11 @@ void LocalSocketController::initializeInternal() {
   m_daemonState = eInitializing;
 
 #ifdef MZ_WINDOWS
-  QString path = "\\\\.\\pipe\\vpnnaruzhu";
+  QString path = "\\\\.\\pipe\\ulta";
 #else
-  QString path = "/var/run/vpnnaruzhu/daemon.socket";
+  QString path = "/var/run/ulta/daemon.socket";
   if (!QFileInfo::exists(path)) {
-    path = "/tmp/vpnnaruzhu.socket";
+    path = "/tmp/ulta.socket";
   }
 #endif
 

@@ -174,7 +174,7 @@ PageType {
 
                 clickedFunction: function() {
                     var headerText = qsTr("Do you want to remove the server from application?")
-                    var descriptionText = qsTr("All installed VPNNaruzhu services will still remain on the server.")
+                    var descriptionText = qsTr("All installed Ulta services will still remain on the server.")
                     var yesButtonText = qsTr("Continue")
                     var noButtonText = qsTr("Cancel")
 

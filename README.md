@@ -1,4 +1,4 @@
-# VPNNaruzhu
+# Ulta
 ## _Amnezia based VPN client_
 
 [![Build Status](https://github.com/vpn-naruzhu/vpnn-client/actions/workflows/deploy.yml/badge.svg?branch=dev)](https://github.com/vpn-naruzhu/vpnn-client/actions/workflows/deploy.yml?query=branch:dev)
@@ -43,7 +43,7 @@ Amnezia is an open-source VPN client, with a key feature that enables you to dep
 [https://t.me/vpn_naruzhu](https://t.me/vpn_naruzhu) - Telegram group
 ## Tech
 
-VPNNaruzhu uses several open-source projects to work:
+Ulta uses several open-source projects to work:
 
 - [OpenSSL](https://www.openssl.org/)
 - [OpenVPN](https://openvpn.net/)
@@ -151,10 +151,10 @@ export PATH=$(PATH):/path/to/GOPATH/bin
 If the build fails with the following error
 ```
 make: ***
-[$(PROJECTDIR)/client/build/VPNNaruzhu.build/Debug-iphoneos/wireguard-go-bridge/goroot/.prepared]
+[$(PROJECTDIR)/client/build/Ulta.build/Debug-iphoneos/wireguard-go-bridge/goroot/.prepared]
 Error 1
 ```
-Add a user-defined variable to both VPNNaruzhu and WireGuardNetworkExtension targets' build settings with
+Add a user-defined variable to both Ulta and WireGuardNetworkExtension targets' build settings with
 key `PATH` and value `${PATH}/path/to/bin/folder/with/go/executable`, e.g. `${PATH}:/usr/local/go/bin`.
 
 if the above error persists on your M1 Mac, then most probably you need to install arch based CMake

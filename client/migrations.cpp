@@ -54,7 +54,7 @@ void Migrations::migrateV3()
         return;
     }
 
-    QString location = rootLocation + "/files/.config/VPNNaruzhu.ORG/VPNNaruzhu.conf";
+    QString location = rootLocation + "/files/.config/Ulta.ORG/Ulta.conf";
 
     QFile oldConfig(location);
 
@@ -63,7 +63,7 @@ void Migrations::migrateV3()
 
         QDir newConfigDir(newConfigPath);
 
-        newConfigPath += "/VPNNaruzhu.ORG";
+        newConfigPath += "/Ulta.ORG";
 
         bool mkPathRes = newConfigDir.mkpath(newConfigPath);
 
@@ -71,14 +71,14 @@ void Migrations::migrateV3()
             return;
         }
 
-        QFile newConfigFile(newConfigPath + "/VPNNaruzhu.conf");
+        QFile newConfigFile(newConfigPath + "/Ulta.conf");
 
         if (!newConfigFile.exists()) {
             bool cpResult = QFile::copy(oldConfig.fileName(), newConfigFile.fileName());
             if (cpResult) {
                 oldConfig.remove();
                 QDir oldConfigDir(rootLocation + "/files/.config");
-                oldConfigDir.rmdir("VPNNaruzhu.ORG");
+                oldConfigDir.rmdir("Ulta.ORG");
             }
         }
     }

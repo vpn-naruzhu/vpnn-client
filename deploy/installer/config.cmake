@@ -18,11 +18,11 @@ elseif(LINUX)
 
     configure_file(
         ${CMAKE_CURRENT_LIST_DIR}/config/AmneziaVPN.desktop.in
-        ${CMAKE_BINARY_DIR}/../AppDir/VPNNaruzhu.desktop
+        ${CMAKE_BINARY_DIR}/../AppDir/Ulta.desktop
     )
 endif()
 
 configure_file(
-    ${CMAKE_CURRENT_LIST_DIR}/packages/org.vpnnaruzhu.package/meta/package.xml.in
-    ${CMAKE_BINARY_DIR}/installer/packages/org.vpnnaruzhu.package/meta/package.xml
+    ${CMAKE_CURRENT_LIST_DIR}/packages/org.ulta.package/meta/package.xml.in
+    ${CMAKE_BINARY_DIR}/installer/packages/org.ulta.package/meta/package.xml
 )

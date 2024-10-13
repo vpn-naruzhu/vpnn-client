@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.25.0 FATAL_ERROR)
 
-set(PROJECT VPNNaruzhu)
+set(PROJECT Ulta)
 
-project(${PROJECT} VERSION 2.0.0.0
-        DESCRIPTION "VPNNaruzhu"
-        HOMEPAGE_URL "https://naruzhu.click/appam"
+project(${PROJECT} VERSION 1.0.0.0
+        DESCRIPTION "Ulta"
+        HOMEPAGE_URL "https://t.me/ultarussia"
 )
 
 string(TIMESTAMP CURRENT_DATE "%Y-%m-%d")

@@ -12,9 +12,9 @@ mkdir -p $BUILD_DIR
 echo "Project dir: ${PROJECT_DIR}"
 echo "Build dir: ${BUILD_DIR}"
 
-APP_NAME=VPNNaruzhu
+APP_NAME=Ulta
 APP_FILENAME=$APP_NAME.app
-APP_DOMAIN=org.vpnnaruzhu.package
+APP_DOMAIN=org.ulta.package
 PLIST_NAME=$APP_NAME.plist
 
 
@@ -91,9 +91,9 @@ fi
 xcodebuild \
 "OTHER_CODE_SIGN_FLAGS=--keychain '$KEYCHAIN_FILE'" \
 -configuration Release \
--scheme VPNNaruzhu \
+-scheme Ulta \
 -destination "generic/platform=iOS,name=Any iOS'" \
--project $BUILD_DIR/VPNNaruzhu.xcodeproj
+-project $BUILD_DIR/Ulta.xcodeproj
 
 # restore keychain
 security default-keychain -s login.keychain

@@ -26,14 +26,14 @@ PageType {
 
         Image {
             id: image
-            source: "qrc:/images/naruzhu_logo.png"
+            source: "qrc:/images/ulta_logo.png"
 
             Layout.alignment: Qt.AlignCenter
-            Layout.topMargin: 32
+            Layout.topMargin: 160
             Layout.leftMargin: 8
             Layout.rightMargin: 8
-            Layout.preferredWidth: 344
-            Layout.preferredHeight: 279
+            Layout.preferredWidth: 220
+            Layout.preferredHeight: 56
         }
 
         ParagraphTextType {
@@ -42,8 +42,21 @@ PageType {
             Layout.leftMargin: 16
             Layout.rightMargin: 16
             horizontalAlignment: Text.AlignHCenter
-            color: "#F1F0EF"
-            text: qsTr("Open foreign and Russian websites.")
+            font.pixelSize: 13
+            font.weight: Font.Bold
+            color: UltaStyle.color.mainText
+            text: qsTr("Discord without any blocks")
+        }
+
+        SmallTextType {
+            Layout.fillWidth: true
+            Layout.topMargin: 70
+            Layout.leftMargin: 16
+            Layout.rightMargin: 16
+            font.pixelSize: 13
+            horizontalAlignment: Text.AlignHCenter
+            color: UltaStyle.color.mainText
+            text: qsTr("Do you already have a key from the Telegram bot?")
         }
 
         Item {
@@ -58,27 +71,22 @@ PageType {
             Layout.leftMargin: 16
             Layout.rightMargin: 16
 
-            text: qsTr("I have the data to connect")
-            defaultColor: "transparent"
-            hoveredColor: "#FFDD51"
-            pressedColor: "#FFDD51"
-            disabledColor: "#878B91"
-            textColor: "#000000" // Set default text color to black
+            text: qsTr("Yes, I've a key")
 
             // Button styling
             background: Rectangle {
-                color: parent.hovered ? "#FFDD51" : "transparent"
-                border.color: parent.hovered ? "#191919" : "#FFDD51" // Set border color to corner color when hovered
+                color: parent.hovered ? UltaStyle.color.buttonBackGroundSelected : UltaStyle.color.buttonBackGround
+                border.color: UltaStyle.color.border
                 radius: 10
             }
 
             // Button text color
             contentItem: Text {
                 text: parent.text
-                color: parent.hovered ? "#000000" : "#FFDD51" // Change text color when hovered
+                color: parent.hovered ? UltaStyle.color.mainTextSelected : UltaStyle.color.mainText
                 horizontalAlignment: Text.AlignHCenter
                 verticalAlignment: Text.AlignVCenter
-                font.pixelSize: 16
+                font.pixelSize: 18
             }
             clickedFunc: function() {
                 PageController.goToPage(PageEnum.PageSetupWizardConfigSource)
@@ -95,33 +103,26 @@ PageType {
             Layout.leftMargin: 16
             Layout.rightMargin: 16
 
-            // Button appearance properties
-            defaultColor: "transparent"
-            hoveredColor: "#FFDD51"
-            pressedColor: "#FFDD51"
-            disabledColor: "#878B91"
-            textColor: "#000000" // Set default text color to black
-
-            text: qsTr("I have nothing")
+            text: qsTr("No, receive a key")
             // Button styling
             background: Rectangle {
-                color: parent.hovered ? "#FFDD51" : "transparent"
-                border.color: parent.hovered ? "#191919" : "#FFDD51" // Set border color to corner color when hovered
+                color: parent.hovered ? UltaStyle.color.buttonBackGroundSelected : UltaStyle.color.buttonBackGround
+                border.color: UltaStyle.color.border
                 radius: 10
             }
 
             // Button text color
             contentItem: Text {
                 text: parent.text
-                color: parent.hovered ? "#000000" : "#FFDD51" // Change text color when hovered
+                color: parent.hovered ? UltaStyle.color.mainTextSelected : UltaStyle.color.mainText
                 horizontalAlignment: Text.AlignHCenter
                 verticalAlignment: Text.AlignVCenter
-                font.pixelSize: 16
+                font.pixelSize: 18
             }
 
             // Click functionality
             onClicked: {
-                Qt.openUrlExternally(qsTr("https://naruzhu.click/appam"))
+                Qt.openUrlExternally(qsTr("https://t.me/ultadiscord_bot"))
             }
         }
     }

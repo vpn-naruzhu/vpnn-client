@@ -17,8 +17,8 @@
 #  include <sys/types.h>
 #  include <unistd.h>
 
-constexpr const char* TMP_PATH = "/tmp/vpnnaruzhu.socket";
-constexpr const char* VAR_PATH = "/var/run/vpnnaruzhu/daemon.socket";
+constexpr const char* TMP_PATH = "/tmp/ulta.socket";
+constexpr const char* VAR_PATH = "/var/run/ulta/daemon.socket";
 #endif
 
 namespace {
@@ -67,7 +67,7 @@ bool DaemonLocalServer::initialize() {
 
 QString DaemonLocalServer::daemonPath() const {
 #if defined(MZ_WINDOWS)
-  return "\\\\.\\pipe\\vpnnaruzhu";
+  return "\\\\.\\pipe\\ulta";
 #endif
 #if defined(MZ_MACOS) || defined(MZ_LINUX)
   QDir dir("/var/run");
@@ -76,19 +76,19 @@ QString DaemonLocalServer::daemonPath() const {
     return TMP_PATH;
   }
 
-  if (dir.exists("vpnnaruzhu")) {
-    logger.debug() << "/var/run/vpnnaruzhu seems to be usable";
+  if (dir.exists("ulta")) {
+    logger.debug() << "/var/run/ulta seems to be usable";
     return VAR_PATH;
   }
 
-  if (!dir.mkdir("vpnnaruzhu")) {
-    logger.warning() << "Failed to create /var/run/vpnnaruzhu";
+  if (!dir.mkdir("ulta")) {
+    logger.warning() << "Failed to create /var/run/ulta";
     return TMP_PATH;
   }
 
-  if (chmod("/var/run/vpnnaruzhu", S_IRWXU | S_IRWXG | S_IRWXO) < 0) {
+  if (chmod("/var/run/ulta", S_IRWXU | S_IRWXG | S_IRWXO) < 0) {
     logger.warning()
-        << "Failed to set the right permissions to /var/run/vpnnaruzhu";
+        << "Failed to set the right permissions to /var/run/ulta";
     return TMP_PATH;
   }
 

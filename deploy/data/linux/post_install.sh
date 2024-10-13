@@ -1,18 +1,18 @@
 #!/bin/bash
 
-APP_NAME=VPNNaruzhu
+APP_NAME=Ulta
 LOG_FOLDER=/var/log/$APP_NAME
 LOG_FILE="$LOG_FOLDER/post-install.log"
 APP_PATH=/opt/$APP_NAME
 
 if ! test -f $LOG_FOLDER; then
         sudo mkdir $LOG_FOLDER
-        echo "VPNNaruzhu log dir created at /var/log/"
+        echo "Ulta log dir created at /var/log/"
 fi
 
 if ! test -f $LOG_FILE; then
         touch $LOG_FILE
-        echo "VPNNaruzhu log file created at /var/log/VPNNaruzhu/post-install.log"
+        echo "Ulta log file created at /var/log/Ulta/post-install.log"
 fi
 
 date > $LOG_FILE

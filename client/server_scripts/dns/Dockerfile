@@ -1,6 +1,6 @@
 FROM mvance/unbound:latest
 
-LABEL maintainer="VPNNaruzhu"
+LABEL maintainer="Ulta"
 
 RUN echo " \n\
 domain-insecure: \"coin.\"\n\

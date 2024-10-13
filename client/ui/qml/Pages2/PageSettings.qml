@@ -116,7 +116,7 @@ PageType {
                 id: about
                 Layout.fillWidth: true
 
-                text: qsTr("About VPNNaruzhu")
+                text: qsTr("About Ulta")
                 rightImageSource: "qrc:/images/controls/chevron-right.svg"
                 leftImageSource: "qrc:/images/controls/external-link.svg"
 
@@ -158,23 +158,7 @@ PageType {
                 leftImageSource: "qrc:/images/controls/telegramNaruzhu.svg"
 
                 clickedFunction: function() {
-                     Qt.openUrlExternally("https://t.me/vpn_naruzhu_support_bot")
-                }
-            }
-
-            DividerType {}
-
-            LabelWithButtonType {
-                id: supportEmail
-                Layout.fillWidth: true
-
-                text: qsTr("Support via Email")
-                descriptionText: qsTr("team@vpn-naruzhu.com")
-                rightImageSource: "qrc:/images/controls/chevron-right.svg"
-                leftImageSource: "qrc:/images/controls/email.svg"
-
-                clickedFunction: function() {
-                     Qt.openUrlExternally("mailto:team@vpn-naruzhu.com")
+                     Qt.openUrlExternally("https://t.me/ultadiscord_bot")
                 }
             }
 
@@ -189,7 +173,7 @@ PageType {
                 leftImageSource: "qrc:/images/controls/chat.svg"
 
                 clickedFunction: function() {
-                     Qt.openUrlExternally("https://t.me/vpn_naruzhu")
+                     Qt.openUrlExternally("https://t.me/ultarussia")
                 }
             }
 

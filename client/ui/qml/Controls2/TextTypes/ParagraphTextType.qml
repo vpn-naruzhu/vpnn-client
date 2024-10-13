@@ -8,7 +8,7 @@ Text {
     color: AmneziaStyle.color.paleGray
     font.pixelSize: 16
     font.weight: Font.DemiBold
-    font.family: "Inter"
+    font.family: "Montserrat Bold"
 
     wrapMode: Text.WordWrap
 }

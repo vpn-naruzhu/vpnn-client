@@ -283,7 +283,7 @@ PageType {
 
                 strokeWidth: 1
                 strokeColor: AmneziaStyle.color.slateGray
-                fillColor: AmneziaStyle.color.onyxBlack
+                fillColor: UltaStyle.color.bottomBarBackGround
             }
         }
 
@@ -355,7 +355,7 @@ PageType {
             isSelected: tabBar.currentIndex === 4
             image: "qrc:/images/controls/tabBarChat.svg"
             onClicked: {
-                Qt.openUrlExternally("https://t.me/vpn_naruzhu_support_bot")
+                Qt.openUrlExternally("https://t.me/ultadiscord_bot")
             }
         }
     }

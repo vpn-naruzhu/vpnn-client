@@ -66,7 +66,7 @@ class ServiceNotification(private val context: Context) {
 
         return notificationBuilder
             .setSmallIcon(R.drawable.ic_amnezia_round)
-            .setContentTitle((serverName ?: "VPNNaruzhu") + (protocol?.let { " $it" } ?: ""))
+            .setContentTitle((serverName ?: "Ulta") + (protocol?.let { " $it" } ?: ""))
             .setContentText(context.getString(state))
             .setSubText(speedString)
             .setWhen(System.currentTimeMillis())
@@ -160,7 +160,7 @@ class ServiceNotification(private val context: Context) {
                         .setSound(null, null)
                         .setVibrationEnabled(false)
                         .setLightsEnabled(false)
-                        .setName("VPNNaruzhu")
+                        .setName("Ulta")
                         .setDescription(context.resources.getString(R.string.notificationChannelDescription))
                         .build()
                 )

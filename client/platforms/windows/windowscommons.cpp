@@ -20,7 +20,7 @@
 #include "logger.h"
 #include "platforms/windows/windowsutils.h"
 
-constexpr const char* VPN_NAME = "VPNNaruzhu";
+constexpr const char* VPN_NAME = "Ulta";
 constexpr const char* WIREGUARD_DIR = "WireGuard";
 constexpr const char* DATA_DIR = "Data";
 
@@ -134,7 +134,7 @@ int WindowsCommons::VPNAdapterIndex() {
   // For someReason QNetworkInterface::fromName(MozillaVPN) does not work >:(
   auto adapterList = QNetworkInterface::allInterfaces();
   for (const auto& adapter : adapterList) {
-    if (adapter.humanReadableName().contains("VPNNaruzhu")) {
+    if (adapter.humanReadableName().contains("Ulta")) {
       return adapter.index();
     }
   }
