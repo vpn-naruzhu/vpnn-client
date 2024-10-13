@@ -164,7 +164,7 @@ open class AmneziaVpnService : VpnService() {
                         clientMessengers[msg.replyTo]?.let { clientMessenger ->
                             clientMessenger.send {
                                 ServiceEvent.STATUS.packToMessage {
-                                    putStatus(this@VpnNaruzhuService.protocolState.value)
+                                    putStatus(this@AmneziaVpnService.protocolState.value)
                                 }
                             }
                         }
