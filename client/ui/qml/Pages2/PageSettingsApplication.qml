@@ -201,30 +201,12 @@ PageType {
             DividerType {}
 
             LabelWithButtonType {
-                id: labelWithButtonLogging
-                Layout.fillWidth: true
-
-                text: qsTr("Logging")
-                descriptionText: SettingsController.isLoggingEnabled ? qsTr("Enabled") : qsTr("Disabled")
-                rightImageSource: "qrc:/images/controls/chevron-right.svg"
-
-                KeyNavigation.tab: labelWithButtonReset.rightButton
-                parentFlickable: fl
-
-                clickedFunction: function() {
-                    PageController.goToPage(PageEnum.PageSettingsLogging)
-                }
-            }
-
-            DividerType {}
-
-            LabelWithButtonType {
                 id: labelWithButtonReset
                 Layout.fillWidth: true
 
                 text: qsTr("Reset settings and remove all data from the application")
                 rightImageSource: "qrc:/images/controls/chevron-right.svg"
-                textColor: AmneziaStyle.color.vibrantRed
+                textColor: UltaStyle.color.attentionText
 
                 Keys.onTabPressed: lastItemTabClicked()
                 parentFlickable: fl

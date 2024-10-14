@@ -6,9 +6,9 @@ import Style 1.0
 TabButton {
     id: root
 
-    property string hoveredColor: "#633303"
-    property string defaultColor: "#D7D8DB"
-    property string selectedColor: "#FFDD51"
+    property string hoveredColor: UltaStyle.color.iconSelected
+    property string defaultColor: UltaStyle.color.bottomBarIcon
+    property string selectedColor: UltaStyle.color.iconSelected
 
     property string image
 

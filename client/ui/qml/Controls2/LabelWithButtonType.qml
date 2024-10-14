@@ -27,16 +27,16 @@ Item {
     property alias eyeButton: eyeImage
     property FlickableType parentFlickable
 
-    property string textColor: AmneziaStyle.color.paleGray
+    property string textColor: UltaStyle.color.mainText
     property string textDisabledColor: AmneziaStyle.color.mutedGray
-    property string descriptionColor: AmneziaStyle.color.mutedGray
+    property string descriptionColor: UltaStyle.color.caption
     property string descriptionDisabledColor: AmneziaStyle.color.charcoalGray
     property real textOpacity: 1.0
 
     property string borderFocusedColor: AmneziaStyle.color.paleGray
     property int borderFocusedWidth: 1
 
-    property string rightImageColor: AmneziaStyle.color.paleGray
+    property string rightImageColor: UltaStyle.color.icon
 
     property bool descriptionOnTop: false
     property bool hideDescription: true
@@ -70,7 +70,8 @@ Item {
 
         onEntered: {
             if (rightImageSource) {
-                rightImageBackground.color = rightImage.hoveredColor
+                rightImage.imageColor = UltaStyle.color.iconSelected
+                rightImageBackground.color = UltaStyle.color.buttonBackGroundSelected
             } else if (leftImageSource) {
                 leftImageBackground.color = rightImage.hoveredColor
             }
@@ -79,6 +80,7 @@ Item {
 
         onExited: {
             if (rightImageSource) {
+                rightImage.imageColor = UltaStyle.color.icon
                 rightImageBackground.color = rightImage.defaultColor
             } else if (leftImageSource) {
                 leftImageBackground.color = rightImage.defaultColor
@@ -252,6 +254,7 @@ Item {
             hoverEnabled: false
             image: rightImageSource
             imageColor: rightImageColor
+            borderColor: "transparent"
             visible: rightImageSource ? true : false
 
             Layout.alignment: Qt.AlignRight

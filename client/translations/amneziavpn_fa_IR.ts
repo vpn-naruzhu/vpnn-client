@@ -460,9 +460,8 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>PageHome</name>
     <message>
-        <location filename="../ui/qml/Pages2/PageHome.qml" line="67"/>
         <source>Logging enabled</source>
-        <translation>لاگ‌برداری فعال شد</translation>
+        <translation type="vanished">لاگ‌برداری فعال شد</translation>
     </message>
     <message>
         <source>Split tunneling enabled</source>
@@ -473,17 +472,29 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished">تونل تقسیم‌شده غیرفعال شده</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageHome.qml" line="335"/>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="62"/>
+        <source>Discord without any blocks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="100"/>
+        <source>Live communication,
+competitions and the latest news
+in our Telegram channel!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="330"/>
         <source>VPN protocol</source>
         <translation>پروتکل وی‎پی‎ان</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageHome.qml" line="390"/>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="385"/>
         <source>Servers</source>
         <translation>سرورها</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageHome.qml" line="502"/>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="501"/>
         <source>Unable change server while there is an active connection</source>
         <translation>امکان تغییر سرور در هنگام متصل بودن وجود ندارد</translation>
     </message>
@@ -1242,34 +1253,26 @@ Already installed containers were found on the server. All installed containers 
         <translation>نرم‎افزار</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="102"/>
         <source>Backup</source>
-        <translation>بک‎آپ</translation>
+        <translation type="vanished">بک‎آپ</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="119"/>
         <source>About Ulta</source>
-        <translation>درباره Amnezia</translation>
+        <translation type="vanished">درباره Amnezia</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="137"/>
-        <source>Dev console</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="156"/>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="102"/>
         <source>Support via Telegram</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="171"/>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="118"/>
         <source>Telegram Group</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="186"/>
         <source>Close application</source>
-        <translation>بستن نرم‎افزار</translation>
+        <translation type="vanished">بستن نرم‎افزار</translation>
     </message>
 </context>
 <context>
@@ -1554,47 +1557,44 @@ Already installed containers were found on the server. All installed containers 
         <translation>زبان</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="207"/>
         <source>Logging</source>
-        <translation>گزارشات</translation>
+        <translation type="vanished">گزارشات</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="208"/>
         <source>Enabled</source>
-        <translation>فعال</translation>
+        <translation type="vanished">فعال</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="208"/>
         <source>Disabled</source>
-        <translation>غیر فعال</translation>
+        <translation type="vanished">غیر فعال</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="225"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="207"/>
         <source>Reset settings and remove all data from the application</source>
         <translation>ریست کردن تنظیمات و حذف تمام داده‎ها از نرم‎افزار</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="233"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="215"/>
         <source>Reset settings and remove all data from the application?</source>
         <translation>ریست کردن تنظیمات و حذف تمام داده‎ها از نرم‎افزار؟</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="234"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="216"/>
         <source>All settings will be reset to default. All installed Ulta services will still remain on the server.</source>
         <translation>تمام تنظیمات به حالت پیش‎فرض ریست می‎شوند. تمام سرویس‎های Amnezia بر روی سرور باقی می‎مانند.</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="235"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="217"/>
         <source>Continue</source>
         <translation>ادامه</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="236"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="218"/>
         <source>Cancel</source>
         <translation>کنسل</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="240"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="222"/>
         <source>Cannot reset settings during active connection</source>
         <translation>نمی‌توان تنظیمات را در حین اتصال فعال بازنشانی کرد.</translation>
     </message>
@@ -2287,6 +2287,16 @@ Already installed containers were found on the server. All installed containers 
         <translation>ارتباط سرور</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="82"/>
+        <source>Key as a text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="100"/>
+        <source>Key as a file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Do not use connection code from public sources. It may have been created to intercept your data.
 
 It&apos;s okay as long as it&apos;s from someone you trust.</source>
@@ -2299,7 +2309,7 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">از کدهای اتصال از منابع نامعتبر استفاده نکنید، زیرا ممکن است برای رهگیری داده های شما ایجاد شده باشند.</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="116"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="70"/>
         <source>What do you have?</source>
         <translation>چی داری؟</translation>
     </message>
@@ -2318,11 +2328,6 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
     <message>
         <source>Settings</source>
         <translation type="obsolete">تنظیمات</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="281"/>
-        <source>Key as Text</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Insert the key, add a configuration file or scan the QR-code</source>
@@ -2385,12 +2390,11 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">من هیچی ندارم</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="257"/>
         <source>Key as file</source>
-        <translation>فایل شامل تنظیمات اتصال</translation>
+        <translation type="vanished">فایل شامل تنظیمات اتصال</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="264"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="107"/>
         <source>Open key file</source>
         <translation>باز کردن فایل تنظیمات</translation>
     </message>
@@ -2574,22 +2578,22 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">من داده برای اتصال دارم</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="48"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="45"/>
         <source>Discord without any blocks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="59"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="56"/>
         <source>Do you already have a key from the Telegram bot?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="74"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="71"/>
         <source>Yes, I&apos;ve a key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="106"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="104"/>
         <source>No, receive a key</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2643,21 +2647,17 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation>ارتباط جدید</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="109"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="105"/>
         <source>Collapse content</source>
         <translation>جمع کردن محتوا</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="109"/>
-        <source>View debugging information</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="105"/>
         <source>Show content</source>
-        <translation type="vanished">نمایش محتوا</translation>
+        <translation>نمایش محتوا</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="123"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="127"/>
         <source>Enable WireGuard obfuscation. It may be useful if WireGuard is blocked on your provider.</source>
         <translation>فعال‌سازی استتار WireGuard. این ممکن است مفید باشد اگر WireGuard توسط ارائه‌دهنده شما مسدود شده باشد.</translation>
     </message>
@@ -2666,7 +2666,7 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
         <translation type="vanished">از کدهای اتصال فقط از منابع مورد اعتماد خود استفاده کنید. ممکن است کدهایی از منابع عمومی برای رهگیری داده های شما ایجاد شده باشند</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="187"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="185"/>
         <source>Connect</source>
         <translation>اتصال</translation>
     </message>
@@ -3970,7 +3970,7 @@ For more detailed information, you can
 <context>
     <name>SelectLanguageDrawer</name>
     <message>
-        <location filename="../ui/qml/Components/SelectLanguageDrawer.qml" line="71"/>
+        <location filename="../ui/qml/Components/SelectLanguageDrawer.qml" line="73"/>
         <source>Choose language</source>
         <translation>انتخاب زبان</translation>
     </message>
@@ -4093,31 +4093,30 @@ For more detailed information, you can
     <name>SystemTrayNotificationHandler</name>
     <message>
         <location filename="../ui/systemtray_notificationhandler.cpp" line="28"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="60"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="56"/>
         <source>Show</source>
         <translation>نمایش</translation>
     </message>
     <message>
         <location filename="../ui/systemtray_notificationhandler.cpp" line="32"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="61"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="57"/>
         <source>Connect</source>
         <translation>اتصال</translation>
     </message>
     <message>
         <location filename="../ui/systemtray_notificationhandler.cpp" line="33"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="62"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="58"/>
         <source>Disconnect</source>
         <translation>قطع ارتباط</translation>
     </message>
     <message>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="37"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="63"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="59"/>
         <source>Visit Website</source>
         <translation>بازدید وب سایت</translation>
     </message>
     <message>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="41"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="64"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="37"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="60"/>
         <source>Quit</source>
         <translation>خروج</translation>
     </message>
@@ -4214,6 +4213,11 @@ For more detailed information, you can
 </context>
 <context>
     <name>main2</name>
+    <message>
+        <location filename="../ui/qml/main2.qml" line="33"/>
+        <source>Ulta</source>
+        <translation type="unfinished">Ulta</translation>
+    </message>
     <message>
         <location filename="../ui/qml/main2.qml" line="162"/>
         <source>Private key passphrase</source>

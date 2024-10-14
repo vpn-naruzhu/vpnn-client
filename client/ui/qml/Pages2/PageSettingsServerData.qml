@@ -160,7 +160,7 @@ PageType {
                 Layout.fillWidth: true
 
                 text: qsTr("Remove server from application")
-                textColor: AmneziaStyle.color.vibrantRed
+                textColor: UltaStyle.color.attentionText
 
                 Keys.onTabPressed: {
                     if (content.isServerWithWriteAccess) {

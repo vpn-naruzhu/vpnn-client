@@ -90,64 +90,10 @@ PageType {
                     PageController.goToPage(PageEnum.PageSettingsApplication)
                 }
 
-                KeyNavigation.tab: backup.rightButton
+                KeyNavigation.tab: supportTelegramm.rightButton
             }
 
             DividerType {}
-
-            LabelWithButtonType {
-                id: backup
-                Layout.fillWidth: true
-
-                text: qsTr("Backup")
-                rightImageSource: "qrc:/images/controls/chevron-right.svg"
-                leftImageSource: "qrc:/images/controls/save.svg"
-
-                clickedFunction: function() {
-                    PageController.goToPage(PageEnum.PageSettingsBackup)
-                }
-
-                KeyNavigation.tab: about.rightButton
-            }
-
-            DividerType {}
-
-            LabelWithButtonType {
-                id: about
-                Layout.fillWidth: true
-
-                text: qsTr("About Ulta")
-                rightImageSource: "qrc:/images/controls/chevron-right.svg"
-                leftImageSource: "qrc:/images/controls/external-link.svg"
-
-                clickedFunction: function() {
-                    Qt.openUrlExternally("https://naruzhu.click/appam")
-                }
-                KeyNavigation.tab: close
-
-            }
-
-            DividerType {}
-
-            LabelWithButtonType {
-                id: devConsole
-                visible: SettingsController.isDevModeEnabled
-                Layout.fillWidth: true
-
-                text: qsTr("Dev console")
-                rightImageSource: "qrc:/images/controls/chevron-right.svg"
-                leftImageSource: "qrc:/images/controls/bug.svg"
-
-                // Keys.onTabPressed: lastItemTabClicked(header)
-
-                clickedFunction: function() {
-                    PageController.goToPage(PageEnum.PageDevMenu)
-                }
-            }
-
-            DividerType {
-                visible: SettingsController.isDevModeEnabled
-            }
 
             LabelWithButtonType {
                 id: supportTelegramm
@@ -160,6 +106,7 @@ PageType {
                 clickedFunction: function() {
                      Qt.openUrlExternally("https://t.me/ultadiscord_bot")
                 }
+                KeyNavigation.tab: supportTelegramm.rightButton
             }
 
             DividerType {}
@@ -175,28 +122,10 @@ PageType {
                 clickedFunction: function() {
                      Qt.openUrlExternally("https://t.me/ultarussia")
                 }
+                KeyNavigation.tab: account.rightButton
             }
 
-            LabelWithButtonType {
-                id: close
-                visible: GC.isDesktop()
-                Layout.fillWidth: true
-                Layout.preferredHeight: about.height
-
-                text: qsTr("Close application")
-                leftImageSource: "qrc:/images/controls/x-circle.svg"
-                isLeftImageHoverEnabled: false
-
-                Keys.onTabPressed: lastItemTabClicked(header)
-
-                clickedFunction: function() {
-                    PageController.closeApplication()
-                }
-            }
-
-            DividerType {
-                visible: GC.isDesktop()
-            }
+            DividerType {}
         }
     }
 }

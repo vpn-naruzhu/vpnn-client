@@ -140,6 +140,7 @@
         <file>images/controls/github.svg</file>
         <file>images/controls/mail.svg</file>
         <file>images/controls/telegram.svg</file>
+        <file>images/controls/telegram_logo_60x60.png</file>
         <file>ui/qml/Controls2/TextTypes/SmallTextType.qml</file>
         <file>ui/qml/Filters/ContainersModelFilters.qml</file>
         <file>ui/qml/Components/SelectLanguageDrawer.qml</file>
@@ -188,7 +189,6 @@
         <file>images/controls/alert-circle.svg</file>
         <file>images/controls/file-check-2.svg</file>
         <file>ui/qml/Controls2/WarningType.qml</file>
-        <file>fonts/pt-root-ui_vf.ttf</file>
         <file>fonts/Montserrat-VariableFont_wght.ttf</file>
         <file>ui/qml/Modules/Style/qmldir</file>
         <file>ui/qml/Modules/Style/AmneziaStyle.qml</file>
@@ -221,7 +221,6 @@
         <file>images/Ulta.png</file>
         <file>images/controls/email.svg</file>
         <file>images/controls/tabBarChat.svg</file>
-        <file>images/controls/chat.svg</file>
         <file>images/controls/external-link.svg</file>
         <file>images/controls/telegramNaruzhu.svg</file>
         <file>images/controls/chat.svg</file>

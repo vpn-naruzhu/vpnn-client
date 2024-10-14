@@ -5,10 +5,10 @@ Text {
     lineHeight: 24 + LanguageModel.getLineHeightAppend()
     lineHeightMode: Text.FixedHeight
 
-    color: AmneziaStyle.color.paleGray
+    color: UltaStyle.color.mainText
     font.pixelSize: 16
-    font.weight: Font.DemiBold
-    font.family: "Montserrat Bold"
+    font.weight: Font.Bold
+    font.family: "Montserrat SemiBold"
 
     wrapMode: Text.WordWrap
 }

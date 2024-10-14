@@ -241,7 +241,6 @@ void AmneziaApplication::loadFonts()
 {
     QQuickStyle::setStyle("Basic");
 
-    QFontDatabase::addApplicationFont(":/fonts/pt-root-ui_vf.ttf");
     QFontDatabase::addApplicationFont(":/fonts/Montserrat-VariableFont_wght.ttf");
 }
 

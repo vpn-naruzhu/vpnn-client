@@ -456,9 +456,8 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>PageHome</name>
     <message>
-        <location filename="../ui/qml/Pages2/PageHome.qml" line="67"/>
         <source>Logging enabled</source>
-        <translation>लॉगिंग सक्षम</translation>
+        <translation type="vanished">लॉगिंग सक्षम</translation>
     </message>
     <message>
         <source>Split tunneling enabled</source>
@@ -469,17 +468,29 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished">स्प्लिट टनलिंग अक्षम</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageHome.qml" line="335"/>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="62"/>
+        <source>Discord without any blocks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="100"/>
+        <source>Live communication,
+competitions and the latest news
+in our Telegram channel!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="330"/>
         <source>VPN protocol</source>
         <translation>VPN प्रोटोकॉल</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageHome.qml" line="390"/>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="385"/>
         <source>Servers</source>
         <translation>सर्वर</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageHome.qml" line="502"/>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="501"/>
         <source>Unable change server while there is an active connection</source>
         <translation>सक्रिय कनेक्शन होने पर सर्वर बदलने में असमर्थ</translation>
     </message>
@@ -1191,34 +1202,26 @@ Already installed containers were found on the server. All installed containers 
         <translation>एप्लिकेशन</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="102"/>
         <source>Backup</source>
-        <translation>बैकअप</translation>
+        <translation type="vanished">बैकअप</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="119"/>
         <source>About Ulta</source>
-        <translation>Ulta के बारे में</translation>
+        <translation type="vanished">Ulta के बारे में</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="137"/>
-        <source>Dev console</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="156"/>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="102"/>
         <source>Support via Telegram</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="171"/>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="118"/>
         <source>Telegram Group</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="186"/>
         <source>Close application</source>
-        <translation>एप्लिकेशन बंद करो</translation>
+        <translation type="vanished">एप्लिकेशन बंद करो</translation>
     </message>
 </context>
 <context>
@@ -1499,47 +1502,44 @@ Already installed containers were found on the server. All installed containers 
         <translation>भाषा</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="207"/>
         <source>Logging</source>
-        <translation>लॉगिंग</translation>
+        <translation type="vanished">लॉगिंग</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="208"/>
         <source>Enabled</source>
-        <translation>सक्रिय किया</translation>
+        <translation type="vanished">सक्रिय किया</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="208"/>
         <source>Disabled</source>
-        <translation>अक्षम</translation>
+        <translation type="vanished">अक्षम</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="225"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="207"/>
         <source>Reset settings and remove all data from the application</source>
         <translation>सेटिंग्स रीसेट करें और एप्लिकेशन से सभी डेटा हटा दें</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="233"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="215"/>
         <source>Reset settings and remove all data from the application?</source>
         <translation>सेटिंग्स रीसेट करें और एप्लिकेशन से सभी डेटा हटा दें?</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="234"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="216"/>
         <source>All settings will be reset to default. All installed Ulta services will still remain on the server.</source>
         <translation>सभी सेटिंग्स डिफ़ॉल्ट पर रीसेट हो जाएंगी. सभी स्थापित Ulta सेवाएँ अभी भी सर्वर पर रहेंगी।.</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="235"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="217"/>
         <source>Continue</source>
         <translation>जारी रखना</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="236"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="218"/>
         <source>Cancel</source>
         <translation>रद्द करना</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="240"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="222"/>
         <source>Cannot reset settings during active connection</source>
         <translation>सक्रिय कनेक्शन के दौरान सेटिंग्स रीसेट नहीं की जा सकतीं</translation>
     </message>
@@ -2220,11 +2220,21 @@ Already installed containers were found on the server. All installed containers 
         <translation>सर्वर कनेक्शन</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="82"/>
+        <source>Key as a text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="100"/>
+        <source>Key as a file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Do not use connection codes from untrusted sources, as they may be created to intercept your data.</source>
         <translation type="vanished">अविश्वसनीय स्रोतों से कनेक्शन कोड का उपयोग न करें, क्योंकि वे आपके डेटा को बाधित करने के लिए बनाए जा सकते हैं.</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="116"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="70"/>
         <source>What do you have?</source>
         <translation>तुम्हारे पास क्या है?</translation>
     </message>
@@ -2239,11 +2249,6 @@ Already installed containers were found on the server. All installed containers 
     <message>
         <source>Settings</source>
         <translation type="obsolete">समायोजन</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="281"/>
-        <source>Key as Text</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Insert</source>
@@ -2282,12 +2287,11 @@ Already installed containers were found on the server. All installed containers 
         <translation type="obsolete">मेरे पास कुछ नहीं है</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="257"/>
         <source>Key as file</source>
-        <translation>कनेक्शन सेटिंग्स वाली फ़ाइल</translation>
+        <translation type="vanished">कनेक्शन सेटिंग्स वाली फ़ाइल</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="264"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="107"/>
         <source>Open key file</source>
         <translation>कॉन्फ़िग फ़ाइल खोलें</translation>
     </message>
@@ -2483,22 +2487,22 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished">मेरे पास कुछ नहीं है</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="48"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="45"/>
         <source>Discord without any blocks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="59"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="56"/>
         <source>Do you already have a key from the Telegram bot?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="74"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="71"/>
         <source>Yes, I&apos;ve a key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="106"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="104"/>
         <source>No, receive a key</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2544,21 +2548,17 @@ Already installed containers were found on the server. All installed containers 
         <translation>नया कनेक्शन</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="109"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="105"/>
         <source>Collapse content</source>
         <translation>सामग्री संक्षिप्त करें</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="109"/>
-        <source>View debugging information</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="105"/>
         <source>Show content</source>
-        <translation type="vanished">सामग्री दिखाओ</translation>
+        <translation>सामग्री दिखाओ</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="123"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="127"/>
         <source>Enable WireGuard obfuscation. It may be useful if WireGuard is blocked on your provider.</source>
         <translation>वायरगार्ड अस्पष्टीकरण सक्षम करें. यदि आपके प्रदाता पर वायरगार्ड अवरुद्ध है तो यह उपयोगी हो सकता है.</translation>
     </message>
@@ -2567,7 +2567,7 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished">केवल उन स्रोतों से कनेक्शन कोड का उपयोग करें जिन पर आपको भरोसा है। हो सकता है कि आपके डेटा को इंटरसेप्ट करने के लिए सार्वजनिक स्रोतों से कोड बनाए गए हों.</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="187"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="185"/>
         <source>Connect</source>
         <translation>कनेक्ट</translation>
     </message>
@@ -3790,7 +3790,7 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
 <context>
     <name>SelectLanguageDrawer</name>
     <message>
-        <location filename="../ui/qml/Components/SelectLanguageDrawer.qml" line="71"/>
+        <location filename="../ui/qml/Components/SelectLanguageDrawer.qml" line="73"/>
         <source>Choose language</source>
         <translation>भाषा चुनें</translation>
     </message>
@@ -3909,31 +3909,30 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
     <name>SystemTrayNotificationHandler</name>
     <message>
         <location filename="../ui/systemtray_notificationhandler.cpp" line="28"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="60"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="56"/>
         <source>Show</source>
         <translation>दिखाओ</translation>
     </message>
     <message>
         <location filename="../ui/systemtray_notificationhandler.cpp" line="32"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="61"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="57"/>
         <source>Connect</source>
         <translation>कनेक्ट</translation>
     </message>
     <message>
         <location filename="../ui/systemtray_notificationhandler.cpp" line="33"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="62"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="58"/>
         <source>Disconnect</source>
         <translation>डिस्कनेक्ट</translation>
     </message>
     <message>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="37"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="63"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="59"/>
         <source>Visit Website</source>
         <translation>बेवसाइट देखना</translation>
     </message>
     <message>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="41"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="64"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="37"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="60"/>
         <source>Quit</source>
         <translation>छोड़ना</translation>
     </message>
@@ -4034,6 +4033,11 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
 </context>
 <context>
     <name>main2</name>
+    <message>
+        <location filename="../ui/qml/main2.qml" line="33"/>
+        <source>Ulta</source>
+        <translation type="unfinished">Ulta</translation>
+    </message>
     <message>
         <location filename="../ui/qml/main2.qml" line="162"/>
         <source>Private key passphrase</source>

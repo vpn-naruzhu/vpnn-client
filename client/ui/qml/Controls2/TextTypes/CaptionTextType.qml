@@ -6,7 +6,7 @@ Text {
     lineHeight: 16 + LanguageModel.getLineHeightAppend()
     lineHeightMode: Text.FixedHeight
 
-    color: AmneziaStyle.color.midnightBlack
+    color: UltaStyle.color.caption
     font.pixelSize: 13
     font.weight: 400
     font.family: "Montserrat Medium"

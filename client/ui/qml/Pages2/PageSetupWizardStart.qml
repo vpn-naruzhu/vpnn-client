@@ -42,9 +42,6 @@ PageType {
             Layout.leftMargin: 16
             Layout.rightMargin: 16
             horizontalAlignment: Text.AlignHCenter
-            font.pixelSize: 13
-            font.weight: Font.Bold
-            color: UltaStyle.color.mainText
             text: qsTr("Discord without any blocks")
         }
 
@@ -87,10 +84,11 @@ PageType {
                 horizontalAlignment: Text.AlignHCenter
                 verticalAlignment: Text.AlignVCenter
                 font.pixelSize: 18
+                font.family: "Montserrat Medium"
             }
+
             clickedFunc: function() {
                 PageController.goToPage(PageEnum.PageSetupWizardConfigSource)
-                root.close()
             }
 
             KeyNavigation.tab: startButton2
@@ -104,6 +102,7 @@ PageType {
             Layout.rightMargin: 16
 
             text: qsTr("No, receive a key")
+
             // Button styling
             background: Rectangle {
                 color: parent.hovered ? UltaStyle.color.buttonBackGroundSelected : UltaStyle.color.buttonBackGround
@@ -118,6 +117,7 @@ PageType {
                 horizontalAlignment: Text.AlignHCenter
                 verticalAlignment: Text.AlignVCenter
                 font.pixelSize: 18
+                font.family: "Montserrat Medium"
             }
 
             // Click functionality

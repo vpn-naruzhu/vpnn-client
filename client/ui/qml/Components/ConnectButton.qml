@@ -11,14 +11,14 @@ import Style 1.0
 Button {
     id: root
 
-    property string defaultButtonColor: "#F1F0EF"
-    property string progressButtonColor: "#FFDD51"
-    property string connectedButtonColor: "#33CC8C"
+    property string defaultButtonColor: UltaStyle.color.progressButton
+    property string progressButtonColor: UltaStyle.color.progressButton
+    property string connectedButtonColor: UltaStyle.color.connectedButton
     property string errorButtonColor: "#FF6969"
     property bool buttonActiveFocus: activeFocus && (Qt.platform.os !== "android" || SettingsController.isOnTv())
 
-    implicitWidth: 190
-    implicitHeight: 190
+    implicitWidth: 200
+    implicitHeight: 200
 
     text: qsTr(ConnectionController.connectionStateText)
 

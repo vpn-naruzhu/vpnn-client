@@ -276,13 +276,13 @@ PageType {
                 startX: 0
                 startY: 0
 
-                PathLine { x: width; y: 0 }
-                PathLine { x: width; y: tabBar.height - 1 }
-                PathLine { x: 0; y: tabBar.height - 1 }
-                PathLine { x: 0; y: 0 }
+                PathLine { x: width - 1; y: 0 }
+                PathLine { x: width - 1; y: tabBar.height - 1 }
+                PathLine { x: 1; y: tabBar.height - 1 }
+                PathLine { x: 1; y: 0 }
 
                 strokeWidth: 1
-                strokeColor: AmneziaStyle.color.slateGray
+                strokeColor: UltaStyle.color.bottomBarBorder
                 fillColor: UltaStyle.color.bottomBarBackGround
             }
         }
@@ -353,7 +353,7 @@ PageType {
 
         TabImageButtonType {
             isSelected: tabBar.currentIndex === 4
-            image: "qrc:/images/controls/tabBarChat.svg"
+            image: "qrc:/images/controls/telegram.svg"
             onClicked: {
                 Qt.openUrlExternally("https://t.me/ultadiscord_bot")
             }

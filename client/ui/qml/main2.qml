@@ -30,7 +30,7 @@ Window  {
         PageController.closeWindow()
     }
 
-    title: "Ulta"
+    title: qsTr("Ulta")
 
     Connections {
         target: PageController

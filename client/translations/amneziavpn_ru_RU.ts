@@ -140,7 +140,7 @@
         <location filename="../ui/controllers/connectionController.cpp" line="115"/>
         <location filename="../ui/controllers/connectionController.cpp" line="121"/>
         <source>Connect</source>
-        <translation>Подключиться</translation>
+        <translation>Ультануть</translation>
     </message>
     <message>
         <location filename="../ui/controllers/connectionController.cpp" line="105"/>
@@ -408,7 +408,7 @@ Already installed containers were found on the server. All installed containers 
         <location filename="../ui/notificationhandler.cpp" line="63"/>
         <location filename="../ui/notificationhandler.cpp" line="70"/>
         <source>Ulta</source>
-        <translation>Ulta</translation>
+        <translation>Ульта</translation>
     </message>
     <message>
         <location filename="../ui/notificationhandler.cpp" line="64"/>
@@ -460,30 +460,35 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>PageHome</name>
     <message>
-        <location filename="../ui/qml/Pages2/PageHome.qml" line="67"/>
         <source>Logging enabled</source>
-        <translation>Логирование включено</translation>
+        <translation type="vanished">Логирование включено</translation>
     </message>
     <message>
-        <source>Split tunneling enabled</source>
-        <translation type="vanished">Раздельное туннелирование включено</translation>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="62"/>
+        <source>Discord without any blocks</source>
+        <translation>Discord без блокировок</translation>
     </message>
     <message>
-        <source>Split tunneling disabled</source>
-        <translation type="vanished">Раздельное туннелирование выключено</translation>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="100"/>
+        <source>Live communication,
+competitions and the latest news
+in our Telegram channel!</source>
+        <translation>Живое общение, конкурсы
+и самые последние новости
+в нашем Telegram-канале!</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageHome.qml" line="335"/>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="330"/>
         <source>VPN protocol</source>
         <translation>VPN-протокол</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageHome.qml" line="390"/>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="385"/>
         <source>Servers</source>
         <translation>Серверы</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageHome.qml" line="502"/>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="501"/>
         <source>Unable change server while there is an active connection</source>
         <translation>Невозможно изменить сервер во время активного соединения</translation>
     </message>
@@ -1254,22 +1259,15 @@ Already installed containers were found on the server. All installed containers 
         <translation>Приложение</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="102"/>
         <source>Backup</source>
-        <translation>Резервное копирование</translation>
+        <translation type="vanished">Резервное копирование</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="119"/>
         <source>About Ulta</source>
-        <translation>О Ulta</translation>
+        <translation type="vanished">О Ulta</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="137"/>
-        <source>Dev console</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="156"/>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="102"/>
         <source>Support via Telegram</source>
         <translation>Поддержка в Телеграм</translation>
     </message>
@@ -1278,14 +1276,13 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished">Поддержка по Email</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="171"/>
+        <location filename="../ui/qml/Pages2/PageSettings.qml" line="118"/>
         <source>Telegram Group</source>
         <translation>Группа в Телеграм</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettings.qml" line="186"/>
         <source>Close application</source>
-        <translation>Закрыть приложение</translation>
+        <translation type="vanished">Закрыть приложение</translation>
     </message>
 </context>
 <context>
@@ -1574,47 +1571,44 @@ Already installed containers were found on the server. All installed containers 
         <translation>Включить уведомления для отображения статуса VPN в строке состояния</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="207"/>
         <source>Logging</source>
-        <translation>Логирование</translation>
+        <translation type="vanished">Логирование</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="208"/>
         <source>Enabled</source>
-        <translation>Включено</translation>
+        <translation type="vanished">Включено</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="208"/>
         <source>Disabled</source>
-        <translation>Отключено</translation>
+        <translation type="vanished">Отключено</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="225"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="207"/>
         <source>Reset settings and remove all data from the application</source>
         <translation>Сбросить настройки и удалить все данные из приложения</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="233"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="215"/>
         <source>Reset settings and remove all data from the application?</source>
         <translation>Сбросить настройки и удалить все данные из приложения?</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="234"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="216"/>
         <source>All settings will be reset to default. All installed Ulta services will still remain on the server.</source>
         <translation>Все настройки будут сброшены до значений по умолчанию. Все установленные сервисы Ulta останутся на сервере.</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="235"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="217"/>
         <source>Continue</source>
         <translation>Продолжить</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="236"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="218"/>
         <source>Cancel</source>
         <translation>Отменить</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="240"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="222"/>
         <source>Cannot reset settings during active connection</source>
         <translation>Невозможно сбросить настройки во время активного соединения</translation>
     </message>
@@ -2359,116 +2353,24 @@ Already installed containers were found on the server. All installed containers 
         <translation>Подключение к серверу</translation>
     </message>
     <message>
-        <source>Do not use connection code from public sources. It may have been created to intercept your data.
-
-It&apos;s okay as long as it&apos;s from someone you trust.</source>
-        <translation type="vanished">Не используйте код подключения из публичных источников. Его могли создать, чтобы перехватить ваши данные.
-
-Всё в порядке, если кодом поделился пользователь, которому вы доверяете.</translation>
-    </message>
-    <message>
-        <source>Do not use connection codes from untrusted sources, as they may be created to intercept your data.</source>
-        <translation type="vanished">Не используйте коды подключения из ненадежных источников, так как они могут быть созданы для перехвата ваших данных.</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="116"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="70"/>
         <source>What do you have?</source>
-        <translation>Выберите что у вас есть</translation>
+        <translation>Выберите тип ключа:</translation>
     </message>
     <message>
-        <source>File with connection settings</source>
-        <translation type="vanished">Файл с настройками подключения</translation>
-    </message>
-    <message>
-        <source>File with connection settings or backup</source>
-        <translation type="vanished">Файл с настройками подключения или резервной копией</translation>
-    </message>
-    <message>
-        <source>Connection</source>
-        <translation type="vanished">Соединение</translation>
-    </message>
-    <message>
-        <source>Settings</source>
-        <translation type="obsolete">Настройки</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="281"/>
-        <source>Key as Text</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Insert the key, add a configuration file or scan the QR-code</source>
-        <translation type="vanished">Вставьте ключ, добавьте файл конфигурации или отсканируйте QR-код</translation>
-    </message>
-    <message>
-        <source>Insert key</source>
-        <translation type="vanished">Вставьте ключ</translation>
-    </message>
-    <message>
-        <source>Insert</source>
-        <translation type="vanished">Вставить</translation>
-    </message>
-    <message>
-        <source>Continue</source>
-        <translation type="vanished">Продолжить</translation>
-    </message>
-    <message>
-        <source>Other connection options</source>
-        <translation type="vanished">Другие варианты подключения</translation>
-    </message>
-    <message>
-        <source>VPN by Amnezia</source>
-        <translation type="vanished">VPN от Amnezia</translation>
-    </message>
-    <message>
-        <source>Connect to classic paid and free VPN services from Amnezia</source>
-        <translation type="vanished">Подключайтесь к классическим платным и бесплатным VPN-сервисам от Amnezia</translation>
-    </message>
-    <message>
-        <source>Self-hosted VPN</source>
-        <translation type="vanished">Self-hosted VPN</translation>
-    </message>
-    <message>
-        <source>Configure Amnezia VPN on your own server</source>
-        <translation type="vanished">Настроить VPN на собственном сервере</translation>
-    </message>
-    <message>
-        <source>Restore from backup</source>
-        <translation type="vanished">Восстановить из резервной копии</translation>
-    </message>
-    <message>
-        <source>Open backup file</source>
-        <translation type="vanished">Открыть резервную копию</translation>
-    </message>
-    <message>
-        <source>Backup files (*.backup)</source>
-        <translation type="vanished">Файлы резервных копий (*.backup)</translation>
-    </message>
-    <message>
-        <source>Open config file</source>
-        <translation type="vanished">Открыть файл с конфигурацией</translation>
-    </message>
-    <message>
-        <source>QR code</source>
-        <translation type="vanished">QR-код</translation>
-    </message>
-    <message>
-        <source>I have nothing</source>
-        <translation type="vanished">У меня ничего нет</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="257"/>
-        <source>Key as file</source>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="100"/>
+        <source>Key as a file</source>
         <translation>Ключ в виде файла</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="264"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="107"/>
         <source>Open key file</source>
-        <translation>Открыть файл с ключём</translation>
+        <translation>Открыть файл</translation>
     </message>
     <message>
-        <source>Key as text</source>
-        <translation type="vanished">Ключ в виде текста</translation>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="82"/>
+        <source>Key as a text</source>
+        <translation>Текстовый ключ</translation>
     </message>
 </context>
 <context>
@@ -2667,34 +2569,22 @@ and will not be shared or disclosed to the Amnezia or any third parties</source>
 <context>
     <name>PageSetupWizardStart</name>
     <message>
-        <source>Settings restored from backup file</source>
-        <translation type="vanished">Настройки восстановлены из резервной копии</translation>
-    </message>
-    <message>
-        <source>Open foreign and Russian websites.</source>
-        <translation type="vanished">Открывает зарубежные и российские сайты одновременно.</translation>
-    </message>
-    <message>
-        <source> Helps you access blocked content without revealing your privacy, even to VPN providers.</source>
-        <translation type="vanished"> Помогает получить доступ к заблокированному контенту, не раскрывая вашу конфиденциальность даже провайдерам VPN.</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="48"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="45"/>
         <source>Discord without any blocks</source>
         <translation>Discord без блокировок</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="59"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="56"/>
         <source>Do you already have a key from the Telegram bot?</source>
         <translation>У вас уже есть ключ из Telegram-бота?</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="74"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="71"/>
         <source>Yes, I&apos;ve a key</source>
         <translation>Да, я получил (-а) ключ</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="106"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="104"/>
         <source>No, receive a key</source>
         <translation>Нет, получить ключ</translation>
     </message>
@@ -2702,14 +2592,6 @@ and will not be shared or disclosed to the Amnezia or any third parties</source>
         <location filename="../ui/qml/Pages2/PageSetupWizardStart.qml" line="125"/>
         <source>https://t.me/ultadiscord_bot</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>https://amnezia.org/instructions/0_starter-guide</source>
-        <translation type="vanished">https://amnezia.org/ru/starter-guide</translation>
-    </message>
-    <message>
-        <source>Let&apos;s get started</source>
-        <translation type="vanished">Приступим</translation>
     </message>
 </context>
 <context>
@@ -2748,34 +2630,22 @@ and will not be shared or disclosed to the Amnezia or any third parties</source>
         <translation>Новое соединение</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="109"/>
-        <source>View debugging information</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Do not use connection code from public sources. It could be created to intercept your data.</source>
-        <translation type="vanished">Не используйте код подключения из публичных источников. Его могли создать, чтобы перехватить ваши данные.</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="109"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="105"/>
         <source>Collapse content</source>
         <translation>Свернуть</translation>
     </message>
     <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="105"/>
         <source>Show content</source>
-        <translation type="vanished">Показать</translation>
+        <translation>Показать</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="123"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="127"/>
         <source>Enable WireGuard obfuscation. It may be useful if WireGuard is blocked on your provider.</source>
         <translation>Включить обфускацию WireGuard. Это может быть полезно, если WireGuard блокируется вашим провайдером.</translation>
     </message>
     <message>
-        <source>Use connection codes only from sources you trust. Codes from public sources may have been created to intercept your data.</source>
-        <translation type="vanished">Используйте файлы конфигурации только из тех источников, которым вы доверяете. Файлы из общедоступных источников могли быть созданы с целью перехвата ваших личных данных.</translation>
-    </message>
-    <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="187"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardViewConfig.qml" line="185"/>
         <source>Connect</source>
         <translation>Подключиться</translation>
     </message>
@@ -4181,7 +4051,7 @@ This means that AmneziaWG keeps the fast performance of the original while addin
 <context>
     <name>SelectLanguageDrawer</name>
     <message>
-        <location filename="../ui/qml/Components/SelectLanguageDrawer.qml" line="71"/>
+        <location filename="../ui/qml/Components/SelectLanguageDrawer.qml" line="73"/>
         <source>Choose language</source>
         <translation>Выберите язык</translation>
     </message>
@@ -4304,31 +4174,30 @@ This means that AmneziaWG keeps the fast performance of the original while addin
     <name>SystemTrayNotificationHandler</name>
     <message>
         <location filename="../ui/systemtray_notificationhandler.cpp" line="28"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="60"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="56"/>
         <source>Show</source>
         <translation>Показать</translation>
     </message>
     <message>
         <location filename="../ui/systemtray_notificationhandler.cpp" line="32"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="61"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="57"/>
         <source>Connect</source>
         <translation>Подключиться</translation>
     </message>
     <message>
         <location filename="../ui/systemtray_notificationhandler.cpp" line="33"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="62"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="58"/>
         <source>Disconnect</source>
         <translation>Отключиться</translation>
     </message>
     <message>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="37"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="63"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="59"/>
         <source>Visit Website</source>
         <translation>Посетить сайт</translation>
     </message>
     <message>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="41"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="64"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="37"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="60"/>
         <source>Quit</source>
         <translation>Закрыть</translation>
     </message>
@@ -4441,6 +4310,11 @@ This means that AmneziaWG keeps the fast performance of the original while addin
 </context>
 <context>
     <name>main2</name>
+    <message>
+        <location filename="../ui/qml/main2.qml" line="33"/>
+        <source>Ulta</source>
+        <translation>Ульта</translation>
+    </message>
     <message>
         <location filename="../ui/qml/main2.qml" line="162"/>
         <source>Private key passphrase</source>

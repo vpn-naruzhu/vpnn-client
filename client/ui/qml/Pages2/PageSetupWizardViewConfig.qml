@@ -100,13 +100,17 @@ PageType {
                 Layout.leftMargin: -8
                 implicitHeight: 32
 
-                defaultColor: AmneziaStyle.color.transparent
-                hoveredColor: AmneziaStyle.color.translucentWhite
-                pressedColor: AmneziaStyle.color.sheerWhite
-                disabledColor: AmneziaStyle.color.mutedGray
-                textColor: AmneziaStyle.color.goldenApricot
+                borderColor: 'transparent'
 
-                text: showContent ? qsTr("Collapse content") : qsTr("View debugging information")
+                text: showContent ? qsTr("Collapse content") : qsTr("Show content")
+                contentItem: Text {
+                    text: parent.text
+                    color: parent.hovered ? UltaStyle.color.buttonTextSelected : UltaStyle.color.buttonText
+                    horizontalAlignment: Text.AlignHCenter
+                    verticalAlignment: Text.AlignVCenter
+                    font.family: "Montserrat Medium"
+                }
+
                 KeyNavigation.tab: connectButton
 
                 clickedFunc: function() {
@@ -144,9 +148,10 @@ PageType {
                 implicitHeight: configContent.implicitHeight
 
                 radius: 10
-                color: AmneziaStyle.color.onyxBlack
 
                 visible: showContent
+                color: UltaStyle.color.backGround
+                border.color: UltaStyle.color.border
 
                 ParagraphTextType {
                     id: configContent
@@ -160,13 +165,6 @@ PageType {
                 }
             }
         }
-    }
-
-    Rectangle {
-        anchors.fill: columnContent
-        anchors.bottomMargin: -24
-        color: AmneziaStyle.color.midnightBlack
-        opacity: 0.8
     }
 
     ColumnLayout {
@@ -186,27 +184,15 @@ PageType {
 
             text: qsTr("Connect")
 
-            defaultColor: "transparent"
-            hoveredColor: "#FFDD51"
-            pressedColor: "#FFDD51"
-            disabledColor: "#878B91"
-            textColor: "#000000" // Set default text color to black
-
-            // Button styling
-            background: Rectangle {
-                color: parent.hovered ? "#FFDD51" : "transparent"
-                border.color: parent.hovered ? "#191919" : "#FFDD51" // Set border color to corner color when hovered
-                radius: 10
-            }
-
-            // Button text color
             contentItem: Text {
                 text: parent.text
-                color: parent.hovered ? "#000000" : "#FFDD51" // Change text color when hovered
+                color: parent.hovered ? UltaStyle.color.buttonTextSelected : UltaStyle.color.buttonText
                 horizontalAlignment: Text.AlignHCenter
                 verticalAlignment: Text.AlignVCenter
-                font.pixelSize: 16
+                font.family: "Montserrat Medium"
+                font.pixelSize: 18
             }
+
             clickedFunc: function() {
                 if (cloakingCheckBox.checked) {
                     ImportController.processNativeWireGuardConfig()
