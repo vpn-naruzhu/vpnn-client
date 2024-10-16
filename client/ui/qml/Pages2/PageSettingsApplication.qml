@@ -190,7 +190,7 @@ PageType {
                 descriptionText: LanguageModel.currentLanguageName
                 rightImageSource: "qrc:/images/controls/chevron-right.svg"
 
-                KeyNavigation.tab: labelWithButtonLogging.rightButton
+                KeyNavigation.tab: labelWithButtonReset.rightButton
                 parentFlickable: fl
 
                 clickedFunction: function() {

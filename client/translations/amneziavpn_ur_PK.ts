@@ -3880,13 +3880,12 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
         <translation>منقطع کریں</translation>
     </message>
     <message>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="59"/>
         <source>Visit Website</source>
-        <translation>ویب سائٹ دیکھیں</translation>
+        <translation type="vanished">ویب سائٹ دیکھیں</translation>
     </message>
     <message>
         <location filename="../ui/systemtray_notificationhandler.cpp" line="37"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="60"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="59"/>
         <source>Quit</source>
         <translation>بند کریں</translation>
     </message>

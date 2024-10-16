@@ -3933,13 +3933,12 @@ For more detailed information, you can
         <translation>ဖြုတ်ချမည်</translation>
     </message>
     <message>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="59"/>
         <source>Visit Website</source>
-        <translation>ဝဘ်ဆိုက်ကိုဝင်ကြည့်မည်</translation>
+        <translation type="vanished">ဝဘ်ဆိုက်ကိုဝင်ကြည့်မည်</translation>
     </message>
     <message>
         <location filename="../ui/systemtray_notificationhandler.cpp" line="37"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="60"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="59"/>
         <source>Quit</source>
         <translation>ထွက်မည်</translation>
     </message>

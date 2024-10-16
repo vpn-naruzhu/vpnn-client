@@ -272,7 +272,6 @@ void AmneziaApplication::updateTranslator(const QLocale &locale)
     }
 
     m_engine->retranslate();
-
     emit translationsUpdated();
 }
 

@@ -46,13 +46,13 @@ DrawerType2 {
 
         Item {
             id: focusItem
-            KeyNavigation.tab: ip.rightButton
+            KeyNavigation.tab: newKey.rightButton
         }
 
         DividerType {}
 
         LabelWithButtonType {
-            id: qrCode
+            id: newKey
             Layout.fillWidth: true
 
             text: qsTr("Open config file, key or QR code")

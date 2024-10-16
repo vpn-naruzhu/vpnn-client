@@ -56,7 +56,6 @@ void SystemTrayNotificationHandler::onTranslationsUpdated()
     m_trayActionShow->setText(tr("Show") + " " + APPLICATION_NAME);
     m_trayActionConnect->setText(tr("Connect"));
     m_trayActionDisconnect->setText(tr("Disconnect"));
-    m_trayActionVisitWebSite->setText(tr("Visit Website"));
     m_trayActionQuit->setText(tr("Quit")+ " " + APPLICATION_NAME);
 }
 

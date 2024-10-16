@@ -3926,13 +3926,12 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
         <translation>डिस्कनेक्ट</translation>
     </message>
     <message>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="59"/>
         <source>Visit Website</source>
-        <translation>बेवसाइट देखना</translation>
+        <translation type="vanished">बेवसाइट देखना</translation>
     </message>
     <message>
         <location filename="../ui/systemtray_notificationhandler.cpp" line="37"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="60"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="59"/>
         <source>Quit</source>
         <translation>छोड़ना</translation>
     </message>

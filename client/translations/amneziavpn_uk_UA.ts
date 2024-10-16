@@ -4390,13 +4390,12 @@ This means that AmneziaWG keeps the fast performance of the original while addin
         <translation>Відключитись</translation>
     </message>
     <message>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="59"/>
         <source>Visit Website</source>
-        <translation>Відвідати сайт</translation>
+        <translation type="vanished">Відвідати сайт</translation>
     </message>
     <message>
         <location filename="../ui/systemtray_notificationhandler.cpp" line="37"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="60"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="59"/>
         <source>Quit</source>
         <translation>Закрити</translation>
     </message>

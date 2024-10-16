@@ -4110,13 +4110,12 @@ For more detailed information, you can
         <translation>قطع ارتباط</translation>
     </message>
     <message>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="59"/>
         <source>Visit Website</source>
-        <translation>بازدید وب سایت</translation>
+        <translation type="vanished">بازدید وب سایت</translation>
     </message>
     <message>
         <location filename="../ui/systemtray_notificationhandler.cpp" line="37"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="60"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="59"/>
         <source>Quit</source>
         <translation>خروج</translation>
     </message>

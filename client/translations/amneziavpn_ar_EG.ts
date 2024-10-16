@@ -3933,13 +3933,12 @@ This means that AmneziaWG keeps the fast performance of the original while addin
         <translation>اقطع الاتصال</translation>
     </message>
     <message>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="59"/>
         <source>Visit Website</source>
-        <translation>زور الموقع</translation>
+        <translation type="vanished">زور الموقع</translation>
     </message>
     <message>
         <location filename="../ui/systemtray_notificationhandler.cpp" line="37"/>
-        <location filename="../ui/systemtray_notificationhandler.cpp" line="60"/>
+        <location filename="../ui/systemtray_notificationhandler.cpp" line="59"/>
         <source>Quit</source>
         <translation>اغلاق</translation>
     </message>
