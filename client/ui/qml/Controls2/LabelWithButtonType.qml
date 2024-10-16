@@ -37,6 +37,9 @@ Item {
     property int borderFocusedWidth: 1
 
     property string rightImageColor: UltaStyle.color.icon
+    property string rightImageColorSelected: UltaStyle.color.iconSelected
+    property string rightImageBackGroundColor: rightImage.defaultColor
+    property string rightImageBackGroundColorrSelected: UltaStyle.color.buttonBackGroundSelected
 
     property bool descriptionOnTop: false
     property bool hideDescription: true
@@ -70,8 +73,8 @@ Item {
 
         onEntered: {
             if (rightImageSource) {
-                rightImage.imageColor = UltaStyle.color.iconSelected
-                rightImageBackground.color = UltaStyle.color.buttonBackGroundSelected
+                rightImage.imageColor = rightImageColorSelected
+                rightImageBackground.color = rightImageBackGroundColorrSelected
             } else if (leftImageSource) {
                 leftImageBackground.color = rightImage.hoveredColor
             }
@@ -80,8 +83,8 @@ Item {
 
         onExited: {
             if (rightImageSource) {
-                rightImage.imageColor = UltaStyle.color.icon
-                rightImageBackground.color = rightImage.defaultColor
+                rightImage.imageColor = rightImageColor
+                rightImageBackground.color = rightImageBackGroundColor
             } else if (leftImageSource) {
                 leftImageBackground.color = rightImage.defaultColor
             }
@@ -284,7 +287,6 @@ Item {
 
         border.color: root.activeFocus ? root.borderFocusedColor : AmneziaStyle.color.transparent
         border.width: root.activeFocus ? root.borderFocusedWidth : 0
-
 
         Behavior on color {
             PropertyAnimation { duration: 200 }

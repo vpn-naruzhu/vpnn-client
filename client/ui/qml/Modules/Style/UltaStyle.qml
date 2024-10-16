@@ -20,6 +20,8 @@ QtObject {
         readonly property color bottomBarBackGroundSelected: '#212121'
         readonly property color bottomBarButton: '#FFFFFF'
         readonly property color bottomBarButtonSelected: '#212121'
+        readonly property color bottomBarButtonIcon: '#212121'
+        readonly property color bottomBarButtonIconSelected: '#FFFFFF'
         readonly property color bottomBarBorder: '#212121'
         readonly property color bottomBarText: '#212121'
         readonly property color bottomBarTextSelected: '#FFFFFF'

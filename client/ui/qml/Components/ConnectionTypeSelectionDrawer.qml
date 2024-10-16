@@ -3,6 +3,7 @@ import QtQuick.Controls
 import QtQuick.Layouts
 
 import PageEnum 1.0
+import Style 1.0
 
 import "../Controls2"
 import "../Controls2/TextTypes"
@@ -56,7 +57,14 @@ DrawerType2 {
             Layout.fillWidth: true
 
             text: qsTr("Open config file, key or QR code")
+            textColor: UltaStyle.color.bottomBarText
             rightImageSource: "qrc:/images/controls/chevron-right.svg"
+            rightImageColor: UltaStyle.color.bottomBarButtonIcon
+            rightImageColorSelected: UltaStyle.color.bottomBarButtonIconSelected
+            rightImageBackGroundColor: UltaStyle.color.bottomBarBackGround
+            rightImageBackGroundColorrSelected: UltaStyle.color.bottomBarBackGroundSelected
+            borderFocusedColor: "transparent"
+            borderFocusedWidth: 0
 
             clickedFunction: function() {
                 PageController.goToPage(PageEnum.PageSetupWizardConfigSource)
