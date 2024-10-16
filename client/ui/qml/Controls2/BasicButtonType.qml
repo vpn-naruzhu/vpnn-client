@@ -16,6 +16,7 @@ Button {
     property string pressedColor: AmneziaStyle.color.mutedGray
 
     property string textColor: UltaStyle.color.buttonText
+    property string textColorSelected: textColor
 
     property string borderColor: UltaStyle.color.border
     property string borderFocusedColor: UltaStyle.color.border
@@ -143,7 +144,7 @@ Button {
             ButtonTextType {
                 id: buttonText
 
-                color: textColor
+                color: root.hovered ? textColorSelected : textColor
                 text: root.text
                 visible: root.text === "" ? false : true
 
